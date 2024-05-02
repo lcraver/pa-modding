@@ -110,6 +110,9 @@ $(function(){initNavTree('d6/d94/class_event_manager.html','../../'); initResiza
   <div class="headertitle"><div class="title">EventManager Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>This class manages various visual effects in the game.  
+ <a href="#details">More...</a></p>
 <div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Inheritance diagram for EventManager:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -394,7 +397,10 @@ Static Private Attributes</h2></td></tr>
 static ThemeUpdaterDotweenPlugin&#160;</td><td class="memItemRight" valign="bottom"><b>customThemeUpdaterPlugin</b> = new ThemeUpdaterDotweenPlugin()</td></tr>
 <tr class="separator:aceeb3a303a9b8620a027c791866aac11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>This class manages various visual effects in the game. </p>
+<p>It is a singleton class that provides access to camera zoom, rotation, chromatic aberration, and bloom effects. The class exposes several public properties that can be manipulated to change these effects. The <code>changedZoom</code> property is a special case that checks if the camera zoom level has changed since the last frame. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="ab889b4364858170c2605fd21313f4658" name="ab889b4364858170c2605fd21313f4658"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab889b4364858170c2605fd21313f4658">&#9670;&#160;</a></span>GetCameraZoom()</h2>
 
@@ -608,7 +614,7 @@ static ThemeUpdaterDotweenPlugin&#160;</td><td class="memItemRight" valign="bott
 
 <p>This is used to trigger all events in the level. Triggers are a special type of event that can be made by the level creator in the game's editor. </p>
 <p>Usage: </p><div class="fragment"><div class="line"><a class="code hl_function" href="#a48df5b9efb97bb5596cbcc54bebdc40d">TriggerEvent</a>(0.5f, DataManager.GameData.BeatmapData.EventTriggers.EventType.Player_Bubble, <span class="keyword">new</span> List&lt;string&gt; { <span class="stringliteral">&quot;Hello World&quot;</span> });</div>
-<div class="ttc" id="aclass_event_manager_html_a48df5b9efb97bb5596cbcc54bebdc40d"><div class="ttname"><a href="#a48df5b9efb97bb5596cbcc54bebdc40d">EventManager.TriggerEvent</a></div><div class="ttdeci">void TriggerEvent(Vector2 _time, DataManager.GameData.BeatmapData.EventTriggers.EventType _event, List&lt; string &gt; _data)</div><div class="ttdoc">This is used to trigger all events in the level. Triggers are a special type of event that can be mad...</div><div class="ttdef"><b>Definition</b> EventManager.cs:1887</div></div>
+<div class="ttc" id="aclass_event_manager_html_a48df5b9efb97bb5596cbcc54bebdc40d"><div class="ttname"><a href="#a48df5b9efb97bb5596cbcc54bebdc40d">EventManager.TriggerEvent</a></div><div class="ttdeci">void TriggerEvent(Vector2 _time, DataManager.GameData.BeatmapData.EventTriggers.EventType _event, List&lt; string &gt; _data)</div><div class="ttdoc">This is used to trigger all events in the level. Triggers are a special type of event that can be mad...</div><div class="ttdef"><b>Definition</b> EventManager.cs:1888</div></div>
 </div><!-- fragment --> <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">_time</td><td>Time the trigger is executing at. Used in the case of the event needs that info.</td></tr>

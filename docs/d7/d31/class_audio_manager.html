@@ -110,6 +110,9 @@ $(function(){initNavTree('d7/d31/class_audio_manager.html','../../'); initResiza
   <div class="headertitle"><div class="title">AudioManager Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>This class manages the audio in the game.  
+ <a href="#details">More...</a></p>
 <div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Inheritance diagram for AudioManager:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -244,7 +247,14 @@ const float&#160;</td><td class="memItemRight" valign="bottom"><b>LowVolume</b> 
 const float&#160;</td><td class="memItemRight" valign="bottom"><b>FadeTime</b> = 1</td></tr>
 <tr class="separator:aa5831305ee90734264cac52e7f91abc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>This class manages the audio in the game. </p>
+<p>It is responsible for playing music and sound effects, applying audio effects, and controlling the audio mixer. The class provides functions to play a sound effect by name, and to destroy a sound effect source after it has finished playing. It also contains a coroutine to apply a low pass filter to the music.</p>
+<p>The class inherits from SingletonBase&lt;AudioManager&gt; to ensure that only one instance of the <a class="el" href="../../d7/d31/class_audio_manager.html" title="This class manages the audio in the game.">AudioManager</a> exists. It uses the [RequireComponent] attribute to automatically add required components when the script is added to a GameObject.</p>
+<p>The class contains several public and private fields for managing audio, including arrays of AudioSource and Tween objects, an AudioMixer, a <a class="el" href="../../d7/dca/class_sound_library.html">SoundLibrary</a>, and various other fields for managing audio state and settings.</p>
+<p>The class provides several public methods for controlling audio playback, including methods to play, stop, and adjust the volume of music, and to play sound effects. It also provides methods to apply a low pass filter to the music, and to set the time of the music with a delay.</p>
+<p>The class also contains several private methods for playing sound effects and destroying sound effect sources after they have finished playing. </p>
+</div><hr/>The documentation for this class was generated from the following file:<ul>
 <li>C:/Users/Pidge/Documents/gamedev/core_project_arrhythmia/Assets/Scripts/Managers/Audio/<b>AudioManager.cs</b></li>
 </ul>
 </div><!-- contents -->
