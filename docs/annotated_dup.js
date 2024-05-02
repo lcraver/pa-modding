@@ -13,7 +13,7 @@ var annotated_dup =
     [ "EditorManager", "d1/dc7/class_editor_manager.html", "d1/dc7/class_editor_manager" ],
     [ "EventEditor", "dc/d42/class_event_editor.html", "dc/d42/class_event_editor" ],
     [ "EventManager", "d6/d94/class_event_manager.html", "d6/d94/class_event_manager" ],
-    [ "GameManager", "db/d10/class_game_manager.html", "db/d10/class_game_manager" ],
+    [ "GameManager2", "d3/d5a/class_game_manager2.html", "d3/d5a/class_game_manager2" ],
     [ "MarkerHelper", "d6/d07/class_marker_helper.html", null ],
     [ "MultiElementButton", "dd/d79/class_multi_element_button.html", null ],
     [ "MultiElementTargetGraphics", "dc/d50/class_multi_element_target_graphics.html", null ],

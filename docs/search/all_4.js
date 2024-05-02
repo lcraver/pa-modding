@@ -8,7 +8,9 @@ var searchData=
   ['encapsulated_5ftext_5',['ENCAPSULATED_TEXT',['../dc/da4/class_text_architect_1_1_e_n_c_a_p_s_u_l_a_t_e_d___t_e_x_t.html',1,'TextArchitect']]],
   ['eventeditor_6',['EventEditor',['../dc/d42/class_event_editor.html',1,'']]],
   ['eventmanager_7',['EventManager',['../d6/d94/class_event_manager.html',1,'']]],
-  ['expoin_8',['ExpoIn',['../d4/d66/class_v_g_ease.html#a7c9760bd2c9f188720ee313dcec2b371',1,'VGEase']]],
-  ['expoinout_9',['ExpoInOut',['../d4/d66/class_v_g_ease.html#a5561273608a4217bd656385c5d256b09',1,'VGEase']]],
-  ['expoout_10',['ExpoOut',['../d4/d66/class_v_g_ease.html#a4c71193ee3c56276f2f0d8e16e6dd591',1,'VGEase']]]
+  ['eventsequences_8',['eventSequences',['../d6/d94/class_event_manager.html#ab6005a5ce54558cf75f27b81b162390a',1,'EventManager']]],
+  ['execuievent_9',['ExecUIEvent',['../d2/d8c/class_u_i_event_manager.html#acad711fcd879dd5bd54e5d1cd366a999',1,'UIEventManager']]],
+  ['expoin_10',['ExpoIn',['../d4/d66/class_v_g_ease.html#a7c9760bd2c9f188720ee313dcec2b371',1,'VGEase']]],
+  ['expoinout_11',['ExpoInOut',['../d4/d66/class_v_g_ease.html#a5561273608a4217bd656385c5d256b09',1,'VGEase']]],
+  ['expoout_12',['ExpoOut',['../d4/d66/class_v_g_ease.html#a4c71193ee3c56276f2f0d8e16e6dd591',1,'VGEase']]]
 ];

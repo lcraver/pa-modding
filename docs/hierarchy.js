@@ -22,13 +22,13 @@ var hierarchy =
       [ "MultiElementButton", "dd/d79/class_multi_element_button.html", null ]
     ] ],
     [ "EventEditor.KeyframeSelection", "d5/dbd/class_event_editor_1_1_keyframe_selection.html", null ],
+    [ "GameManager2.LoadingState", "db/d51/class_game_manager2_1_1_loading_state.html", null ],
     [ "VGEditor.MetadataWrapper", "dd/db7/class_v_g_editor_1_1_metadata_wrapper.html", null ],
     [ "MonoBehaviour", null, [
       [ "CheckpointEditor", "dc/d39/class_checkpoint_editor.html", null ],
       [ "EditorManager", "d1/dc7/class_editor_manager.html", null ],
       [ "EventEditor", "dc/d42/class_event_editor.html", null ],
       [ "EventManager", "d6/d94/class_event_manager.html", null ],
-      [ "GameManager", "db/d10/class_game_manager.html", null ],
       [ "MarkerHelper", "d6/d07/class_marker_helper.html", null ],
       [ "MultiElementTargetGraphics", "dc/d50/class_multi_element_target_graphics.html", null ],
       [ "ObjectManager", "de/deb/class_object_manager.html", null ],
@@ -64,6 +64,7 @@ var hierarchy =
       [ "ArcadeManager", "dd/d7d/class_arcade_manager.html", null ],
       [ "AudioManager", "d7/d31/class_audio_manager.html", null ],
       [ "DialogManager", "d4/da5/class_dialog_manager.html", null ],
+      [ "GameManager2", "d3/d5a/class_game_manager2.html", null ],
       [ "SequenceManager", "da/d4d/class_sequence_manager.html", null ],
       [ "StoryManager", "d0/dbb/class_story_manager.html", null ],
       [ "UIEventManager", "d2/d8c/class_u_i_event_manager.html", null ],
