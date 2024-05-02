@@ -1,0 +1,26 @@
+var class_data_manager =
+[
+    [ "BeatmapTheme", "d7/d65/class_data_manager_1_1_beatmap_theme.html", null ],
+    [ "DifficultiesClass", "df/dfd/class_data_manager_1_1_difficulties_class.html", null ],
+    [ "DifficultySetting", "d8/d77/class_data_manager_1_1_difficulty_setting.html", null ],
+    [ "FileTypeDefinition", "d8/da5/class_data_manager_1_1_file_type_definition.html", null ],
+    [ "FileTypeDefinitionsClass", "d2/dc7/class_data_manager_1_1_file_type_definitions_class.html", null ],
+    [ "GameData", "da/d01/class_data_manager_1_1_game_data.html", "da/d01/class_data_manager_1_1_game_data" ],
+    [ "GameObjectCategory", "d4/d4c/class_data_manager_1_1_game_object_category.html", "d4/d4c/class_data_manager_1_1_game_object_category" ],
+    [ "LevelRank", "d0/d7a/class_data_manager_1_1_level_rank.html", null ],
+    [ "LevelRanksClass", "d7/db6/class_data_manager_1_1_level_ranks_class.html", null ],
+    [ "LinkType", "d4/d92/class_data_manager_1_1_link_type.html", null ],
+    [ "LSAnimation", "d5/d57/class_data_manager_1_1_l_s_animation.html", null ],
+    [ "MetaData", "df/dbb/class_data_manager_1_1_meta_data.html", "df/dbb/class_data_manager_1_1_meta_data" ],
+    [ "MetadataLegacy", "d3/df9/class_data_manager_1_1_metadata_legacy.html", "d3/df9/class_data_manager_1_1_metadata_legacy" ],
+    [ "PrefabTypeInfo", "d6/d6a/class_data_manager_1_1_prefab_type_info.html", null ],
+    [ "PrefabTypesClass", "de/d30/class_data_manager_1_1_prefab_types_class.html", null ],
+    [ "SaveState", "dd/d22/class_data_manager_1_1_save_state.html", null ],
+    [ "ThemeUpdater", "de/d53/struct_data_manager_1_1_theme_updater.html", null ],
+    [ "CreateBaseBeatmap", "d9/de1/class_data_manager.html#a377ab46b768c93915cefdeb13540513f", null ],
+    [ "GetSettingVector2D", "d9/de1/class_data_manager.html#a1d2176f83d7f914c48dac8402bb08dfc", null ],
+    [ "GetSettingVector2DIndex", "d9/de1/class_data_manager.html#aba22f157c189df99e0431e11b5bfa049", null ],
+    [ "ParseMetadata", "d9/de1/class_data_manager.html#a92d3df09619ef29a16069d5cb5850c8b", null ],
+    [ "UpdateSettingVector2D", "d9/de1/class_data_manager.html#a80ffad6b6912914ba310fef2353a19e6", null ],
+    [ "UpdateSettingVector2D", "d9/de1/class_data_manager.html#a07af7249a94e50f295446a925da47f9c", null ]
+];

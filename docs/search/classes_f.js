@@ -1,17 +1,15 @@
 var searchData=
 [
-  ['ui_5fbook_0',['UI_Book',['../da/d2a/class_u_i___book.html',1,'']]],
-  ['ui_5fbutton_1',['UI_Button',['../d9/d86/class_u_i___button.html',1,'']]],
-  ['ui_5fslider_2',['UI_Slider',['../d9/d4b/class_u_i___slider.html',1,'']]],
-  ['ui_5fsongview_3',['UI_SongView',['../d9/d53/class_u_i___song_view.html',1,'']]],
-  ['ui_5ftext_4',['UI_Text',['../d2/d20/class_u_i___text.html',1,'']]],
-  ['ui_5ftoggle_5',['UI_Toggle',['../d7/d7c/class_u_i___toggle.html',1,'']]],
-  ['uielement_6',['UIElement',['../d1/d4c/class_u_i_element.html',1,'']]],
-  ['uievent_7',['UIEvent',['../d1/d4b/class_u_i_event_manager_1_1_u_i_event.html',1,'UIEventManager']]],
-  ['uieventmanager_8',['UIEventManager',['../d2/d8c/class_u_i_event_manager.html',1,'']]],
-  ['uisequence_9',['UISequence',['../d8/d1e/class_sequence_manager_1_1_u_i_sequence.html',1,'SequenceManager']]],
-  ['uisequencedictionary_10',['UISequenceDictionary',['../da/d48/class_sequence_manager_1_1_u_i_sequence_dictionary.html',1,'SequenceManager']]],
-  ['uistatemanager_11',['UIStateManager',['../d8/d6c/class_u_i_state_manager.html',1,'']]],
-  ['uiupdateaction_12',['UIUpdateAction',['../d3/df7/class_update_u_i_colors_1_1_u_i_update_action.html',1,'UpdateUIColors']]],
-  ['updateuicolors_13',['UpdateUIColors',['../d6/dae/class_update_u_i_colors.html',1,'']]]
+  ['savestate_0',['SaveState',['../dd/d22/class_data_manager_1_1_save_state.html',1,'DataManager']]],
+  ['scenemanager_1',['SceneManager',['../d0/dc3/class_scene_manager.html',1,'']]],
+  ['sequencemanager_2',['SequenceManager',['../da/d4d/class_sequence_manager.html',1,'']]],
+  ['sfxclipclass_3',['SFXClipClass',['../d2/dc1/class_sound_library_1_1_s_f_x_clip_class.html',1,'SoundLibrary']]],
+  ['snaptoggles_4',['SnapToggles',['../d1/dc7/class_data_manager_1_1_game_data_1_1_beatmap_data_1_1_editor_settings_1_1_b_p_m_1_1_snap_toggles.html',1,'DataManager::GameData::BeatmapData::EditorSettings::BPM']]],
+  ['song_5',['Song',['../d9/dc4/class_data_manager_1_1_meta_data_1_1_song.html',1,'DataManager.MetaData.Song'],['../d4/d95/class_data_manager_1_1_metadata_legacy_1_1_song.html',1,'DataManager.MetadataLegacy.Song']]],
+  ['soundlibrary_6',['SoundLibrary',['../d7/dca/class_sound_library.html',1,'']]],
+  ['spritelimits_7',['SpriteLimits',['../d7/d58/class_v_g_editor_1_1_sprite_limits.html',1,'VGEditor']]],
+  ['storyline_8',['StoryLine',['../d9/db1/class_data_manager_1_1_meta_data_1_1_story_line.html',1,'DataManager.MetaData.StoryLine'],['../d1/dcb/class_data_manager_1_1_metadata_legacy_1_1_story_line.html',1,'DataManager.MetadataLegacy.StoryLine']]],
+  ['storymanager_9',['StoryManager',['../d0/dbb/class_story_manager.html',1,'']]],
+  ['systemmanager_10',['SystemManager',['../d6/d8f/class_system_manager.html',1,'']]],
+  ['systemspecficcontrol_11',['SystemSpecficControl',['../de/d03/class_system_specfic_control.html',1,'']]]
 ];
