@@ -16,5 +16,7 @@ var searchData=
   ['getsettingvector2d_13',['GetSettingVector2D',['../d9/de1/class_data_manager.html#a1d2176f83d7f914c48dac8402bb08dfc',1,'DataManager']]],
   ['getsettingvector2dindex_14',['GetSettingVector2DIndex',['../d9/de1/class_data_manager.html#aba22f157c189df99e0431e11b5bfa049',1,'DataManager']]],
   ['gettimelineobject_15',['GetTimelineObject',['../d5/dbd/class_event_editor_1_1_keyframe_selection.html#aef401fd5626c44808deef3c56421d6df',1,'EventEditor::KeyframeSelection']]],
-  ['grid_16',['Grid',['../dd/dc1/class_data_manager_1_1_game_data_1_1_beatmap_data_1_1_editor_settings_1_1_grid.html',1,'DataManager::GameData::BeatmapData::EditorSettings']]]
+  ['getwaveformtexture_16',['GetWaveformTexture',['../d1/d9e/class_v_g_functions_1_1_l_s_image.html#a21db64a613b9b57b676950c74b3a0231',1,'VGFunctions::LSImage']]],
+  ['getwaveformtextureadvanced_17',['GetWaveformTextureAdvanced',['../d1/d9e/class_v_g_functions_1_1_l_s_image.html#a7817a7bb63ebf0a047518de159d486fa',1,'VGFunctions::LSImage']]],
+  ['grid_18',['Grid',['../dd/dc1/class_data_manager_1_1_game_data_1_1_beatmap_data_1_1_editor_settings_1_1_grid.html',1,'DataManager::GameData::BeatmapData::EditorSettings']]]
 ];

@@ -11,5 +11,15 @@ var searchData=
   ['loadscene_8',['LoadScene',['../d0/dc3/class_scene_manager.html#a7530a008b017d53a8ee66c9c7e789121',1,'SceneManager.LoadScene(string _scene)'],['../d0/dc3/class_scene_manager.html#a59919fd50a6362fc1fa98ab33d3d96ca',1,'SceneManager.LoadScene(string _scene, string _loadingAudio)']]],
   ['loadtweens_9',['LoadTweens',['../d3/d5a/class_game_manager2.html#a725a122c1c505b94985021c9ef863dd6',1,'GameManager2']]],
   ['lsanimation_10',['LSAnimation',['../d5/d57/class_data_manager_1_1_l_s_animation.html',1,'DataManager']]],
-  ['lsfile_11',['LSFile',['../d0/dfb/class_file_manager_1_1_l_s_file.html',1,'FileManager']]]
+  ['lsanimationconverter_11',['LSAnimationConverter',['../d1/dec/class_l_s_animation_converter.html',1,'']]],
+  ['lsaudio_12',['LSAudio',['../df/d1a/class_v_g_functions_1_1_l_s_audio.html',1,'VGFunctions']]],
+  ['lscolors_13',['LSColors',['../da/dc5/class_v_g_functions_1_1_l_s_colors.html',1,'VGFunctions']]],
+  ['lsencryption_14',['LSEncryption',['../d4/d9c/class_v_g_functions_1_1_l_s_encryption.html',1,'VGFunctions']]],
+  ['lserror_15',['LSError',['../d8/d58/class_v_g_functions_1_1_l_s_error.html',1,'VGFunctions']]],
+  ['lsfile_16',['LSFile',['../d0/dfb/class_file_manager_1_1_l_s_file.html',1,'FileManager.LSFile'],['../d0/d05/class_v_g_functions_1_1_l_s_file.html',1,'VGFunctions.LSFile']]],
+  ['lshelpers_17',['LSHelpers',['../db/d5e/class_v_g_functions_1_1_l_s_helpers.html',1,'VGFunctions']]],
+  ['lsimage_18',['LSImage',['../d1/d9e/class_v_g_functions_1_1_l_s_image.html',1,'VGFunctions']]],
+  ['lsmath_19',['LSMath',['../d2/d75/class_v_g_functions_1_1_l_s_math.html',1,'VGFunctions']]],
+  ['lsresponse_20',['LSResponse',['../d7/da0/class_l_s_response.html',1,'']]],
+  ['lstext_21',['LSText',['../d8/d71/class_v_g_functions_1_1_l_s_text.html',1,'VGFunctions']]]
 ];

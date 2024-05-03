@@ -8,5 +8,7 @@ var searchData=
   ['getobjectdata_5',['GetObjectData',['../d5/dbd/class_event_editor_1_1_keyframe_selection.html#ac17b1776f0c53055bfbfd782d59ffed1',1,'EventEditor::KeyframeSelection']]],
   ['getsettingvector2d_6',['GetSettingVector2D',['../d9/de1/class_data_manager.html#a1d2176f83d7f914c48dac8402bb08dfc',1,'DataManager']]],
   ['getsettingvector2dindex_7',['GetSettingVector2DIndex',['../d9/de1/class_data_manager.html#aba22f157c189df99e0431e11b5bfa049',1,'DataManager']]],
-  ['gettimelineobject_8',['GetTimelineObject',['../d5/dbd/class_event_editor_1_1_keyframe_selection.html#aef401fd5626c44808deef3c56421d6df',1,'EventEditor::KeyframeSelection']]]
+  ['gettimelineobject_8',['GetTimelineObject',['../d5/dbd/class_event_editor_1_1_keyframe_selection.html#aef401fd5626c44808deef3c56421d6df',1,'EventEditor::KeyframeSelection']]],
+  ['getwaveformtexture_9',['GetWaveformTexture',['../d1/d9e/class_v_g_functions_1_1_l_s_image.html#a21db64a613b9b57b676950c74b3a0231',1,'VGFunctions::LSImage']]],
+  ['getwaveformtextureadvanced_10',['GetWaveformTextureAdvanced',['../d1/d9e/class_v_g_functions_1_1_l_s_image.html#a7817a7bb63ebf0a047518de159d486fa',1,'VGFunctions::LSImage']]]
 ];

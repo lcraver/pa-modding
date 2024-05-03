@@ -2,6 +2,7 @@ var hierarchy =
 [
     [ "DataManager.MetaData.Artist", "d6/dd2/class_data_manager_1_1_meta_data_1_1_artist.html", null ],
     [ "DataManager.MetadataLegacy.Artist", "dd/d7c/class_data_manager_1_1_metadata_legacy_1_1_artist.html", null ],
+    [ "VGFunctions.LSText.ASCII", "da/d70/class_v_g_functions_1_1_l_s_text_1_1_a_s_c_i_i.html", null ],
     [ "SoundLibrary.AudioGroup", "d7/d6b/class_sound_library_1_1_audio_group.html", null ],
     [ "DataManager.GameData.BeatmapData.EditorSettings.AutoSave", "d6/dd6/class_data_manager_1_1_game_data_1_1_beatmap_data_1_1_editor_settings_1_1_auto_save.html", null ],
     [ "DataManager.MetaData.Beatmap", "df/d21/class_data_manager_1_1_meta_data_1_1_beatmap.html", null ],
@@ -14,11 +15,16 @@ var hierarchy =
       [ "MultiElementButton", "dd/d79/class_multi_element_button.html", null ]
     ] ],
     [ "DataManager.GameData.BeatmapData.Checkpoint", "d7/db5/class_data_manager_1_1_game_data_1_1_beatmap_data_1_1_checkpoint.html", null ],
+    [ "VGFunctions.LSImage.Color32Array", "d3/db4/struct_v_g_functions_1_1_l_s_image_1_1_color32_array.html", null ],
     [ "History.Command", "d2/d06/class_history_1_1_command.html", null ],
     [ "DataManager.MetaData.Creator", "d0/d06/class_data_manager_1_1_meta_data_1_1_creator.html", null ],
     [ "DataManager.MetadataLegacy.Creator", "d1/d3a/class_data_manager_1_1_metadata_legacy_1_1_creator.html", null ],
     [ "VGEditor.CurveOption", "dd/d86/class_v_g_editor_1_1_curve_option.html", null ],
     [ "InputDataManager.CustomPlayer", "d9/d07/class_input_data_manager_1_1_custom_player.html", null ],
+    [ "VGFunctions.Debounce", "db/d5f/class_v_g_functions_1_1_debounce.html", null ],
+    [ "Newtonsoft.Json.Serialization.DefaultContractResolver", null, [
+      [ "VGJSON.ShouldSerializeContractResolver", "da/d1a/class_v_g_j_s_o_n_1_1_should_serialize_contract_resolver.html", null ]
+    ] ],
     [ "DataManager.DifficultySetting", "d8/d77/class_data_manager_1_1_difficulty_setting.html", null ],
     [ "DataManager.GameData.BeatmapObject.EditorData", "de/dc1/class_data_manager_1_1_game_data_1_1_beatmap_object_1_1_editor_data.html", null ],
     [ "EditorManager.EditorDialog", "df/d6d/class_editor_manager_1_1_editor_dialog.html", null ],
@@ -49,13 +55,30 @@ var hierarchy =
     [ "ISelectHandler", null, [
       [ "MultiElementButton", "dd/d79/class_multi_element_button.html", null ]
     ] ],
+    [ "Newtonsoft.Json.JsonConverter", null, [
+      [ "LSAnimationConverter", "d1/dec/class_l_s_animation_converter.html", null ],
+      [ "VGColorConverter", "d4/d48/class_v_g_color_converter.html", null ],
+      [ "VGColorListConverter", "d4/df2/class_v_g_color_list_converter.html", null ],
+      [ "VGEnumConverter< TEnum >", "db/df2/class_v_g_enum_converter.html", null ],
+      [ "VGVector2Converter", "d3/d50/class_v_g_vector2_converter.html", null ]
+    ] ],
     [ "EventEditor.KeyframeSelection", "d5/dbd/class_event_editor_1_1_keyframe_selection.html", null ],
     [ "FileManager.LevelFolder", "d8/dd0/class_file_manager_1_1_level_folder.html", null ],
     [ "DataManager.LevelRank", "d0/d7a/class_data_manager_1_1_level_rank.html", null ],
     [ "DataManager.LinkType", "d4/d92/class_data_manager_1_1_link_type.html", null ],
     [ "GameManager2.LoadingState", "db/d51/class_game_manager2_1_1_loading_state.html", null ],
     [ "DataManager.LSAnimation", "d5/d57/class_data_manager_1_1_l_s_animation.html", null ],
+    [ "VGFunctions.LSAudio", "df/d1a/class_v_g_functions_1_1_l_s_audio.html", null ],
+    [ "VGFunctions.LSColors", "da/dc5/class_v_g_functions_1_1_l_s_colors.html", null ],
+    [ "VGFunctions.LSEncryption", "d4/d9c/class_v_g_functions_1_1_l_s_encryption.html", null ],
+    [ "VGFunctions.LSError", "d8/d58/class_v_g_functions_1_1_l_s_error.html", null ],
     [ "FileManager.LSFile", "d0/dfb/class_file_manager_1_1_l_s_file.html", null ],
+    [ "VGFunctions.LSFile", "d0/d05/class_v_g_functions_1_1_l_s_file.html", null ],
+    [ "VGFunctions.LSHelpers", "db/d5e/class_v_g_functions_1_1_l_s_helpers.html", null ],
+    [ "VGFunctions.LSImage", "d1/d9e/class_v_g_functions_1_1_l_s_image.html", null ],
+    [ "VGFunctions.LSMath", "d2/d75/class_v_g_functions_1_1_l_s_math.html", null ],
+    [ "LSResponse", "d7/da0/class_l_s_response.html", null ],
+    [ "VGFunctions.LSText", "d8/d71/class_v_g_functions_1_1_l_s_text.html", null ],
     [ "DataManager.GameData.BeatmapData.Marker", "d9/d5e/class_data_manager_1_1_game_data_1_1_beatmap_data_1_1_marker.html", null ],
     [ "DataManager.MetaData", "df/dbb/class_data_manager_1_1_meta_data.html", null ],
     [ "DataManager.MetadataLegacy", "d3/df9/class_data_manager_1_1_metadata_legacy.html", null ],
@@ -91,6 +114,7 @@ var hierarchy =
     [ "ObjectHelpers", "d7/d59/class_object_helpers.html", null ],
     [ "ObjectHelpers.ObjectPrefabHolder", "d3/d45/class_object_helpers_1_1_object_prefab_holder.html", null ],
     [ "ObjectHelpers.ObjSequence", "dd/dbf/class_object_helpers_1_1_obj_sequence.html", null ],
+    [ "VGFunctions.LSFile.OpenInFileBrowser", "d1/d4b/class_v_g_functions_1_1_l_s_file_1_1_open_in_file_browser.html", null ],
     [ "UI_Book.Page", "d9/d98/class_u_i___book_1_1_page.html", null ],
     [ "InputDataManager.CustomPlayer.PlayerStat", "d3/df5/struct_input_data_manager_1_1_custom_player_1_1_player_stat.html", null ],
     [ "DataManager.GameData.Prefab", "d5/d2b/class_data_manager_1_1_game_data_1_1_prefab.html", null ],
@@ -98,6 +122,7 @@ var hierarchy =
     [ "DataManager.PrefabTypeInfo", "d6/d6a/class_data_manager_1_1_prefab_type_info.html", null ],
     [ "DataManager.GameData.BeatmapData.EditorSettings.Preview", "dc/d4b/class_data_manager_1_1_game_data_1_1_beatmap_data_1_1_editor_settings_1_1_preview.html", null ],
     [ "DataManager.SaveState", "dd/d22/class_data_manager_1_1_save_state.html", null ],
+    [ "VGFunctions.Screenshot", "dc/de3/class_v_g_functions_1_1_screenshot.html", null ],
     [ "ScriptableObject", null, [
       [ "ButtonInfo", "d0/dc8/class_button_info.html", null ]
     ] ],
@@ -125,14 +150,19 @@ var hierarchy =
     [ "DataManager.GameData.BeatmapData.EditorSettings.BPM.SnapToggles", "d1/dc7/class_data_manager_1_1_game_data_1_1_beatmap_data_1_1_editor_settings_1_1_b_p_m_1_1_snap_toggles.html", null ],
     [ "DataManager.MetaData.Song", "d9/dc4/class_data_manager_1_1_meta_data_1_1_song.html", null ],
     [ "DataManager.MetadataLegacy.Song", "d4/d95/class_data_manager_1_1_metadata_legacy_1_1_song.html", null ],
+    [ "SpeedString", "d6/d2d/class_speed_string.html", null ],
     [ "VGEditor.SpriteLimits", "d7/d58/class_v_g_editor_1_1_sprite_limits.html", null ],
     [ "DataManager.MetaData.StoryLine", "d9/db1/class_data_manager_1_1_meta_data_1_1_story_line.html", null ],
     [ "DataManager.MetadataLegacy.StoryLine", "d1/dcb/class_data_manager_1_1_metadata_legacy_1_1_story_line.html", null ],
     [ "TextArchitect", "dc/de5/class_text_architect.html", null ],
     [ "DataManager.ThemeUpdater", "de/d53/struct_data_manager_1_1_theme_updater.html", null ],
+    [ "VGFunctions.LSText.TMPExtras", "dc/d9d/class_v_g_functions_1_1_l_s_text_1_1_t_m_p_extras.html", null ],
     [ "DataManager.GameData.BeatmapData.EventTriggers.Trigger", "dc/d21/class_data_manager_1_1_game_data_1_1_beatmap_data_1_1_event_triggers_1_1_trigger.html", null ],
     [ "UIEventManager.UIEvent", "d1/d4b/class_u_i_event_manager_1_1_u_i_event.html", null ],
     [ "SequenceManager.UISequence", "d8/d1e/class_sequence_manager_1_1_u_i_sequence.html", null ],
     [ "UpdateUIColors.UIUpdateAction", "d3/df7/class_update_u_i_colors_1_1_u_i_update_action.html", null ],
-    [ "VGEase", "d4/d66/class_v_g_ease.html", null ]
+    [ "VGEase", "d4/d66/class_v_g_ease.html", null ],
+    [ "VGJSON", "d3/d34/class_v_g_j_s_o_n.html", null ],
+    [ "VGFunctions.VGLog", "da/d71/class_v_g_functions_1_1_v_g_log.html", null ],
+    [ "VGFunctions.LSColors.VGReturn< T >", "d8/d42/class_v_g_functions_1_1_l_s_colors_1_1_v_g_return.html", null ]
 ];

@@ -5,6 +5,20 @@ var annotated_dup =
       [ "MetadataWrapper", "dd/db7/class_v_g_editor_1_1_metadata_wrapper.html", null ],
       [ "SpriteLimits", "d7/d58/class_v_g_editor_1_1_sprite_limits.html", null ]
     ] ],
+    [ "VGFunctions", "d6/d9f/namespace_v_g_functions.html", [
+      [ "Debounce", "db/d5f/class_v_g_functions_1_1_debounce.html", "db/d5f/class_v_g_functions_1_1_debounce" ],
+      [ "LSAudio", "df/d1a/class_v_g_functions_1_1_l_s_audio.html", null ],
+      [ "LSColors", "da/dc5/class_v_g_functions_1_1_l_s_colors.html", "da/dc5/class_v_g_functions_1_1_l_s_colors" ],
+      [ "LSEncryption", "d4/d9c/class_v_g_functions_1_1_l_s_encryption.html", null ],
+      [ "LSError", "d8/d58/class_v_g_functions_1_1_l_s_error.html", null ],
+      [ "LSFile", "d0/d05/class_v_g_functions_1_1_l_s_file.html", "d0/d05/class_v_g_functions_1_1_l_s_file" ],
+      [ "LSHelpers", "db/d5e/class_v_g_functions_1_1_l_s_helpers.html", "db/d5e/class_v_g_functions_1_1_l_s_helpers" ],
+      [ "LSImage", "d1/d9e/class_v_g_functions_1_1_l_s_image.html", "d1/d9e/class_v_g_functions_1_1_l_s_image" ],
+      [ "LSMath", "d2/d75/class_v_g_functions_1_1_l_s_math.html", null ],
+      [ "LSText", "d8/d71/class_v_g_functions_1_1_l_s_text.html", "d8/d71/class_v_g_functions_1_1_l_s_text" ],
+      [ "Screenshot", "dc/de3/class_v_g_functions_1_1_screenshot.html", null ],
+      [ "VGLog", "da/d71/class_v_g_functions_1_1_v_g_log.html", null ]
+    ] ],
     [ "ArcadeManager", "dd/d7d/class_arcade_manager.html", null ],
     [ "AudioManager", "d7/d31/class_audio_manager.html", "d7/d31/class_audio_manager" ],
     [ "ButtonInfo", "d0/dc8/class_button_info.html", null ],
@@ -19,6 +33,8 @@ var annotated_dup =
     [ "GameManager2", "d3/d5a/class_game_manager2.html", "d3/d5a/class_game_manager2" ],
     [ "History", "d8/dd3/class_history.html", "d8/dd3/class_history" ],
     [ "InputDataManager", "d6/dff/class_input_data_manager.html", "d6/dff/class_input_data_manager" ],
+    [ "LSAnimationConverter", "d1/dec/class_l_s_animation_converter.html", null ],
+    [ "LSResponse", "d7/da0/class_l_s_response.html", null ],
     [ "MarkerHelper", "d6/d07/class_marker_helper.html", null ],
     [ "MultiElementButton", "dd/d79/class_multi_element_button.html", null ],
     [ "MultiElementTargetGraphics", "dc/d50/class_multi_element_target_graphics.html", null ],
@@ -28,6 +44,7 @@ var annotated_dup =
     [ "SceneManager", "d0/dc3/class_scene_manager.html", "d0/dc3/class_scene_manager" ],
     [ "SequenceManager", "da/d4d/class_sequence_manager.html", "da/d4d/class_sequence_manager" ],
     [ "SoundLibrary", "d7/dca/class_sound_library.html", "d7/dca/class_sound_library" ],
+    [ "SpeedString", "d6/d2d/class_speed_string.html", null ],
     [ "StoryManager", "d0/dbb/class_story_manager.html", "d0/dbb/class_story_manager" ],
     [ "SystemManager", "d6/d8f/class_system_manager.html", null ],
     [ "SystemSpecficControl", "de/d03/class_system_specfic_control.html", null ],
@@ -43,5 +60,10 @@ var annotated_dup =
     [ "UIEventManager", "d2/d8c/class_u_i_event_manager.html", "d2/d8c/class_u_i_event_manager" ],
     [ "UIStateManager", "d8/d6c/class_u_i_state_manager.html", null ],
     [ "UpdateUIColors", "d6/dae/class_update_u_i_colors.html", "d6/dae/class_update_u_i_colors" ],
-    [ "VGEase", "d4/d66/class_v_g_ease.html", "d4/d66/class_v_g_ease" ]
+    [ "VGColorConverter", "d4/d48/class_v_g_color_converter.html", null ],
+    [ "VGColorListConverter", "d4/df2/class_v_g_color_list_converter.html", null ],
+    [ "VGEase", "d4/d66/class_v_g_ease.html", "d4/d66/class_v_g_ease" ],
+    [ "VGEnumConverter", "db/df2/class_v_g_enum_converter.html", null ],
+    [ "VGJSON", "d3/d34/class_v_g_j_s_o_n.html", "d3/d34/class_v_g_j_s_o_n" ],
+    [ "VGVector2Converter", "d3/d50/class_v_g_vector2_converter.html", null ]
 ];

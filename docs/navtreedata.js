@@ -25,6 +25,7 @@
 var NAVTREE =
 [
   [ "Project Arrhythmia", "index.html", [
+    [ "Project Arrhythmia Modding API", "index.html", "index" ],
     [ "Packages", "namespaces.html", [
       [ "Package List", "namespaces.html", "namespaces_dup" ]
     ] ],
@@ -44,7 +45,8 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"annotated.html"
+"annotated.html",
+"dc/d42/class_event_editor.html#a761bb81477e9ba5433ced50ebcf7a6c3"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
