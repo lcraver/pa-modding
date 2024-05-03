@@ -15,7 +15,7 @@ var searchData=
   ['lsaudio_12',['LSAudio',['../df/d1a/class_v_g_functions_1_1_l_s_audio.html',1,'VGFunctions']]],
   ['lscolors_13',['LSColors',['../da/dc5/class_v_g_functions_1_1_l_s_colors.html',1,'VGFunctions']]],
   ['lsencryption_14',['LSEncryption',['../d4/d9c/class_v_g_functions_1_1_l_s_encryption.html',1,'VGFunctions']]],
-  ['lserror_15',['LSError',['../d8/d58/class_v_g_functions_1_1_l_s_error.html',1,'VGFunctions']]],
+  ['lserror_15',['LSError',['../d8/d58/class_v_g_functions_1_1_l_s_error.html',1,'VGFunctions.LSError'],['../d8/d58/class_v_g_functions_1_1_l_s_error.html#af67fa104aff5c399f0b91a9dab6afe3b',1,'VGFunctions.LSError.LSError()']]],
   ['lsfile_16',['LSFile',['../d0/dfb/class_file_manager_1_1_l_s_file.html',1,'FileManager.LSFile'],['../d0/d05/class_v_g_functions_1_1_l_s_file.html',1,'VGFunctions.LSFile']]],
   ['lshelpers_17',['LSHelpers',['../db/d5e/class_v_g_functions_1_1_l_s_helpers.html',1,'VGFunctions']]],
   ['lsimage_18',['LSImage',['../d1/d9e/class_v_g_functions_1_1_l_s_image.html',1,'VGFunctions']]],

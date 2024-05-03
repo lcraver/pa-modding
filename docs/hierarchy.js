@@ -55,7 +55,7 @@ var hierarchy =
     [ "ISelectHandler", null, [
       [ "MultiElementButton", "dd/d79/class_multi_element_button.html", null ]
     ] ],
-    [ "Newtonsoft.Json.JsonConverter", null, [
+    [ "JsonConverter", null, [
       [ "LSAnimationConverter", "d1/dec/class_l_s_animation_converter.html", null ],
       [ "VGColorConverter", "d4/d48/class_v_g_color_converter.html", null ],
       [ "VGColorListConverter", "d4/df2/class_v_g_color_list_converter.html", null ],
