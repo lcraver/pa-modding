@@ -1,5 +1,8 @@
 var NAVTREEINDEX1 =
 {
+"dc/d42/class_event_editor.html":[2,0,9],
+"dc/d42/class_event_editor.html#a34d9032f5eaed94736bc583d277fe8f6":[2,0,9,4],
+"dc/d42/class_event_editor.html#a4abeabdfa53e47dfd9940ee7def6acdb":[2,0,9,5],
 "dc/d42/class_event_editor.html#a4b961f7eb3f6b78cc321da6be30cbb9d":[2,0,9,3],
 "dc/d42/class_event_editor.html#a59ef2c894f5deed7b01aaf9f391d0a5e":[2,0,9,1],
 "dc/d42/class_event_editor.html#a761bb81477e9ba5433ced50ebcf7a6c3":[2,0,9,2],

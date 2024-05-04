@@ -108,7 +108,8 @@ var hierarchy =
         [ "UI_Toggle", "d7/d7c/class_u_i___toggle.html", null ]
       ] ],
       [ "UI_Book", "da/d2a/class_u_i___book.html", null ],
-      [ "UpdateUIColors", "d6/dae/class_update_u_i_colors.html", null ]
+      [ "UpdateUIColors", "d6/dae/class_update_u_i_colors.html", null ],
+      [ "VGPlayer", "d4/d7d/class_v_g_player.html", null ]
     ] ],
     [ "SoundLibrary.MusicGroup", "db/dbe/class_sound_library_1_1_music_group.html", null ],
     [ "ObjectHelpers", "d7/d59/class_object_helpers.html", null ],
@@ -145,7 +146,8 @@ var hierarchy =
       [ "SequenceManager", "da/d4d/class_sequence_manager.html", null ],
       [ "StoryManager", "d0/dbb/class_story_manager.html", null ],
       [ "UIEventManager", "d2/d8c/class_u_i_event_manager.html", null ],
-      [ "UIStateManager", "d8/d6c/class_u_i_state_manager.html", null ]
+      [ "UIStateManager", "d8/d6c/class_u_i_state_manager.html", null ],
+      [ "VGPlayerManager", "d6/d73/class_v_g_player_manager.html", null ]
     ] ],
     [ "DataManager.GameData.BeatmapData.EditorSettings.BPM.SnapToggles", "d1/dc7/class_data_manager_1_1_game_data_1_1_beatmap_data_1_1_editor_settings_1_1_b_p_m_1_1_snap_toggles.html", null ],
     [ "DataManager.MetaData.Song", "d9/dc4/class_data_manager_1_1_meta_data_1_1_song.html", null ],
@@ -164,5 +166,6 @@ var hierarchy =
     [ "VGEase", "d4/d66/class_v_g_ease.html", null ],
     [ "VGJSON", "d3/d34/class_v_g_j_s_o_n.html", null ],
     [ "VGFunctions.VGLog", "da/d71/class_v_g_functions_1_1_v_g_log.html", null ],
+    [ "VGPlayerManager.VGPlayerData", "da/df8/class_v_g_player_manager_1_1_v_g_player_data.html", null ],
     [ "VGFunctions.LSColors.VGReturn< T >", "d8/d42/class_v_g_functions_1_1_l_s_colors_1_1_v_g_return.html", null ]
 ];

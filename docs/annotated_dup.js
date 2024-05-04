@@ -65,5 +65,7 @@ var annotated_dup =
     [ "VGEase", "d4/d66/class_v_g_ease.html", "d4/d66/class_v_g_ease" ],
     [ "VGEnumConverter", "db/df2/class_v_g_enum_converter.html", null ],
     [ "VGJSON", "d3/d34/class_v_g_j_s_o_n.html", "d3/d34/class_v_g_j_s_o_n" ],
+    [ "VGPlayer", "d4/d7d/class_v_g_player.html", null ],
+    [ "VGPlayerManager", "d6/d73/class_v_g_player_manager.html", "d6/d73/class_v_g_player_manager" ],
     [ "VGVector2Converter", "d3/d50/class_v_g_vector2_converter.html", null ]
 ];
