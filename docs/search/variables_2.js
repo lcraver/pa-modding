@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['save_5ftag_0',['SAVE_TAG',['../d4/da5/class_dialog_manager.html#a23fdf3ba2567ed607d683ee54d2f5007',1,'DialogManager']]]
+  ['depth_0',['Depth',['../da/d98/class_parallax_settings_1_1_layer.html#aa1ed7528f72ec50283182d0da909a244',1,'ParallaxSettings::Layer']]]
 ];

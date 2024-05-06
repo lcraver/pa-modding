@@ -1,12 +1,14 @@
 var searchData=
 [
-  ['tagmanager_0',['TagManager',['../df/d96/class_tag_manager.html',1,'']]],
-  ['textarchitect_1',['TextArchitect',['../dc/de5/class_text_architect.html',1,'']]],
-  ['themeupdater_2',['ThemeUpdater',['../de/d53/struct_data_manager_1_1_theme_updater.html',1,'DataManager']]],
-  ['tmpextras_3',['TMPExtras',['../dc/d9d/class_v_g_functions_1_1_l_s_text_1_1_t_m_p_extras.html',1,'VGFunctions::LSText']]],
-  ['toandfro_4',['ToAndFro',['../d4/d66/class_v_g_ease.html#afa3243df67ed92077999c521837dc797',1,'VGEase.ToAndFro(EaseFunction easer)'],['../d4/d66/class_v_g_ease.html#a6f050a56a1aac90e9ea8de61de3a3c8f',1,'VGEase.ToAndFro(float t)']]],
-  ['toggleplayingsong_5',['TogglePlayingSong',['../d1/dc7/class_editor_manager.html#a111cbd178a6625ee1cb53810d3ee743b',1,'EditorManager']]],
-  ['tools_6',['Tools',['../index.html#autotoc_md5',1,'']]],
-  ['trigger_7',['Trigger',['../dc/d21/class_data_manager_1_1_game_data_1_1_beatmap_data_1_1_event_triggers_1_1_trigger.html',1,'DataManager::GameData::BeatmapData::EventTriggers']]],
-  ['triggerevent_8',['TriggerEvent',['../d6/d94/class_event_manager.html#a48df5b9efb97bb5596cbcc54bebdc40d',1,'EventManager']]]
+  ['refreshkeyframegui_0',['RefreshKeyframeGUI',['../de/d19/class_editor_element___object_panel.html#aa8186fd427e8e4ac1b04de2f68f15a9c',1,'EditorElement_ObjectPanel']]],
+  ['remindlocalizer_1',['RemindLocalizer',['../d2/d5a/class_remind_localizer.html',1,'']]],
+  ['rendermanager_2',['RenderManager',['../d9/d70/class_render_manager.html',1,'']]],
+  ['renderobject_3',['RenderObject',['../d0/d79/class_l_s_render_manager_1_1_render_object.html',1,'LSRenderManager']]],
+  ['requests_4',['Pull Requests',['../index.html#autotoc_md3',1,'']]],
+  ['resetcheckpoints_5',['ResetCheckpoints',['../d3/d5a/class_game_manager2.html#a2cd5496ceb19786d4dc241fdc8141712',1,'GameManager2']]],
+  ['resources_6',['Resources',['../index.html#autotoc_md4',1,'']]],
+  ['reversetocheckpointloop_7',['ReverseToCheckpointLoop',['../db/d10/class_game_manager.html#a77d2abb0c75e391d0745f12ae8be3b70',1,'GameManager.ReverseToCheckpointLoop()'],['../d3/d5a/class_game_manager2.html#aff3125bd969ba226ba363813eac90ad0',1,'GameManager2.ReverseToCheckpointLoop(int _indexForce=-1, bool _instant=false)']]],
+  ['rewindtocheckpoint_8',['RewindToCheckpoint',['../d3/d5a/class_game_manager2.html#ada9995cd9061b78c15ce9ad7998ed779',1,'GameManager2']]],
+  ['rotation_9',['Rotation',['../d5/d6a/class_parallax_object_1_1_transform_data.html#a727ba1e9e849c90b2c88cf059133272e',1,'ParallaxObject::TransformData']]],
+  ['run_10',['Run',['../db/d5f/class_v_g_functions_1_1_debounce.html#ad69f4cb4fb4cbbb6254728112f17607d',1,'VGFunctions::Debounce']]]
 ];

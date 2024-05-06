@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['closededitor_0',['ClosedEditor',['../d1/dc7/class_editor_manager.html#a3ae37fd38a06ec22e71335ca639b2206',1,'EditorManager']]],
-  ['currenttext_1',['currentText',['../dc/de5/class_text_architect.html#accd8d8033662858aaa47f6761b0a5330',1,'TextArchitect']]]
+  ['buffer_0',['Buffer',['../d8/df0/class_twitch_plays_your_game_1_1_twitch_manager.html#a0ca85fd7d9640a7a6061c8511e3f68dc',1,'TwitchPlaysYourGame::TwitchManager']]]
 ];

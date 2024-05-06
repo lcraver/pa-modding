@@ -1,10 +1,14 @@
 var searchData=
 [
-  ['page_0',['Page',['../d9/d98/class_u_i___book_1_1_page.html',1,'UI_Book']]],
-  ['playerstat_1',['PlayerStat',['../d3/df5/struct_input_data_manager_1_1_custom_player_1_1_player_stat.html',1,'InputDataManager::CustomPlayer']]],
-  ['prefab_2',['Prefab',['../d5/d2b/class_data_manager_1_1_game_data_1_1_prefab.html',1,'DataManager::GameData']]],
-  ['prefabobject_3',['PrefabObject',['../d0/d78/class_data_manager_1_1_game_data_1_1_prefab_object.html',1,'DataManager::GameData']]],
-  ['prefabtypeinfo_4',['PrefabTypeInfo',['../d6/d6a/class_data_manager_1_1_prefab_type_info.html',1,'DataManager']]],
-  ['prefabtypesclass_5',['PrefabTypesClass',['../de/d30/class_data_manager_1_1_prefab_types_class.html',1,'DataManager']]],
-  ['preview_6',['Preview',['../dc/d4b/class_data_manager_1_1_game_data_1_1_beatmap_data_1_1_editor_settings_1_1_preview.html',1,'DataManager::GameData::BeatmapData::EditorSettings']]]
+  ['objecthelpers_0',['ObjectHelpers',['../d7/d59/class_object_helpers.html',1,'']]],
+  ['objectmanager_1',['ObjectManager',['../de/deb/class_object_manager.html',1,'']]],
+  ['objectpooler_2',['ObjectPooler',['../d9/d3a/class_object_pooler.html',1,'']]],
+  ['objectpoolitem_3',['ObjectPoolItem',['../da/d80/class_object_pool_item.html',1,'']]],
+  ['objectpools_4',['ObjectPools',['../d8/d09/class_object_pools.html',1,'']]],
+  ['objectprefabholder_5',['ObjectPrefabHolder',['../d3/d45/class_object_helpers_1_1_object_prefab_holder.html',1,'ObjectHelpers']]],
+  ['objecttotal_6',['ObjectTotal',['../dd/dee/class_editor_lag_buster_1_1_object_total.html',1,'EditorLagBuster']]],
+  ['objsequence_7',['ObjSequence',['../dd/dbf/class_object_helpers_1_1_obj_sequence.html',1,'ObjectHelpers']]],
+  ['ontriggerenterpass_8',['OnTriggerEnterPass',['../d6/d61/class_on_trigger_enter_pass.html',1,'']]],
+  ['openhyperlinks_9',['OpenHyperlinks',['../d9/dc7/class_open_hyperlinks.html',1,'']]],
+  ['openinfilebrowser_10',['OpenInFileBrowser',['../d1/d4b/class_v_g_functions_1_1_l_s_file_1_1_open_in_file_browser.html',1,'VGFunctions::LSFile']]]
 ];

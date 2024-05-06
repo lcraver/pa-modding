@@ -119,13 +119,15 @@ $(function(){initNavTree('d7/d31/class_audio_manager.html','../../'); initResiza
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
  <div class="center">
-  <img src="../../d7/d31/class_audio_manager.png" alt=""/>
- </div></div>
+  <img src="../../d7/d31/class_audio_manager.png" usemap="#AudioManager_map" alt=""/>
+  <map id="AudioManager_map" name="AudioManager_map">
+<area href="../../db/da7/class_singleton_base.html" alt="SingletonBase&lt; AudioManager &gt;" shape="rect" coords="0,0,200,24"/>
+  </map>
+</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ad21366e053b2850f5751ee1c465db4e6" id="r_ad21366e053b2850f5751ee1c465db4e6"><td class="memItemLeft" align="right" valign="top"><a id="ad21366e053b2850f5751ee1c465db4e6" name="ad21366e053b2850f5751ee1c465db4e6"></a>
-override void&#160;</td><td class="memItemRight" valign="bottom"><b>OnAwake</b> ()</td></tr>
+<tr class="memitem:ad21366e053b2850f5751ee1c465db4e6" id="r_ad21366e053b2850f5751ee1c465db4e6"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad21366e053b2850f5751ee1c465db4e6">OnAwake</a> ()</td></tr>
 <tr class="separator:ad21366e053b2850f5751ee1c465db4e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab333270dca5bf5c039de3d70ca111ba9" id="r_ab333270dca5bf5c039de3d70ca111ba9"><td class="memItemLeft" align="right" valign="top"><a id="ab333270dca5bf5c039de3d70ca111ba9" name="ab333270dca5bf5c039de3d70ca111ba9"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Start</b> ()</td></tr>
@@ -159,6 +161,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>ApplyLowPass</b> (flo
 <tr class="memitem:a2812df35a3924705d1ffd90b6efdfdfa" id="r_a2812df35a3924705d1ffd90b6efdfdfa"><td class="memItemLeft" align="right" valign="top"><a id="a2812df35a3924705d1ffd90b6efdfdfa" name="a2812df35a3924705d1ffd90b6efdfdfa"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>PlaySound</b> (string _soundName)</td></tr>
 <tr class="separator:a2812df35a3924705d1ffd90b6efdfdfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_singleton_base"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_singleton_base')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../db/da7/class_singleton_base.html">SingletonBase&lt; AudioManager &gt;</a></td></tr>
+<tr class="memitem:a91cc9bfeabc19080544602a2e0f3d255 inherit pub_methods_class_singleton_base" id="r_a91cc9bfeabc19080544602a2e0f3d255"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Awake</b> ()</td></tr>
+<tr class="separator:a91cc9bfeabc19080544602a2e0f3d255 inherit pub_methods_class_singleton_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -183,6 +189,10 @@ Tween[]&#160;</td><td class="memItemRight" valign="bottom"><b>musicSourcesTweens
 <tr class="memitem:a1081038ce7267a4cace96e1a50ab1470" id="r_a1081038ce7267a4cace96e1a50ab1470"><td class="memItemLeft" align="right" valign="top"><a id="a1081038ce7267a4cace96e1a50ab1470" name="a1081038ce7267a4cace96e1a50ab1470"></a>
 AudioMixer&#160;</td><td class="memItemRight" valign="bottom"><b>audioMixer</b></td></tr>
 <tr class="separator:a1081038ce7267a4cace96e1a50ab1470"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_class_singleton_base"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_attribs_class_singleton_base')"><img src="../../closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="../../db/da7/class_singleton_base.html">SingletonBase&lt; AudioManager &gt;</a></td></tr>
+<tr class="memitem:a47779a6fcf4f87fad6ca2bf2780f93e5 inherit pub_attribs_class_singleton_base" id="r_a47779a6fcf4f87fad6ca2bf2780f93e5"><td class="memItemLeft" align="right" valign="top">
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>DestroySingleton</b></td></tr>
+<tr class="separator:a47779a6fcf4f87fad6ca2bf2780f93e5 inherit pub_attribs_class_singleton_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
@@ -201,6 +211,10 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>AudioPlaybackSpeed</
 <tr class="memitem:a0df2f1061594873fa968c3d55e0a61fb" id="r_a0df2f1061594873fa968c3d55e0a61fb"><td class="memItemLeft" align="right" valign="top"><a id="a0df2f1061594873fa968c3d55e0a61fb" name="a0df2f1061594873fa968c3d55e0a61fb"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsPlaying</b><code> [get]</code></td></tr>
 <tr class="separator:a0df2f1061594873fa968c3d55e0a61fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header properties_class_singleton_base"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_class_singleton_base')"><img src="../../closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="../../db/da7/class_singleton_base.html">SingletonBase&lt; AudioManager &gt;</a></td></tr>
+<tr class="memitem:ab426759d1f12b1a5bd6e9cffc2bf6351 inherit properties_class_singleton_base" id="r_ab426759d1f12b1a5bd6e9cffc2bf6351"><td class="memItemLeft" align="right" valign="top">
+static T&#160;</td><td class="memItemRight" valign="bottom"><b>Inst</b><code> [get]</code></td></tr>
+<tr class="separator:ab426759d1f12b1a5bd6e9cffc2bf6351 inherit properties_class_singleton_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -250,11 +264,39 @@ const float&#160;</td><td class="memItemRight" valign="bottom"><b>FadeTime</b> =
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class manages the audio in the game. </p>
 <p>It is responsible for playing music and sound effects, applying audio effects, and controlling the audio mixer. The class provides functions to play a sound effect by name, and to destroy a sound effect source after it has finished playing. It also contains a coroutine to apply a low pass filter to the music.</p>
-<p>The class inherits from SingletonBase&lt;AudioManager&gt; to ensure that only one instance of the <a class="el" href="../../d7/d31/class_audio_manager.html" title="This class manages the audio in the game.">AudioManager</a> exists. It uses the [RequireComponent] attribute to automatically add required components when the script is added to a GameObject.</p>
+<p>The class inherits from <a class="el" href="../../db/da7/class_singleton_base.html">SingletonBase&lt;AudioManager&gt;</a> to ensure that only one instance of the <a class="el" href="../../d7/d31/class_audio_manager.html" title="This class manages the audio in the game.">AudioManager</a> exists. It uses the [RequireComponent] attribute to automatically add required components when the script is added to a GameObject.</p>
 <p>The class contains several public and private fields for managing audio, including arrays of AudioSource and Tween objects, an AudioMixer, a <a class="el" href="../../d7/dca/class_sound_library.html">SoundLibrary</a>, and various other fields for managing audio state and settings.</p>
 <p>The class provides several public methods for controlling audio playback, including methods to play, stop, and adjust the volume of music, and to play sound effects. It also provides methods to apply a low pass filter to the music, and to set the time of the music with a delay.</p>
 <p>The class also contains several private methods for playing sound effects and destroying sound effect sources after they have finished playing. </p>
-</div><hr/>The documentation for this class was generated from the following file:<ul>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="ad21366e053b2850f5751ee1c465db4e6" name="ad21366e053b2850f5751ee1c465db4e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad21366e053b2850f5751ee1c465db4e6">&#9670;&#160;</a></span>OnAwake()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void AudioManager.OnAwake </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="../../db/da7/class_singleton_base.html">SingletonBase&lt; AudioManager &gt;</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
 <li>C:/Users/Pidge/Documents/gamedev/core_project_arrhythmia/Assets/Scripts/Managers/Audio/<b>AudioManager.cs</b></li>
 </ul>
 </div><!-- contents -->

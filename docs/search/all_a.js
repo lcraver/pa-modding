@@ -1,25 +1,4 @@
 var searchData=
 [
-  ['levelfolder_0',['LevelFolder',['../d8/dd0/class_file_manager_1_1_level_folder.html',1,'FileManager']]],
-  ['levelrank_1',['LevelRank',['../d0/d7a/class_data_manager_1_1_level_rank.html',1,'DataManager']]],
-  ['levelranksclass_2',['LevelRanksClass',['../d7/db6/class_data_manager_1_1_level_ranks_class.html',1,'DataManager']]],
-  ['linear_3',['Linear',['../d4/d66/class_v_g_ease.html#a4e05fedc547babc23206329baa0c1415',1,'VGEase']]],
-  ['linktype_4',['LinkType',['../d4/d92/class_data_manager_1_1_link_type.html',1,'DataManager']]],
-  ['loadgame_5',['LoadGame',['../d3/d5a/class_game_manager2.html#ab5343c253674c3debb13f80fc129fe31',1,'GameManager2']]],
-  ['loadingstate_6',['LoadingState',['../db/d51/class_game_manager2_1_1_loading_state.html',1,'GameManager2']]],
-  ['loadobjects_7',['LoadObjects',['../d3/d5a/class_game_manager2.html#a81ea7fb70b570e3fdc173446af3af338',1,'GameManager2']]],
-  ['loadscene_8',['LoadScene',['../d0/dc3/class_scene_manager.html#a7530a008b017d53a8ee66c9c7e789121',1,'SceneManager.LoadScene(string _scene)'],['../d0/dc3/class_scene_manager.html#a59919fd50a6362fc1fa98ab33d3d96ca',1,'SceneManager.LoadScene(string _scene, string _loadingAudio)']]],
-  ['loadtweens_9',['LoadTweens',['../d3/d5a/class_game_manager2.html#a725a122c1c505b94985021c9ef863dd6',1,'GameManager2']]],
-  ['lsanimation_10',['LSAnimation',['../d5/d57/class_data_manager_1_1_l_s_animation.html',1,'DataManager']]],
-  ['lsanimationconverter_11',['LSAnimationConverter',['../d1/dec/class_l_s_animation_converter.html',1,'']]],
-  ['lsaudio_12',['LSAudio',['../df/d1a/class_v_g_functions_1_1_l_s_audio.html',1,'VGFunctions']]],
-  ['lscolors_13',['LSColors',['../da/dc5/class_v_g_functions_1_1_l_s_colors.html',1,'VGFunctions']]],
-  ['lsencryption_14',['LSEncryption',['../d4/d9c/class_v_g_functions_1_1_l_s_encryption.html',1,'VGFunctions']]],
-  ['lserror_15',['LSError',['../d8/d58/class_v_g_functions_1_1_l_s_error.html',1,'VGFunctions.LSError'],['../d8/d58/class_v_g_functions_1_1_l_s_error.html#af67fa104aff5c399f0b91a9dab6afe3b',1,'VGFunctions.LSError.LSError()']]],
-  ['lsfile_16',['LSFile',['../d0/dfb/class_file_manager_1_1_l_s_file.html',1,'FileManager.LSFile'],['../d0/d05/class_v_g_functions_1_1_l_s_file.html',1,'VGFunctions.LSFile']]],
-  ['lshelpers_17',['LSHelpers',['../db/d5e/class_v_g_functions_1_1_l_s_helpers.html',1,'VGFunctions']]],
-  ['lsimage_18',['LSImage',['../d1/d9e/class_v_g_functions_1_1_l_s_image.html',1,'VGFunctions']]],
-  ['lsmath_19',['LSMath',['../d2/d75/class_v_g_functions_1_1_l_s_math.html',1,'VGFunctions']]],
-  ['lsresponse_20',['LSResponse',['../d7/da0/class_l_s_response.html',1,'']]],
-  ['lstext_21',['LSText',['../d8/d71/class_v_g_functions_1_1_l_s_text.html',1,'VGFunctions']]]
+  ['jsonreturn_0',['JSONReturn',['../d9/dc9/class_v_g_level_1_1_j_s_o_n_return.html',1,'VGLevel']]]
 ];

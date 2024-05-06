@@ -8,5 +8,7 @@ var searchData=
   ['createbasebeatmap_5',['CreateBaseBeatmap',['../d9/de1/class_data_manager.html#a377ab46b768c93915cefdeb13540513f',1,'DataManager']]],
   ['createcheckpoints_6',['CreateCheckpoints',['../dc/d39/class_checkpoint_editor.html#a3e8a6a9fc09ddfcca5e4aed5c58c0edd',1,'CheckpointEditor']]],
   ['createeventobjects_7',['CreateEventObjects',['../dc/d42/class_event_editor.html#a761bb81477e9ba5433ced50ebcf7a6c3',1,'EventEditor']]],
-  ['createghostcheckpoints_8',['CreateGhostCheckpoints',['../dc/d39/class_checkpoint_editor.html#ab6a2f0801eebedc4f94e2878898ef765',1,'CheckpointEditor']]]
+  ['createghostcheckpoints_8',['CreateGhostCheckpoints',['../dc/d39/class_checkpoint_editor.html#ab6a2f0801eebedc4f94e2878898ef765',1,'CheckpointEditor']]],
+  ['createmarkers_9',['CreateMarkers',['../d3/dbb/class_marker_editor.html#a235c3a7a2d2b4b013b96a241ee01dce1',1,'MarkerEditor']]],
+  ['createnewmarkers_10',['CreateNewMarkers',['../d3/dbb/class_marker_editor.html#a2983dc6cbf5ba86257819ab204af2b2e',1,'MarkerEditor']]]
 ];
