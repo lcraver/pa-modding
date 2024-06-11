@@ -23,7 +23,7 @@ Please, if you think you have something to add to the modding discussion, feel f
 <details>
 	<summary><h4>Alpha</h4></summary>
 
-Mods made for the Alpha branch of the game.
+Mods made for the Alpha branch of the game. Guide for changing branches [here](https://steamcommunity.com/sharedfiles/filedetails/?id=2278623545)
 
 | Name | Link | Description |
 | ---- | ---- | ----------- |
