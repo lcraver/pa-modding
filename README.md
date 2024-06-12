@@ -15,8 +15,9 @@ Please, if you think you have something to add to the modding discussion, feel f
 | Name | Link | Description |
 | ---- | ---- | ----------- |
 | Parctan | [LINK](https://lcraver.github.io/pa-modding/) | Example description |
-| Project Launcher | [LINK](https://github.com/RTMecha/ProjectLauncher) | Launcher for managing mods(Legacy Only!) |
-| BepInNex | [LINK](https://github.com/BepInEx/BepInEx) |  Modding framework for Unity |
+| Project Launcher | [LINK](https://github.com/RTMecha/ProjectLauncher) | Launcher for managing mods(Legacy Only) |
+| BepInNex | [LINK](https://github.com/BepInEx/BepInEx) | Modding framework for Unity |
+| Cpp2IL | [LINK](https://github.com/SamboyCoding/Cpp2IL) | Tool to reverse unity's IL2CPP toolchain |
 
 
 ### Mods
@@ -27,7 +28,7 @@ Mods made for the Alpha branch of the game. Guide for changing branches [here](h
 
 | Name | Link | Description |
 | ---- | ---- | ----------- |
-| Replace Prefabs | [LINK](https://github.com/Aiden-ytarame/ReplacePrefab) | Replace a prefab and all its instances with a new one! |
+| Replace Prefabs | [LINK](https://github.com/Aiden-ytarame/ReplacePrefab) | Replace a prefab and all its instances with a new one |
 | Prefab On Object | [LINK](https://github.com/Aiden-ytarame/PrefabOnObject) | Spawn prefabs in the position (or rotation) of another object |
 </details>
 
