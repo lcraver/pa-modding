@@ -14,7 +14,6 @@ Please, if you think you have something to add to the modding discussion, feel f
 ### Tools
 | Name | Link | Description |
 | ---- | ---- | ----------- |
-| Parctan | [LINK](https://lcraver.github.io/pa-modding/) | Example description |
 | Project Launcher | [LINK](https://github.com/RTMecha/ProjectLauncher) | Launcher for managing mods(Legacy Only) |
 | BepInNex | [LINK](https://github.com/BepInEx/BepInEx) | Modding framework for Unity |
 | Cpp2IL | [LINK](https://github.com/SamboyCoding/Cpp2IL) | Tool to reverse unity's IL2CPP toolchain |
