@@ -103,6 +103,7 @@ $(function(){initNavTree('da/d4d/class_sequence_manager.html','../../'); initRes
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="../../d9/d30/class_sequence_manager-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">SequenceManager Class Reference</div></div>
 </div><!--header-->
@@ -137,6 +138,21 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>PlaySequence</b> ()</
 <tr class="memitem:af41b5169c56e1c95b81b5fb8a6a4e456" id="r_af41b5169c56e1c95b81b5fb8a6a4e456"><td class="memItemLeft" align="right" valign="top"><a id="af41b5169c56e1c95b81b5fb8a6a4e456" name="af41b5169c56e1c95b81b5fb8a6a4e456"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>PauseSequence</b> ()</td></tr>
 <tr class="separator:af41b5169c56e1c95b81b5fb8a6a4e456"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6353bcb1986382621e2f39d28aad032b" id="r_a6353bcb1986382621e2f39d28aad032b"><td class="memItemLeft" align="right" valign="top"><a id="a6353bcb1986382621e2f39d28aad032b" name="a6353bcb1986382621e2f39d28aad032b"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>PauseSequenceTillKey</b> (bool _anyKey, string _key)</td></tr>
+<tr class="separator:a6353bcb1986382621e2f39d28aad032b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8824489bb3c85f7c612b6f53a2263f7d" id="r_a8824489bb3c85f7c612b6f53a2263f7d"><td class="memItemLeft" align="right" valign="top"><a id="a8824489bb3c85f7c612b6f53a2263f7d" name="a8824489bb3c85f7c612b6f53a2263f7d"></a>
+IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><b>WaitTillKey</b> (bool _anyKey, string _key)</td></tr>
+<tr class="separator:a8824489bb3c85f7c612b6f53a2263f7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33a6b9ce1baa2ef707e1d8fa8e575946" id="r_a33a6b9ce1baa2ef707e1d8fa8e575946"><td class="memItemLeft" align="right" valign="top"><a id="a33a6b9ce1baa2ef707e1d8fa8e575946" name="a33a6b9ce1baa2ef707e1d8fa8e575946"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>LoopSequenceTill</b> (string _varName, float _time, Vector2 _jitterTimeRange)</td></tr>
+<tr class="separator:a33a6b9ce1baa2ef707e1d8fa8e575946"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a286e1e95e6cf470e7ab38b56c2369a00" id="r_a286e1e95e6cf470e7ab38b56c2369a00"><td class="memItemLeft" align="right" valign="top"><a id="a286e1e95e6cf470e7ab38b56c2369a00" name="a286e1e95e6cf470e7ab38b56c2369a00"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>LoopSequenceTill</b> (string _varName, float _time)</td></tr>
+<tr class="separator:a286e1e95e6cf470e7ab38b56c2369a00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a360934104c203fda11e8053de5042cf0" id="r_a360934104c203fda11e8053de5042cf0"><td class="memItemLeft" align="right" valign="top"><a id="a360934104c203fda11e8053de5042cf0" name="a360934104c203fda11e8053de5042cf0"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>PauseSequenceTill</b> (string _varName)</td></tr>
+<tr class="separator:a360934104c203fda11e8053de5042cf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2568c02931a6a4b095689c0b6b20fe08" id="r_a2568c02931a6a4b095689c0b6b20fe08"><td class="memItemLeft" align="right" valign="top"><a id="a2568c02931a6a4b095689c0b6b20fe08" name="a2568c02931a6a4b095689c0b6b20fe08"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>ResumeSequence</b> ()</td></tr>
 <tr class="separator:a2568c02931a6a4b095689c0b6b20fe08"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -169,6 +185,15 @@ PlayableDirector&#160;</td><td class="memItemRight" valign="bottom"><b>director<
 <tr class="memitem:a47779a6fcf4f87fad6ca2bf2780f93e5 inherit pub_attribs_class_singleton_base" id="r_a47779a6fcf4f87fad6ca2bf2780f93e5"><td class="memItemLeft" align="right" valign="top">
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>DestroySingleton</b></td></tr>
 <tr class="separator:a47779a6fcf4f87fad6ca2bf2780f93e5 inherit pub_attribs_class_singleton_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:aa589c1cc68581edaad343f458f5ad727" id="r_aa589c1cc68581edaad343f458f5ad727"><td class="memItemLeft" align="right" valign="top"><a id="aa589c1cc68581edaad343f458f5ad727" name="aa589c1cc68581edaad343f458f5ad727"></a>
+IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><b>LoopSequenceTillWithJitter</b> (float _time, Vector2 _jitterTimeRange)</td></tr>
+<tr class="separator:aa589c1cc68581edaad343f458f5ad727"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ff8536d50b8837879644a239115ae4a" id="r_a3ff8536d50b8837879644a239115ae4a"><td class="memItemLeft" align="right" valign="top"><a id="a3ff8536d50b8837879644a239115ae4a" name="a3ff8536d50b8837879644a239115ae4a"></a>
+IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><b>PauseSequenceTillLoop</b> (string _varName)</td></tr>
+<tr class="separator:a3ff8536d50b8837879644a239115ae4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>

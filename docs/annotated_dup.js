@@ -1,7 +1,17 @@
 var annotated_dup =
 [
-    [ "LS", "db/dfe/namespace_l_s.html", [
-      [ "LSPool", "d2/d23/class_l_s_1_1_l_s_pool.html", null ]
+    [ "Systems", "dc/d3c/namespace_systems.html", [
+      [ "SceneManagement", "d7/d95/namespace_systems_1_1_scene_management.html", [
+        [ "AsyncOperationGroup", "d8/da5/struct_systems_1_1_scene_management_1_1_async_operation_group.html", null ],
+        [ "AsyncOperationHandleGroup", "d3/d84/struct_systems_1_1_scene_management_1_1_async_operation_handle_group.html", null ],
+        [ "LoadingProgress", "d0/d76/class_systems_1_1_scene_management_1_1_loading_progress.html", null ],
+        [ "SceneData", "d0/d76/class_systems_1_1_scene_management_1_1_scene_data.html", null ],
+        [ "SceneGroup", "da/d27/class_systems_1_1_scene_management_1_1_scene_group.html", null ],
+        [ "SceneGroupManager", "d4/d7f/class_systems_1_1_scene_management_1_1_scene_group_manager.html", null ],
+        [ "SceneLoader", "df/d6e/class_systems_1_1_scene_management_1_1_scene_loader.html", "df/d6e/class_systems_1_1_scene_management_1_1_scene_loader" ],
+        [ "SceneTypesInfo", "d4/d92/class_systems_1_1_scene_management_1_1_scene_types_info.html", null ],
+        [ "TaskData", "d0/d9f/struct_systems_1_1_scene_management_1_1_task_data.html", null ]
+      ] ]
     ] ],
     [ "TwitchPlaysYourGame", "df/dce/namespace_twitch_plays_your_game.html", [
       [ "TwitchManager", "d8/df0/class_twitch_plays_your_game_1_1_twitch_manager.html", "d8/df0/class_twitch_plays_your_game_1_1_twitch_manager" ]
@@ -29,14 +39,17 @@ var annotated_dup =
     [ "ArcadeController", "dc/d07/class_arcade_controller.html", "dc/d07/class_arcade_controller" ],
     [ "ArcadeManager", "dd/d7d/class_arcade_manager.html", null ],
     [ "Artist", "d3/d0d/class_artist.html", null ],
+    [ "AssignCamera", "d7/d0a/class_assign_camera.html", null ],
+    [ "AssignSFXSources", "dd/d19/class_assign_s_f_x_sources.html", null ],
     [ "AudioManager", "d7/d31/class_audio_manager.html", "d7/d31/class_audio_manager" ],
+    [ "Bootstrapper", "d5/d90/class_bootstrapper.html", "d5/d90/class_bootstrapper" ],
     [ "ButtonDataHolder", "d3/d1d/class_button_data_holder.html", null ],
     [ "ButtonInfo", "d0/dc8/class_button_info.html", null ],
+    [ "CameraDB", "d0/d1a/class_camera_d_b.html", null ],
     [ "CameraGLRenderScript", "db/d9e/class_camera_g_l_render_script.html", null ],
     [ "CheckpointEditor", "dc/d39/class_checkpoint_editor.html", "dc/d39/class_checkpoint_editor" ],
     [ "ColliderCreator", "d6/d53/class_collider_creator.html", null ],
     [ "ColorPicker", "dd/d48/class_color_picker.html", null ],
-    [ "ColorWithValues", "d0/d62/class_color_with_values.html", "d0/d62/class_color_with_values" ],
     [ "DataManager", "d9/de1/class_data_manager.html", "d9/de1/class_data_manager" ],
     [ "DebugCommand", "d3/db7/class_debug_command.html", null ],
     [ "DebugCommandBase", "d5/dcf/class_debug_command_base.html", null ],
@@ -46,6 +59,7 @@ var annotated_dup =
     [ "DisplayTest", "d4/def/class_display_test.html", null ],
     [ "EditorElement_ObjectPanel", "de/d19/class_editor_element___object_panel.html", "de/d19/class_editor_element___object_panel" ],
     [ "EditorElement_PrefabEditor", "d7/d71/class_editor_element___prefab_editor.html", null ],
+    [ "EditorInitializer", "de/d7a/class_editor_initializer.html", null ],
     [ "EditorIntroManager", "d5/dfb/class_editor_intro_manager.html", null ],
     [ "EditorLagBuster", "dd/def/class_editor_lag_buster.html", "dd/def/class_editor_lag_buster" ],
     [ "EditorManager", "d1/dc7/class_editor_manager.html", "d1/dc7/class_editor_manager" ],
@@ -58,7 +72,6 @@ var annotated_dup =
     [ "FlowLayoutGroup", "de/d2a/class_flow_layout_group.html", "de/d2a/class_flow_layout_group" ],
     [ "FocusOnHover", "d0/d0f/class_focus_on_hover.html", null ],
     [ "GameManager", "db/d10/class_game_manager.html", "db/d10/class_game_manager" ],
-    [ "GameManager2", "d3/d5a/class_game_manager2.html", "d3/d5a/class_game_manager2" ],
     [ "GlobalInterfaceManager", "d2/d1c/class_global_interface_manager.html", null ],
     [ "GlowTest", "da/d52/class_glow_test.html", null ],
     [ "GLRenderManager", "d7/dc8/class_g_l_render_manager.html", "d7/dc8/class_g_l_render_manager" ],
@@ -88,11 +101,11 @@ var annotated_dup =
     [ "ObjectManager", "de/deb/class_object_manager.html", "de/deb/class_object_manager" ],
     [ "ObjectPooler", "d9/d3a/class_object_pooler.html", null ],
     [ "ObjectPoolItem", "da/d80/class_object_pool_item.html", null ],
-    [ "ObjectPools", "d8/d09/class_object_pools.html", null ],
     [ "OnTriggerEnterPass", "d6/d61/class_on_trigger_enter_pass.html", null ],
     [ "OpenHyperlinks", "d9/dc7/class_open_hyperlinks.html", "d9/dc7/class_open_hyperlinks" ],
     [ "ParallaxObject", "d1/dc6/class_parallax_object.html", "d1/dc6/class_parallax_object" ],
     [ "ParallaxSettings", "dc/da1/class_parallax_settings.html", "dc/da1/class_parallax_settings" ],
+    [ "PersistentSingleton", "d5/d2e/class_persistent_singleton.html", null ],
     [ "Player", "d8/d53/class_player.html", null ],
     [ "playerExplosion", "d1/def/classplayer_explosion.html", null ],
     [ "playerTestSpawn", "db/df2/classplayer_test_spawn.html", null ],
@@ -101,7 +114,6 @@ var annotated_dup =
     [ "RemindLocalizer", "d2/d5a/class_remind_localizer.html", null ],
     [ "RenderManager", "d9/d70/class_render_manager.html", "d9/d70/class_render_manager" ],
     [ "SaveManager", "da/da0/class_save_manager.html", "da/da0/class_save_manager" ],
-    [ "SceneManager", "d0/dc3/class_scene_manager.html", "d0/dc3/class_scene_manager" ],
     [ "SearchLevelsTest", "d2/d55/class_search_levels_test.html", null ],
     [ "SelectObjectInEditor", "d9/d18/class_select_object_in_editor.html", null ],
     [ "SequenceManager", "da/d4d/class_sequence_manager.html", "da/d4d/class_sequence_manager" ],
@@ -145,6 +157,7 @@ var annotated_dup =
     [ "VGColorListConverter", "d4/df2/class_v_g_color_list_converter.html", null ],
     [ "VGEase", "d4/d66/class_v_g_ease.html", "d4/d66/class_v_g_ease" ],
     [ "VGEnumConverter", "db/df2/class_v_g_enum_converter.html", null ],
+    [ "VGFloatConverter", "d6/d0f/class_v_g_float_converter.html", null ],
     [ "VGJSON", "d3/d34/class_v_g_j_s_o_n.html", "d3/d34/class_v_g_j_s_o_n" ],
     [ "VGLevel", "d2/db5/class_v_g_level.html", "d2/db5/class_v_g_level" ],
     [ "VGPlayer", "d4/d7d/class_v_g_player.html", null ],

@@ -145,6 +145,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>InitObjectData</b> (s
 <tr class="memitem:acc9110c7d8819946b029d7dd3a5969ce" id="r_acc9110c7d8819946b029d7dd3a5969ce"><td class="memItemLeft" align="right" valign="top"><a id="acc9110c7d8819946b029d7dd3a5969ce" name="acc9110c7d8819946b029d7dd3a5969ce"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>InitParentChain</b> (string _id, int _i)</td></tr>
 <tr class="separator:acc9110c7d8819946b029d7dd3a5969ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a416213381470bf92c18eed526fa573f6" id="r_a416213381470bf92c18eed526fa573f6"><td class="memItemLeft" align="right" valign="top"><a id="a416213381470bf92c18eed526fa573f6" name="a416213381470bf92c18eed526fa573f6"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetupMaterial</b> (ref MeshRenderer _meshRenderer, int _gradientType)</td></tr>
+<tr class="separator:a416213381470bf92c18eed526fa573f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a196009fdfbd928ac87ec9ac124e5cbc8" id="r_a196009fdfbd928ac87ec9ac124e5cbc8"><td class="memItemLeft" align="right" valign="top"><a id="a196009fdfbd928ac87ec9ac124e5cbc8" name="a196009fdfbd928ac87ec9ac124e5cbc8"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>InitVisual</b> (string _id, int _i)</td></tr>
 <tr class="separator:a196009fdfbd928ac87ec9ac124e5cbc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -223,12 +226,12 @@ GameObject[]&#160;</td><td class="memItemRight" valign="bottom"><b>parentPrefabs
 <tr class="memitem:a4724b8cbbacac9e7a53624ff4466e148" id="r_a4724b8cbbacac9e7a53624ff4466e148"><td class="memItemLeft" align="right" valign="top"><a id="a4724b8cbbacac9e7a53624ff4466e148" name="a4724b8cbbacac9e7a53624ff4466e148"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>UseOldText</b> = false</td></tr>
 <tr class="separator:a4724b8cbbacac9e7a53624ff4466e148"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ed0ceb948edc7a4dc9df2f25ebe4291" id="r_a0ed0ceb948edc7a4dc9df2f25ebe4291"><td class="memItemLeft" align="right" valign="top"><a id="a0ed0ceb948edc7a4dc9df2f25ebe4291" name="a0ed0ceb948edc7a4dc9df2f25ebe4291"></a>
-Material&#160;</td><td class="memItemRight" valign="bottom"><b>opaqueMat</b></td></tr>
-<tr class="separator:a0ed0ceb948edc7a4dc9df2f25ebe4291"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c67d6e4987bb4f9bd437cccc4107c6d" id="r_a5c67d6e4987bb4f9bd437cccc4107c6d"><td class="memItemLeft" align="right" valign="top"><a id="a5c67d6e4987bb4f9bd437cccc4107c6d" name="a5c67d6e4987bb4f9bd437cccc4107c6d"></a>
-MaterialPropertyBlock&#160;</td><td class="memItemRight" valign="bottom"><b>block</b></td></tr>
-<tr class="separator:a5c67d6e4987bb4f9bd437cccc4107c6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a00e45a67c9923b87208aea84f68aad" id="r_a3a00e45a67c9923b87208aea84f68aad"><td class="memItemLeft" align="right" valign="top"><a id="a3a00e45a67c9923b87208aea84f68aad" name="a3a00e45a67c9923b87208aea84f68aad"></a>
+Material&#160;</td><td class="memItemRight" valign="bottom"><b>Material_Default</b></td></tr>
+<tr class="separator:a3a00e45a67c9923b87208aea84f68aad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec7829f37486bdb74badf1e80acc3dd9" id="r_aec7829f37486bdb74badf1e80acc3dd9"><td class="memItemLeft" align="right" valign="top"><a id="aec7829f37486bdb74badf1e80acc3dd9" name="aec7829f37486bdb74badf1e80acc3dd9"></a>
+Material&#160;</td><td class="memItemRight" valign="bottom"><b>Material_Gradient</b></td></tr>
+<tr class="separator:aec7829f37486bdb74badf1e80acc3dd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5987d610a8853ed78a74a85d07e7679" id="r_aa5987d610a8853ed78a74a85d07e7679"><td class="memItemLeft" align="right" valign="top"><a id="aa5987d610a8853ed78a74a85d07e7679" name="aa5987d610a8853ed78a74a85d07e7679"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>colorID</b></td></tr>
 <tr class="separator:aa5987d610a8853ed78a74a85d07e7679"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -238,12 +241,9 @@ List&lt; <a class="el" href="../../d5/d2e/class_object_helpers_1_1_game_object_r
 <tr class="memitem:ab65abf2cc4a65a30c54f25a0a67daec2" id="r_ab65abf2cc4a65a30c54f25a0a67daec2"><td class="memItemLeft" align="right" valign="top"><a id="ab65abf2cc4a65a30c54f25a0a67daec2" name="ab65abf2cc4a65a30c54f25a0a67daec2"></a>
 List&lt; Transform &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>SpawnedParentChains</b> = new List&lt;Transform&gt;()</td></tr>
 <tr class="separator:ab65abf2cc4a65a30c54f25a0a67daec2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a568d4704204117289816e985c9bcecf1" id="r_a568d4704204117289816e985c9bcecf1"><td class="memItemLeft" align="right" valign="top"><a id="a568d4704204117289816e985c9bcecf1" name="a568d4704204117289816e985c9bcecf1"></a>
-GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>objectParent</b></td></tr>
-<tr class="separator:a568d4704204117289816e985c9bcecf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1309907f2712226ed7f1fbe5e14ff348" id="r_a1309907f2712226ed7f1fbe5e14ff348"><td class="memItemLeft" align="right" valign="top"><a id="a1309907f2712226ed7f1fbe5e14ff348" name="a1309907f2712226ed7f1fbe5e14ff348"></a>
-Transform&#160;</td><td class="memItemRight" valign="bottom"><b>objectParentCamera</b></td></tr>
-<tr class="separator:a1309907f2712226ed7f1fbe5e14ff348"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a40a02b4c71dcd9f4b87b1900d4d8e2" id="r_a4a40a02b4c71dcd9f4b87b1900d4d8e2"><td class="memItemLeft" align="right" valign="top"><a id="a4a40a02b4c71dcd9f4b87b1900d4d8e2" name="a4a40a02b4c71dcd9f4b87b1900d4d8e2"></a>
+GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>StandardObjectRoot</b></td></tr>
+<tr class="separator:a4a40a02b4c71dcd9f4b87b1900d4d8e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a618ab8fb856e6f14f5db7ed9d6b33c13" id="r_a618ab8fb856e6f14f5db7ed9d6b33c13"><td class="memItemLeft" align="right" valign="top"><a id="a618ab8fb856e6f14f5db7ed9d6b33c13" name="a618ab8fb856e6f14f5db7ed9d6b33c13"></a>
 List&lt; <a class="el" href="../../d3/d45/class_object_helpers_1_1_object_prefab_holder.html">ObjectHelpers.ObjectPrefabHolder</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>objectPrefabs</b> = new List&lt;<a class="el" href="../../d3/d45/class_object_helpers_1_1_object_prefab_holder.html">ObjectHelpers.ObjectPrefabHolder</a>&gt;()</td></tr>
 <tr class="separator:a618ab8fb856e6f14f5db7ed9d6b33c13"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -308,9 +308,12 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a8b008003348e454ef9b08164b375be2f" id="r_a8b008003348e454ef9b08164b375be2f"><td class="memItemLeft" align="right" valign="top"><a id="a8b008003348e454ef9b08164b375be2f" name="a8b008003348e454ef9b08164b375be2f"></a>
 Random.State&#160;</td><td class="memItemRight" valign="bottom"><b>oldState</b></td></tr>
 <tr class="separator:a8b008003348e454ef9b08164b375be2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af9d97221e31b60b6f4fc11e961b84ad0" id="r_af9d97221e31b60b6f4fc11e961b84ad0"><td class="memItemLeft" align="right" valign="top"><a id="af9d97221e31b60b6f4fc11e961b84ad0" name="af9d97221e31b60b6f4fc11e961b84ad0"></a>
-StringBuilder&#160;</td><td class="memItemRight" valign="bottom"><b>sb</b> = new StringBuilder()</td></tr>
-<tr class="separator:af9d97221e31b60b6f4fc11e961b84ad0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28987c94bf0848038d0b3201d65bc324" id="r_a28987c94bf0848038d0b3201d65bc324"><td class="memItemLeft" align="right" valign="top"><a id="a28987c94bf0848038d0b3201d65bc324" name="a28987c94bf0848038d0b3201d65bc324"></a>
+LocalKeyword&#160;</td><td class="memItemRight" valign="bottom"><b>localKeyRadial</b></td></tr>
+<tr class="separator:a28987c94bf0848038d0b3201d65bc324"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a516059f8ff6f41dab5e9c98a26b77973" id="r_a516059f8ff6f41dab5e9c98a26b77973"><td class="memItemLeft" align="right" valign="top"><a id="a516059f8ff6f41dab5e9c98a26b77973" name="a516059f8ff6f41dab5e9c98a26b77973"></a>
+LocalKeyword&#160;</td><td class="memItemRight" valign="bottom"><b>localKeyLinear</b></td></tr>
+<tr class="separator:a516059f8ff6f41dab5e9c98a26b77973"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class manages the game objects in the beatmap. </p>
