@@ -4,7 +4,8 @@ var searchData=
   ['beatmapdata_1',['BeatmapData',['../db/dc5/class_data_manager_1_1_game_data_1_1_beatmap_data.html',1,'DataManager::GameData']]],
   ['beatmapobject_2',['BeatmapObject',['../db/d9a/class_data_manager_1_1_game_data_1_1_beatmap_object.html',1,'DataManager::GameData']]],
   ['beatmaptheme_3',['BeatmapTheme',['../d7/d65/class_data_manager_1_1_beatmap_theme.html',1,'DataManager']]],
-  ['bpm_4',['BPM',['../dd/db2/class_data_manager_1_1_game_data_1_1_beatmap_data_1_1_editor_settings_1_1_b_p_m.html',1,'DataManager::GameData::BeatmapData::EditorSettings']]],
-  ['buttondataholder_5',['ButtonDataHolder',['../d3/d1d/class_button_data_holder.html',1,'']]],
-  ['buttoninfo_6',['ButtonInfo',['../d0/dc8/class_button_info.html',1,'']]]
+  ['bootstrapper_4',['Bootstrapper',['../d5/d90/class_bootstrapper.html',1,'']]],
+  ['bpm_5',['BPM',['../dd/db2/class_data_manager_1_1_game_data_1_1_beatmap_data_1_1_editor_settings_1_1_b_p_m.html',1,'DataManager::GameData::BeatmapData::EditorSettings']]],
+  ['buttondataholder_6',['ButtonDataHolder',['../d3/d1d/class_button_data_holder.html',1,'']]],
+  ['buttoninfo_7',['ButtonInfo',['../d0/dc8/class_button_info.html',1,'']]]
 ];

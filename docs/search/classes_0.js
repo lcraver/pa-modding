@@ -8,8 +8,12 @@ var searchData=
   ['arcademanager_5',['ArcadeManager',['../dd/d7d/class_arcade_manager.html',1,'']]],
   ['artist_6',['Artist',['../d3/d0d/class_artist.html',1,'Artist'],['../d6/dd2/class_data_manager_1_1_meta_data_1_1_artist.html',1,'DataManager.MetaData.Artist'],['../dd/d7c/class_data_manager_1_1_metadata_legacy_1_1_artist.html',1,'DataManager.MetadataLegacy.Artist']]],
   ['ascii_7',['ASCII',['../da/d70/class_v_g_functions_1_1_l_s_text_1_1_a_s_c_i_i.html',1,'VGFunctions::LSText']]],
-  ['audiodata_8',['AudioData',['../da/d35/class_save_manager_1_1_settings_1_1_audio_data.html',1,'SaveManager::Settings']]],
-  ['audiogroup_9',['AudioGroup',['../d7/d6b/class_sound_library_1_1_audio_group.html',1,'SoundLibrary']]],
-  ['audiomanager_10',['AudioManager',['../d7/d31/class_audio_manager.html',1,'']]],
-  ['autosave_11',['AutoSave',['../d6/dd6/class_data_manager_1_1_game_data_1_1_beatmap_data_1_1_editor_settings_1_1_auto_save.html',1,'DataManager::GameData::BeatmapData::EditorSettings']]]
+  ['assigncamera_8',['AssignCamera',['../d7/d0a/class_assign_camera.html',1,'']]],
+  ['assignsfxsources_9',['AssignSFXSources',['../dd/d19/class_assign_s_f_x_sources.html',1,'']]],
+  ['asyncoperationgroup_10',['AsyncOperationGroup',['../d8/da5/struct_systems_1_1_scene_management_1_1_async_operation_group.html',1,'Systems::SceneManagement']]],
+  ['asyncoperationhandlegroup_11',['AsyncOperationHandleGroup',['../d3/d84/struct_systems_1_1_scene_management_1_1_async_operation_handle_group.html',1,'Systems::SceneManagement']]],
+  ['audiodata_12',['AudioData',['../da/d35/class_save_manager_1_1_settings_1_1_audio_data.html',1,'SaveManager::Settings']]],
+  ['audiogroup_13',['AudioGroup',['../d7/d6b/class_sound_library_1_1_audio_group.html',1,'SoundLibrary']]],
+  ['audiomanager_14',['AudioManager',['../d7/d31/class_audio_manager.html',1,'']]],
+  ['autosave_15',['AutoSave',['../d6/dd6/class_data_manager_1_1_game_data_1_1_beatmap_data_1_1_editor_settings_1_1_auto_save.html',1,'DataManager::GameData::BeatmapData::EditorSettings']]]
 ];

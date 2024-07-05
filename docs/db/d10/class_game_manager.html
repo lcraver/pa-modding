@@ -100,291 +100,792 @@ $(function(){initNavTree('db/d10/class_game_manager.html','../../'); initResizab
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#properties">Properties</a> &#124;
+<a href="#events">Events</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="../../d2/d10/class_game_manager-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">GameManager Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>This class manages the main gameplay loop.  
+ <a href="#details">More...</a></p>
 <div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Inheritance diagram for GameManager:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
  <div class="center">
-  <img src="../../db/d10/class_game_manager.png" alt=""/>
- </div></div>
+  <img src="../../db/d10/class_game_manager.png" usemap="#GameManager_map" alt=""/>
+  <map id="GameManager_map" name="GameManager_map">
+<area href="../../db/da7/class_singleton_base.html" alt="SingletonBase&lt; GameManager &gt;" shape="rect" coords="0,0,199,24"/>
+  </map>
+</div></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d7d/class_game_manager_1_1_loading_state.html">LoadingState</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a021af77802fa73e58439036d51c0e363" id="r_a021af77802fa73e58439036d51c0e363"><td class="memItemLeft" align="right" valign="top"><a id="a021af77802fa73e58439036d51c0e363" name="a021af77802fa73e58439036d51c0e363"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>State</b> { <br />
-&#160;&#160;<b>Loading</b>
-, <b>Parsing</b>
+<tr class="memitem:a809dec58b5681fc1ebcc22eb428a914c" id="r_a809dec58b5681fc1ebcc22eb428a914c"><td class="memItemLeft" align="right" valign="top"><a id="a809dec58b5681fc1ebcc22eb428a914c" name="a809dec58b5681fc1ebcc22eb428a914c"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>GameState</b> { <b>Loading</b>
 , <b>Playing</b>
 , <b>Reversing</b>
-, <br />
-&#160;&#160;<b>Paused</b>
-, <b>Finish</b>
-<br />
+, <b>Paused</b>
  }</td></tr>
-<tr class="separator:a021af77802fa73e58439036d51c0e363"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a809dec58b5681fc1ebcc22eb428a914c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ab33bcb893d6fd685541ecd9af35f5ec3" id="r_ab33bcb893d6fd685541ecd9af35f5ec3"><td class="memItemLeft" align="right" valign="top"><a id="ab33bcb893d6fd685541ecd9af35f5ec3" name="ab33bcb893d6fd685541ecd9af35f5ec3"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>getPitch</b> ()</td></tr>
-<tr class="separator:ab33bcb893d6fd685541ecd9af35f5ec3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7472067c8ce098945c180dd081c31459" id="r_a7472067c8ce098945c180dd081c31459"><td class="memItemLeft" align="right" valign="top"><a id="a7472067c8ce098945c180dd081c31459" name="a7472067c8ce098945c180dd081c31459"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>PlayerDisconnected</b> (<a class="el" href="../../d9/d07/class_input_data_manager_1_1_custom_player.html">InputDataManager.CustomPlayer</a> _player)</td></tr>
-<tr class="separator:a7472067c8ce098945c180dd081c31459"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad266389b06c359f4a07c76fcce2e7c0e" id="r_ad266389b06c359f4a07c76fcce2e7c0e"><td class="memItemLeft" align="right" valign="top"><a id="ad266389b06c359f4a07c76fcce2e7c0e" name="ad266389b06c359f4a07c76fcce2e7c0e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>PlayerReconnected</b> (<a class="el" href="../../d9/d07/class_input_data_manager_1_1_custom_player.html">InputDataManager.CustomPlayer</a> _player)</td></tr>
-<tr class="separator:ad266389b06c359f4a07c76fcce2e7c0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aecdcf57a720163dda4f9021af04a40b4" id="r_aecdcf57a720163dda4f9021af04a40b4"><td class="memItemLeft" align="right" valign="top"><a id="aecdcf57a720163dda4f9021af04a40b4" name="aecdcf57a720163dda4f9021af04a40b4"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>EndOfLevel</b> ()</td></tr>
-<tr class="separator:aecdcf57a720163dda4f9021af04a40b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0b83f5c154a868855fd7ada592a1339" id="r_ac0b83f5c154a868855fd7ada592a1339"><td class="memItemLeft" align="right" valign="top"><a id="ac0b83f5c154a868855fd7ada592a1339" name="ac0b83f5c154a868855fd7ada592a1339"></a>
-async void&#160;</td><td class="memItemRight" valign="bottom"><b>AddToLeaderboard</b> (ulong _levelID, int _newHitCount)</td></tr>
-<tr class="separator:ac0b83f5c154a868855fd7ada592a1339"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32ae4f71937323905dc222caaa53a9f8" id="r_a32ae4f71937323905dc222caaa53a9f8"><td class="memItemLeft" align="right" valign="top"><a id="a32ae4f71937323905dc222caaa53a9f8" name="a32ae4f71937323905dc222caaa53a9f8"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Pause</b> (bool _showGUI=true)</td></tr>
-<tr class="separator:a32ae4f71937323905dc222caaa53a9f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4fe2304add7051cfdd7ee51654ac700" id="r_ad4fe2304add7051cfdd7ee51654ac700"><td class="memItemLeft" align="right" valign="top"><a id="ad4fe2304add7051cfdd7ee51654ac700" name="ad4fe2304add7051cfdd7ee51654ac700"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>UnPause</b> ()</td></tr>
-<tr class="separator:ad4fe2304add7051cfdd7ee51654ac700"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4416685ad53f398e4804347b03620d6e" id="r_a4416685ad53f398e4804347b03620d6e"><td class="memItemLeft" align="right" valign="top"><a id="a4416685ad53f398e4804347b03620d6e" name="a4416685ad53f398e4804347b03620d6e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateTheme</b> (bool _force=false)</td></tr>
-<tr class="separator:a4416685ad53f398e4804347b03620d6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a992abe10e19bc11a6466c94cf76a756f" id="r_a992abe10e19bc11a6466c94cf76a756f"><td class="memItemLeft" align="right" valign="top"><a id="a992abe10e19bc11a6466c94cf76a756f" name="a992abe10e19bc11a6466c94cf76a756f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateTimeline</b> ()</td></tr>
-<tr class="separator:a992abe10e19bc11a6466c94cf76a756f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4cc3477c205a57c1a49f894b43b6eff1" id="r_a4cc3477c205a57c1a49f894b43b6eff1"><td class="memItemLeft" align="right" valign="top"><a id="a4cc3477c205a57c1a49f894b43b6eff1" name="a4cc3477c205a57c1a49f894b43b6eff1"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateTimeline</b> (float _songLength)</td></tr>
-<tr class="separator:a4cc3477c205a57c1a49f894b43b6eff1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92d707fe3b85c7833b7e456920342895" id="r_a92d707fe3b85c7833b7e456920342895"><td class="memItemLeft" align="right" valign="top"><a id="a92d707fe3b85c7833b7e456920342895" name="a92d707fe3b85c7833b7e456920342895"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>ResetCheckpoints</b> (bool baseOnTime=false)</td></tr>
+<tr class="memitem:a2056cd58feadfef6b6f6a5cdc3a088cb" id="r_a2056cd58feadfef6b6f6a5cdc3a088cb"><td class="memItemLeft" align="right" valign="top"><a id="a2056cd58feadfef6b6f6a5cdc3a088cb" name="a2056cd58feadfef6b6f6a5cdc3a088cb"></a>
+delegate void&#160;</td><td class="memItemRight" valign="bottom"><b>RestartDelegate</b> ()</td></tr>
+<tr class="separator:a2056cd58feadfef6b6f6a5cdc3a088cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7613baccc1964b9d929bb0cfdede737" id="r_ac7613baccc1964b9d929bb0cfdede737"><td class="memItemLeft" align="right" valign="top"><a id="ac7613baccc1964b9d929bb0cfdede737" name="ac7613baccc1964b9d929bb0cfdede737"></a>
+delegate void&#160;</td><td class="memItemRight" valign="bottom"><b>RewindDelegate</b> ()</td></tr>
+<tr class="separator:ac7613baccc1964b9d929bb0cfdede737"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1b6c9a3065cc2ca374d26a760ab6c76" id="r_ae1b6c9a3065cc2ca374d26a760ab6c76"><td class="memItemLeft" align="right" valign="top"><a id="ae1b6c9a3065cc2ca374d26a760ab6c76" name="ae1b6c9a3065cc2ca374d26a760ab6c76"></a>
+delegate void&#160;</td><td class="memItemRight" valign="bottom"><b>FinishDelegate</b> ()</td></tr>
+<tr class="separator:ae1b6c9a3065cc2ca374d26a760ab6c76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a463901f776fa6ac1b49aa474738bc0d5" id="r_a463901f776fa6ac1b49aa474738bc0d5"><td class="memItemLeft" align="right" valign="top"><a id="a463901f776fa6ac1b49aa474738bc0d5" name="a463901f776fa6ac1b49aa474738bc0d5"></a>
+delegate void&#160;</td><td class="memItemRight" valign="bottom"><b>StartDelegate</b> ()</td></tr>
+<tr class="separator:a463901f776fa6ac1b49aa474738bc0d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99ac4adc5202f584e044d9ed6e07e1fa" id="r_a99ac4adc5202f584e044d9ed6e07e1fa"><td class="memItemLeft" align="right" valign="top"><a id="a99ac4adc5202f584e044d9ed6e07e1fa" name="a99ac4adc5202f584e044d9ed6e07e1fa"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>InvokeLevelRewindEvent</b> ()</td></tr>
+<tr class="separator:a99ac4adc5202f584e044d9ed6e07e1fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbbbb5be936b1c03c809887dc30ffb2f" id="r_abbbbb5be936b1c03c809887dc30ffb2f"><td class="memItemLeft" align="right" valign="top"><a id="abbbbb5be936b1c03c809887dc30ffb2f" name="abbbbb5be936b1c03c809887dc30ffb2f"></a>
+<a class="el" href="../../d2/db5/class_v_g_level.html">VGLevel</a>&#160;</td><td class="memItemRight" valign="bottom"><b>FetchLevel</b> ()</td></tr>
+<tr class="separator:abbbbb5be936b1c03c809887dc30ffb2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70f2375bb0ee237a414224aad7b3a5b9" id="r_a70f2375bb0ee237a414224aad7b3a5b9"><td class="memItemLeft" align="right" valign="top">IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70f2375bb0ee237a414224aad7b3a5b9">LoadGame</a> (<a class="el" href="../../d2/db5/class_v_g_level.html">VGLevel</a> _level)</td></tr>
+<tr class="memdesc:a70f2375bb0ee237a414224aad7b3a5b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">This coroutine is responsible for loading a game level. It takes a <a class="el" href="../../d2/db5/class_v_g_level.html">VGLevel</a> object representing the level to be loaded. The function performs several operations such as loading metadata, audio, data, backgrounds, objects, and tweens related to the level. After all the loading operations are done, it starts the game.  <br /></td></tr>
+<tr class="separator:a70f2375bb0ee237a414224aad7b3a5b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92d707fe3b85c7833b7e456920342895" id="r_a92d707fe3b85c7833b7e456920342895"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92d707fe3b85c7833b7e456920342895">ResetCheckpoints</a> (bool baseOnTime=false)</td></tr>
+<tr class="memdesc:a92d707fe3b85c7833b7e456920342895"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function resets the checkpoints for the current level.  <br /></td></tr>
 <tr class="separator:a92d707fe3b85c7833b7e456920342895"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aabc406f2bec0664d19692bd34bb29987" id="r_aabc406f2bec0664d19692bd34bb29987"><td class="memItemLeft" align="right" valign="top"><a id="aabc406f2bec0664d19692bd34bb29987" name="aabc406f2bec0664d19692bd34bb29987"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>QuitToArcade</b> ()</td></tr>
-<tr class="separator:aabc406f2bec0664d19692bd34bb29987"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a834bfef6cf9f9ca537209009d0962bf2" id="r_a834bfef6cf9f9ca537209009d0962bf2"><td class="memItemLeft" align="right" valign="top"><a id="a834bfef6cf9f9ca537209009d0962bf2" name="a834bfef6cf9f9ca537209009d0962bf2"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>ExitLevel</b> ()</td></tr>
-<tr class="separator:a834bfef6cf9f9ca537209009d0962bf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac42efb6df13ac04d4b3569f2f18cc1fe" id="r_ac42efb6df13ac04d4b3569f2f18cc1fe"><td class="memItemLeft" align="right" valign="top"><a id="ac42efb6df13ac04d4b3569f2f18cc1fe" name="ac42efb6df13ac04d4b3569f2f18cc1fe"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SpawnPlayers</b> (Vector3 _pos)</td></tr>
+<tr class="memitem:a64a3e0eee2f14ae4981df46cc8c0786f" id="r_a64a3e0eee2f14ae4981df46cc8c0786f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64a3e0eee2f14ae4981df46cc8c0786f">InitCheckpoints</a> (float _songLength)</td></tr>
+<tr class="memdesc:a64a3e0eee2f14ae4981df46cc8c0786f"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function initializes the checkpoints for the current level.  <br /></td></tr>
+<tr class="separator:a64a3e0eee2f14ae4981df46cc8c0786f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c487128c6f9c8cc36880b7a8a811cc9" id="r_a4c487128c6f9c8cc36880b7a8a811cc9"><td class="memItemLeft" align="right" valign="top"><a id="a4c487128c6f9c8cc36880b7a8a811cc9" name="a4c487128c6f9c8cc36880b7a8a811cc9"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetUIVolumeWeightMin</b> (float _time=0.25f)</td></tr>
+<tr class="separator:a4c487128c6f9c8cc36880b7a8a811cc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ac0101a8b160b78ce8ce123590d0246" id="r_a7ac0101a8b160b78ce8ce123590d0246"><td class="memItemLeft" align="right" valign="top"><a id="a7ac0101a8b160b78ce8ce123590d0246" name="a7ac0101a8b160b78ce8ce123590d0246"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetUIVolumeWeight</b> (float _weight, float _time=0.25f)</td></tr>
+<tr class="separator:a7ac0101a8b160b78ce8ce123590d0246"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3899bb8d79484a05dbab9cfa89bf82d" id="r_ad3899bb8d79484a05dbab9cfa89bf82d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3899bb8d79484a05dbab9cfa89bf82d">SyncAllObjects</a> ()</td></tr>
+<tr class="memdesc:ad3899bb8d79484a05dbab9cfa89bf82d"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function synchronizes all game objects with the current song time.  <br /></td></tr>
+<tr class="separator:ad3899bb8d79484a05dbab9cfa89bf82d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac42efb6df13ac04d4b3569f2f18cc1fe" id="r_ac42efb6df13ac04d4b3569f2f18cc1fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac42efb6df13ac04d4b3569f2f18cc1fe">SpawnPlayers</a> (Vector3 _pos)</td></tr>
+<tr class="memdesc:ac42efb6df13ac04d4b3569f2f18cc1fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is responsible for spawning player objects in the game.  <br /></td></tr>
 <tr class="separator:ac42efb6df13ac04d4b3569f2f18cc1fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e1767eef0fdd89ba9bd2d138fba1d52" id="r_a5e1767eef0fdd89ba9bd2d138fba1d52"><td class="memItemLeft" align="right" valign="top"><a id="a5e1767eef0fdd89ba9bd2d138fba1d52" name="a5e1767eef0fdd89ba9bd2d138fba1d52"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateEventSequenceTime</b> ()</td></tr>
-<tr class="separator:a5e1767eef0fdd89ba9bd2d138fba1d52"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1947d5975318ea6b912913d800be05b2" id="r_a1947d5975318ea6b912913d800be05b2"><td class="memItemLeft" align="right" valign="top"><a id="a1947d5975318ea6b912913d800be05b2" name="a1947d5975318ea6b912913d800be05b2"></a>
-IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><b>PlayCheckpointAnimation</b> (int _index=0)</td></tr>
-<tr class="separator:a1947d5975318ea6b912913d800be05b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae64adf968dd46de7eecc234d2697b37a" id="r_ae64adf968dd46de7eecc234d2697b37a"><td class="memItemLeft" align="right" valign="top"><a id="ae64adf968dd46de7eecc234d2697b37a" name="ae64adf968dd46de7eecc234d2697b37a"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>GetPlayerHealthPoints</b> ()</td></tr>
+<tr class="separator:ae64adf968dd46de7eecc234d2697b37a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c97a55620e6c70b090ac0fd9734fbba" id="r_a3c97a55620e6c70b090ac0fd9734fbba"><td class="memItemLeft" align="right" valign="top"><a id="a3c97a55620e6c70b090ac0fd9734fbba" name="a3c97a55620e6c70b090ac0fd9734fbba"></a>
+Action&lt; int, Vector3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetPlayerHitAction</b> ()</td></tr>
+<tr class="separator:a3c97a55620e6c70b090ac0fd9734fbba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae434b1fe39882b1271fbdb318605292e" id="r_ae434b1fe39882b1271fbdb318605292e"><td class="memItemLeft" align="right" valign="top"><a id="ae434b1fe39882b1271fbdb318605292e" name="ae434b1fe39882b1271fbdb318605292e"></a>
+Action&lt; Vector3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetCloseCallAction</b> ()</td></tr>
+<tr class="separator:ae434b1fe39882b1271fbdb318605292e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee1dafef489451516b72d0fae73264a8" id="r_aee1dafef489451516b72d0fae73264a8"><td class="memItemLeft" align="right" valign="top"><a id="aee1dafef489451516b72d0fae73264a8" name="aee1dafef489451516b72d0fae73264a8"></a>
+Action&lt; Vector3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetPlayerDeathAction</b> ()</td></tr>
+<tr class="separator:aee1dafef489451516b72d0fae73264a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba6281b5975b66aae9da901454d4e641" id="r_aba6281b5975b66aae9da901454d4e641"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba6281b5975b66aae9da901454d4e641">RewindToCheckpoint</a> (int _indexForce=-1, bool _instant=false)</td></tr>
+<tr class="memdesc:aba6281b5975b66aae9da901454d4e641"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is responsible for rewinding the game to a specific checkpoint.  <br /></td></tr>
+<tr class="separator:aba6281b5975b66aae9da901454d4e641"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fbfa3a33a0c8d4a0eda98d16bc33a58" id="r_a6fbfa3a33a0c8d4a0eda98d16bc33a58"><td class="memItemLeft" align="right" valign="top"><a id="a6fbfa3a33a0c8d4a0eda98d16bc33a58" name="a6fbfa3a33a0c8d4a0eda98d16bc33a58"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>CallRestartLevel</b> ()</td></tr>
+<tr class="separator:a6fbfa3a33a0c8d4a0eda98d16bc33a58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6bbe3b221ecb9a1c0fb694ee1e977c1" id="r_ac6bbe3b221ecb9a1c0fb694ee1e977c1"><td class="memItemLeft" align="right" valign="top"><a id="ac6bbe3b221ecb9a1c0fb694ee1e977c1" name="ac6bbe3b221ecb9a1c0fb694ee1e977c1"></a>
+IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><b>ReverseToCheckpointLoop</b> (int _indexForce=-1, bool _instant=false)</td></tr>
+<tr class="memdesc:ac6bbe3b221ecb9a1c0fb694ee1e977c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use to reverse the song's time back to last checkpoint. <br /></td></tr>
+<tr class="separator:ac6bbe3b221ecb9a1c0fb694ee1e977c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a229ffe612b7dcb04b8d15fb26d240380" id="r_a229ffe612b7dcb04b8d15fb26d240380"><td class="memItemLeft" align="right" valign="top"><a id="a229ffe612b7dcb04b8d15fb26d240380" name="a229ffe612b7dcb04b8d15fb26d240380"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>DoReverse</b> (float _attack, float _hold, float _release)</td></tr>
 <tr class="separator:a229ffe612b7dcb04b8d15fb26d240380"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec221b1ba09a5d0007be8bc6286f8867" id="r_aec221b1ba09a5d0007be8bc6286f8867"><td class="memItemLeft" align="right" valign="top"><a id="aec221b1ba09a5d0007be8bc6286f8867" name="aec221b1ba09a5d0007be8bc6286f8867"></a>
 <a class="el" href="../../d7/db5/class_data_manager_1_1_game_data_1_1_beatmap_data_1_1_checkpoint.html">DataManager.GameData.BeatmapData.Checkpoint</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GetClosestIndex</b> (List&lt; <a class="el" href="../../d7/db5/class_data_manager_1_1_game_data_1_1_beatmap_data_1_1_checkpoint.html">DataManager.GameData.BeatmapData.Checkpoint</a> &gt; _checkpoints, float _value)</td></tr>
 <tr class="separator:aec221b1ba09a5d0007be8bc6286f8867"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a4981d6d3a4dd64997e88f5dbfabc5c85" id="r_a4981d6d3a4dd64997e88f5dbfabc5c85"><td class="memItemLeft" align="right" valign="top"><a id="a4981d6d3a4dd64997e88f5dbfabc5c85" name="a4981d6d3a4dd64997e88f5dbfabc5c85"></a>
-List&lt; <a class="el" href="../../d4/d7d/class_v_g_player.html">VGPlayer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>players</b> = new List&lt;<a class="el" href="../../d4/d7d/class_v_g_player.html">VGPlayer</a>&gt;()</td></tr>
-<tr class="separator:a4981d6d3a4dd64997e88f5dbfabc5c85"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3882f1b8e29914e4d9740515f383c724" id="r_a3882f1b8e29914e4d9740515f383c724"><td class="memItemLeft" align="right" valign="top"><a id="a3882f1b8e29914e4d9740515f383c724" name="a3882f1b8e29914e4d9740515f383c724"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>debug</b></td></tr>
-<tr class="separator:a3882f1b8e29914e4d9740515f383c724"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80028a82f3de8b20f5359bd39fffec78" id="r_a80028a82f3de8b20f5359bd39fffec78"><td class="memItemLeft" align="right" valign="top"><a id="a80028a82f3de8b20f5359bd39fffec78" name="a80028a82f3de8b20f5359bd39fffec78"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>totalPlayTime</b></td></tr>
-<tr class="separator:a80028a82f3de8b20f5359bd39fffec78"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a918f6dbb5c5001432cec83e1cd15544f" id="r_a918f6dbb5c5001432cec83e1cd15544f"><td class="memItemLeft" align="right" valign="top"><a id="a918f6dbb5c5001432cec83e1cd15544f" name="a918f6dbb5c5001432cec83e1cd15544f"></a>
-<a class="el" href="../../d2/db5/class_v_g_level.html">VGLevel</a>&#160;</td><td class="memItemRight" valign="bottom"><b>defaultLevel</b></td></tr>
-<tr class="separator:a918f6dbb5c5001432cec83e1cd15544f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0eda2195a268d594f1a22463484f1bb" id="r_ae0eda2195a268d594f1a22463484f1bb"><td class="memItemLeft" align="right" valign="top"><a id="ae0eda2195a268d594f1a22463484f1bb" name="ae0eda2195a268d594f1a22463484f1bb"></a>
-Transform&#160;</td><td class="memItemRight" valign="bottom"><b>playersParent</b></td></tr>
-<tr class="separator:ae0eda2195a268d594f1a22463484f1bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09203e276dc542f2ac266851ed59c815" id="r_a09203e276dc542f2ac266851ed59c815"><td class="memItemLeft" align="right" valign="top"><a id="a09203e276dc542f2ac266851ed59c815" name="a09203e276dc542f2ac266851ed59c815"></a>
-GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>playerGUI</b></td></tr>
-<tr class="separator:a09203e276dc542f2ac266851ed59c815"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ae47dc2ef03da6ddba17bd49ca9540f" id="r_a3ae47dc2ef03da6ddba17bd49ca9540f"><td class="memItemLeft" align="right" valign="top"><a id="a3ae47dc2ef03da6ddba17bd49ca9540f" name="a3ae47dc2ef03da6ddba17bd49ca9540f"></a>
-GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>menuUI</b></td></tr>
-<tr class="separator:a3ae47dc2ef03da6ddba17bd49ca9540f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7340a5caf1201e666cc77ced3b81363" id="r_ac7340a5caf1201e666cc77ced3b81363"><td class="memItemLeft" align="right" valign="top"><a id="ac7340a5caf1201e666cc77ced3b81363" name="ac7340a5caf1201e666cc77ced3b81363"></a>
-GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>menuUIActive</b></td></tr>
-<tr class="separator:ac7340a5caf1201e666cc77ced3b81363"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58d60976a639f11dc7124cbd9e8ab968" id="r_a58d60976a639f11dc7124cbd9e8ab968"><td class="memItemLeft" align="right" valign="top"><a id="a58d60976a639f11dc7124cbd9e8ab968" name="a58d60976a639f11dc7124cbd9e8ab968"></a>
-GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>timeline</b></td></tr>
-<tr class="separator:a58d60976a639f11dc7124cbd9e8ab968"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6fc0cdf64a1bcd4f45f101537382b88a" id="r_a6fc0cdf64a1bcd4f45f101537382b88a"><td class="memItemLeft" align="right" valign="top"><a id="a6fc0cdf64a1bcd4f45f101537382b88a" name="a6fc0cdf64a1bcd4f45f101537382b88a"></a>
-Camera&#160;</td><td class="memItemRight" valign="bottom"><b>Camera</b></td></tr>
-<tr class="separator:a6fc0cdf64a1bcd4f45f101537382b88a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5aac08cf032a6a258a8fddee04826e5c" id="r_a5aac08cf032a6a258a8fddee04826e5c"><td class="memItemLeft" align="right" valign="top"><a id="a5aac08cf032a6a258a8fddee04826e5c" name="a5aac08cf032a6a258a8fddee04826e5c"></a>
-Camera&#160;</td><td class="memItemRight" valign="bottom"><b>ParallaxCamera</b></td></tr>
-<tr class="separator:a5aac08cf032a6a258a8fddee04826e5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8c5899b7116ed773fd4bdfdb74d52e7" id="r_ab8c5899b7116ed773fd4bdfdb74d52e7"><td class="memItemLeft" align="right" valign="top"><a id="ab8c5899b7116ed773fd4bdfdb74d52e7" name="ab8c5899b7116ed773fd4bdfdb74d52e7"></a>
-Animator&#160;</td><td class="memItemRight" valign="bottom"><b>CheckpointAnimator</b></td></tr>
-<tr class="separator:ab8c5899b7116ed773fd4bdfdb74d52e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a070c824e64ba303da6ca11e52f66dbd7" id="r_a070c824e64ba303da6ca11e52f66dbd7"><td class="memItemLeft" align="right" valign="top"><a id="a070c824e64ba303da6ca11e52f66dbd7" name="a070c824e64ba303da6ca11e52f66dbd7"></a>
-Image[]&#160;</td><td class="memItemRight" valign="bottom"><b>guiImages</b></td></tr>
-<tr class="separator:a070c824e64ba303da6ca11e52f66dbd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d1b048216d9e81235905b86f089e02c" id="r_a3d1b048216d9e81235905b86f089e02c"><td class="memItemLeft" align="right" valign="top"><a id="a3d1b048216d9e81235905b86f089e02c" name="a3d1b048216d9e81235905b86f089e02c"></a>
-GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>introMain</b></td></tr>
-<tr class="separator:a3d1b048216d9e81235905b86f089e02c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d6902ccd4192056d059e8b0420f6804" id="r_a7d6902ccd4192056d059e8b0420f6804"><td class="memItemLeft" align="right" valign="top"><a id="a7d6902ccd4192056d059e8b0420f6804" name="a7d6902ccd4192056d059e8b0420f6804"></a>
-Image&#160;</td><td class="memItemRight" valign="bottom"><b>introBG</b></td></tr>
-<tr class="separator:a7d6902ccd4192056d059e8b0420f6804"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af9302a51f443d29d1ce3719014eadb56" id="r_af9302a51f443d29d1ce3719014eadb56"><td class="memItemLeft" align="right" valign="top"><a id="af9302a51f443d29d1ce3719014eadb56" name="af9302a51f443d29d1ce3719014eadb56"></a>
-TextMeshProUGUI&#160;</td><td class="memItemRight" valign="bottom"><b>introTitle</b></td></tr>
-<tr class="separator:af9302a51f443d29d1ce3719014eadb56"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a236a8660e77cdd9db4e16f1750470c0c" id="r_a236a8660e77cdd9db4e16f1750470c0c"><td class="memItemLeft" align="right" valign="top"><a id="a236a8660e77cdd9db4e16f1750470c0c" name="a236a8660e77cdd9db4e16f1750470c0c"></a>
-TextMeshProUGUI&#160;</td><td class="memItemRight" valign="bottom"><b>introArtist</b></td></tr>
-<tr class="separator:a236a8660e77cdd9db4e16f1750470c0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e61ac600917e9efdeac524ee31de1f3" id="r_a8e61ac600917e9efdeac524ee31de1f3"><td class="memItemLeft" align="right" valign="top"><a id="a8e61ac600917e9efdeac524ee31de1f3" name="a8e61ac600917e9efdeac524ee31de1f3"></a>
-Animator&#160;</td><td class="memItemRight" valign="bottom"><b>introAnimator</b></td></tr>
-<tr class="separator:a8e61ac600917e9efdeac524ee31de1f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a22f7e6a2c018892e4a9897cf4d80e6b3" id="r_a22f7e6a2c018892e4a9897cf4d80e6b3"><td class="memItemLeft" align="right" valign="top"><a id="a22f7e6a2c018892e4a9897cf4d80e6b3" name="a22f7e6a2c018892e4a9897cf4d80e6b3"></a>
-GameObject[]&#160;</td><td class="memItemRight" valign="bottom"><b>PlayerPrefabs</b></td></tr>
-<tr class="separator:a22f7e6a2c018892e4a9897cf4d80e6b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6225e90885eed24bea91923fce8886ba" id="r_a6225e90885eed24bea91923fce8886ba"><td class="memItemLeft" align="right" valign="top"><a id="a6225e90885eed24bea91923fce8886ba" name="a6225e90885eed24bea91923fce8886ba"></a>
-GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>checkpointPrefab</b></td></tr>
-<tr class="separator:a6225e90885eed24bea91923fce8886ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b97319ca1937b804d7b3aa2daa52d83" id="r_a3b97319ca1937b804d7b3aa2daa52d83"><td class="memItemLeft" align="right" valign="top"><a id="a3b97319ca1937b804d7b3aa2daa52d83" name="a3b97319ca1937b804d7b3aa2daa52d83"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>lastCheckpointState</b> = -1</td></tr>
-<tr class="separator:a3b97319ca1937b804d7b3aa2daa52d83"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35d2575d4c22324d74b688927809ec3d" id="r_a35d2575d4c22324d74b688927809ec3d"><td class="memItemLeft" align="right" valign="top"><a id="a35d2575d4c22324d74b688927809ec3d" name="a35d2575d4c22324d74b688927809ec3d"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>initialPlayerCount</b> = 1</td></tr>
-<tr class="separator:a35d2575d4c22324d74b688927809ec3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1c6e32ebf8250f0511ecb7aa2d086ac" id="r_aa1c6e32ebf8250f0511ecb7aa2d086ac"><td class="memItemLeft" align="right" valign="top"><a id="aa1c6e32ebf8250f0511ecb7aa2d086ac" name="aa1c6e32ebf8250f0511ecb7aa2d086ac"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>SongLength</b> = 1f</td></tr>
-<tr class="separator:aa1c6e32ebf8250f0511ecb7aa2d086ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abdf0cbd4c117567329b4a756a0223da1" id="r_abdf0cbd4c117567329b4a756a0223da1"><td class="memItemLeft" align="right" valign="top"><a id="abdf0cbd4c117567329b4a756a0223da1" name="abdf0cbd4c117567329b4a756a0223da1"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>AudioTime</b> = 0f</td></tr>
-<tr class="separator:abdf0cbd4c117567329b4a756a0223da1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03efc77325534c515d36b45504f58271" id="r_a03efc77325534c515d36b45504f58271"><td class="memItemLeft" align="right" valign="top"><a id="a03efc77325534c515d36b45504f58271" name="a03efc77325534c515d36b45504f58271"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>prevAudioTime</b> = 0f</td></tr>
-<tr class="separator:a03efc77325534c515d36b45504f58271"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a319d08d9e41dfea11ac999b58b4cb69c" id="r_a319d08d9e41dfea11ac999b58b4cb69c"><td class="memItemLeft" align="right" valign="top"><a id="a319d08d9e41dfea11ac999b58b4cb69c" name="a319d08d9e41dfea11ac999b58b4cb69c"></a>
-string&#160;</td><td class="memItemRight" valign="bottom"><b>currentLevelName</b> = &quot;&quot;</td></tr>
-<tr class="separator:a319d08d9e41dfea11ac999b58b4cb69c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe0cb79a0d6b598685d6146dc7f692a7" id="r_afe0cb79a0d6b598685d6146dc7f692a7"><td class="memItemLeft" align="right" valign="top"><a id="afe0cb79a0d6b598685d6146dc7f692a7" name="afe0cb79a0d6b598685d6146dc7f692a7"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>isReversing</b> = false</td></tr>
-<tr class="separator:afe0cb79a0d6b598685d6146dc7f692a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9826d64755141a2bed1c3b43950471b8" id="r_a9826d64755141a2bed1c3b43950471b8"><td class="memItemLeft" align="right" valign="top"><a id="a9826d64755141a2bed1c3b43950471b8" name="a9826d64755141a2bed1c3b43950471b8"></a>
-State&#160;</td><td class="memItemRight" valign="bottom"><b>gameState</b> = State.Loading</td></tr>
-<tr class="separator:a9826d64755141a2bed1c3b43950471b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a041dd0113129646e10fbbd86b8b40f" id="r_a7a041dd0113129646e10fbbd86b8b40f"><td class="memItemLeft" align="right" valign="top"><a id="a7a041dd0113129646e10fbbd86b8b40f" name="a7a041dd0113129646e10fbbd86b8b40f"></a>
-AudioClip&#160;</td><td class="memItemRight" valign="bottom"><b>currentAudio</b></td></tr>
-<tr class="separator:a7a041dd0113129646e10fbbd86b8b40f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9c509e9cb6f92b3990bfae5cc2210d4" id="r_ac9c509e9cb6f92b3990bfae5cc2210d4"><td class="memItemLeft" align="right" valign="top"><a id="ac9c509e9cb6f92b3990bfae5cc2210d4" name="ac9c509e9cb6f92b3990bfae5cc2210d4"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>playingCheckpointAnimation</b> = false</td></tr>
-<tr class="separator:ac9c509e9cb6f92b3990bfae5cc2210d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8174769cd63e2933598a412a8563ed20" id="r_a8174769cd63e2933598a412a8563ed20"><td class="memItemLeft" align="right" valign="top"><a id="a8174769cd63e2933598a412a8563ed20" name="a8174769cd63e2933598a412a8563ed20"></a>
-<a class="el" href="../../d7/db5/class_data_manager_1_1_game_data_1_1_beatmap_data_1_1_checkpoint.html">DataManager.GameData.BeatmapData.Checkpoint</a>&#160;</td><td class="memItemRight" valign="bottom"><b>UpcomingCheckpoint</b></td></tr>
-<tr class="separator:a8174769cd63e2933598a412a8563ed20"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60895cdfa2689b8a76ab904b4a812f9d" id="r_a60895cdfa2689b8a76ab904b4a812f9d"><td class="memItemLeft" align="right" valign="top"><a id="a60895cdfa2689b8a76ab904b4a812f9d" name="a60895cdfa2689b8a76ab904b4a812f9d"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>UpcomingCheckpointIndex</b></td></tr>
-<tr class="separator:a60895cdfa2689b8a76ab904b4a812f9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad64ba0a760872ac91a4dd02caa19a5bd" id="r_ad64ba0a760872ac91a4dd02caa19a5bd"><td class="memItemLeft" align="right" valign="top"><a id="ad64ba0a760872ac91a4dd02caa19a5bd" name="ad64ba0a760872ac91a4dd02caa19a5bd"></a>
-<a class="el" href="../../d7/d65/class_data_manager_1_1_beatmap_theme.html">DataManager.BeatmapTheme</a>&#160;</td><td class="memItemRight" valign="bottom"><b>LiveTheme</b></td></tr>
-<tr class="separator:ad64ba0a760872ac91a4dd02caa19a5bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae40c8bc3db1d7edc42dcbe0b67d5efbb" id="r_ae40c8bc3db1d7edc42dcbe0b67d5efbb"><td class="memItemLeft" align="right" valign="top"><a id="ae40c8bc3db1d7edc42dcbe0b67d5efbb" name="ae40c8bc3db1d7edc42dcbe0b67d5efbb"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>startedCountdown</b> = false</td></tr>
-<tr class="separator:ae40c8bc3db1d7edc42dcbe0b67d5efbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abfc9f8cc8ed62eaa6b70d418ee841cb7" id="r_abfc9f8cc8ed62eaa6b70d418ee841cb7"><td class="memItemLeft" align="right" valign="top"><a id="abfc9f8cc8ed62eaa6b70d418ee841cb7" name="abfc9f8cc8ed62eaa6b70d418ee841cb7"></a>
-bool[]&#160;</td><td class="memItemRight" valign="bottom"><b>checkpointsActivated</b> = new bool[0]</td></tr>
-<tr class="separator:abfc9f8cc8ed62eaa6b70d418ee841cb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a168c59dbe0a50b3f4eda2c181d17b8" id="r_a0a168c59dbe0a50b3f4eda2c181d17b8"><td class="memItemLeft" align="right" valign="top"><a id="a0a168c59dbe0a50b3f4eda2c181d17b8" name="a0a168c59dbe0a50b3f4eda2c181d17b8"></a>
-<a class="el" href="../../df/dbb/class_data_manager_1_1_meta_data.html">DataManager.MetaData</a>&#160;</td><td class="memItemRight" valign="bottom"><b>currentArcadeLevel</b></td></tr>
-<tr class="separator:a0a168c59dbe0a50b3f4eda2c181d17b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6fc6f9ced74f0083da7a6d1b01a20449" id="r_a6fc6f9ced74f0083da7a6d1b01a20449"><td class="memItemLeft" align="right" valign="top"><a id="a6fc6f9ced74f0083da7a6d1b01a20449" name="a6fc6f9ced74f0083da7a6d1b01a20449"></a>
-string&#160;</td><td class="memItemRight" valign="bottom"><b>levelName</b></td></tr>
-<tr class="separator:a6fc6f9ced74f0083da7a6d1b01a20449"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac81b85f814e1838aebfa1029b9771d4a" id="r_ac81b85f814e1838aebfa1029b9771d4a"><td class="memItemLeft" align="right" valign="top"><a id="ac81b85f814e1838aebfa1029b9771d4a" name="ac81b85f814e1838aebfa1029b9771d4a"></a>
-RectTransform&#160;</td><td class="memItemRight" valign="bottom"><b>songLocationMarker</b></td></tr>
-<tr class="separator:ac81b85f814e1838aebfa1029b9771d4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4346764382a95d4aae9b5c4448de960d" id="r_a4346764382a95d4aae9b5c4448de960d"><td class="memItemLeft" align="right" valign="top"><a id="a4346764382a95d4aae9b5c4448de960d" name="a4346764382a95d4aae9b5c4448de960d"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>disableGUI</b> = false</td></tr>
-<tr class="separator:a4346764382a95d4aae9b5c4448de960d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:a6b04f9e08407b825dda3ef29cc005e96" id="r_a6b04f9e08407b825dda3ef29cc005e96"><td class="memItemLeft" align="right" valign="top"><a id="a6b04f9e08407b825dda3ef29cc005e96" name="a6b04f9e08407b825dda3ef29cc005e96"></a>
-static <a class="el" href="../../db/d10/class_game_manager.html">GameManager</a>&#160;</td><td class="memItemRight" valign="bottom"><b>inst</b></td></tr>
-<tr class="separator:a6b04f9e08407b825dda3ef29cc005e96"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:ad50b143605cf280c167634308f77704a" id="r_ad50b143605cf280c167634308f77704a"><td class="memItemLeft" align="right" valign="top"><a id="ad50b143605cf280c167634308f77704a" name="ad50b143605cf280c167634308f77704a"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>demoMode</b> = false</td></tr>
-<tr class="separator:ad50b143605cf280c167634308f77704a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
-Private Member Functions</h2></td></tr>
-<tr class="memitem:a2959177ee51ac31badbf8b1bc8f7f637" id="r_a2959177ee51ac31badbf8b1bc8f7f637"><td class="memItemLeft" align="right" valign="top"><a id="a2959177ee51ac31badbf8b1bc8f7f637" name="a2959177ee51ac31badbf8b1bc8f7f637"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Awake</b> ()</td></tr>
-<tr class="memdesc:a2959177ee51ac31badbf8b1bc8f7f637"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make sure there is only one instance of this object. <br /></td></tr>
-<tr class="separator:a2959177ee51ac31badbf8b1bc8f7f637"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ccfacd027ad08eeb4ff1f25a7f59c98" id="r_a5ccfacd027ad08eeb4ff1f25a7f59c98"><td class="memItemLeft" align="right" valign="top"><a id="a5ccfacd027ad08eeb4ff1f25a7f59c98" name="a5ccfacd027ad08eeb4ff1f25a7f59c98"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Start</b> ()</td></tr>
-<tr class="separator:a5ccfacd027ad08eeb4ff1f25a7f59c98"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12c07507363e4681ca1b6cbe67e5b93a" id="r_a12c07507363e4681ca1b6cbe67e5b93a"><td class="memItemLeft" align="right" valign="top"><a id="a12c07507363e4681ca1b6cbe67e5b93a" name="a12c07507363e4681ca1b6cbe67e5b93a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>LoadLevelFromFile</b> (string _level)</td></tr>
-<tr class="separator:a12c07507363e4681ca1b6cbe67e5b93a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a87a04464c26aa36ffe7fd8b82699febf" id="r_a87a04464c26aa36ffe7fd8b82699febf"><td class="memItemLeft" align="right" valign="top"><a id="a87a04464c26aa36ffe7fd8b82699febf" name="a87a04464c26aa36ffe7fd8b82699febf"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>LoadLevelFromFileLoop</b> (string _level)</td></tr>
-<tr class="separator:a87a04464c26aa36ffe7fd8b82699febf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af84626589f54010f3a0d40fe4510a635" id="r_af84626589f54010f3a0d40fe4510a635"><td class="memItemLeft" align="right" valign="top"><a id="af84626589f54010f3a0d40fe4510a635" name="af84626589f54010f3a0d40fe4510a635"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>LoadLevelFromArcadeQueue</b> (<a class="el" href="../../d2/db5/class_v_g_level.html">VGLevel</a> _level)</td></tr>
-<tr class="separator:af84626589f54010f3a0d40fe4510a635"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af4f28858ece6b1da70db206b22636037" id="r_af4f28858ece6b1da70db206b22636037"><td class="memItemLeft" align="right" valign="top"><a id="af4f28858ece6b1da70db206b22636037" name="af4f28858ece6b1da70db206b22636037"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>LoadLevelFromLevel</b> (<a class="el" href="../../d2/db5/class_v_g_level.html">VGLevel</a> _level)</td></tr>
-<tr class="separator:af4f28858ece6b1da70db206b22636037"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:accd45d115df7d770a32b2e137671174f" id="r_accd45d115df7d770a32b2e137671174f"><td class="memItemLeft" align="right" valign="top"><a id="accd45d115df7d770a32b2e137671174f" name="accd45d115df7d770a32b2e137671174f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>LoadLevelCurrent</b> ()</td></tr>
-<tr class="separator:accd45d115df7d770a32b2e137671174f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5186817d17281cb6c6cc66440fa4bf56" id="r_a5186817d17281cb6c6cc66440fa4bf56"><td class="memItemLeft" align="right" valign="top"><a id="a5186817d17281cb6c6cc66440fa4bf56" name="a5186817d17281cb6c6cc66440fa4bf56"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>ParseLevel</b> (string _rawJSON, AudioClip _song, string _songName, string _artistName, bool _isLegacy=true)</td></tr>
-<tr class="separator:a5186817d17281cb6c6cc66440fa4bf56"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a374b32671596cc2abdfd94c110067132" id="r_a374b32671596cc2abdfd94c110067132"><td class="memItemLeft" align="right" valign="top"><a id="a374b32671596cc2abdfd94c110067132" name="a374b32671596cc2abdfd94c110067132"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>PlayLevel</b> (AudioClip _song)</td></tr>
-<tr class="separator:a374b32671596cc2abdfd94c110067132"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f59a9741d6c4e4aea22a9612404ec85" id="r_a9f59a9741d6c4e4aea22a9612404ec85"><td class="memItemLeft" align="right" valign="top"><a id="a9f59a9741d6c4e4aea22a9612404ec85" name="a9f59a9741d6c4e4aea22a9612404ec85"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateLoadBlank</b> ()</td></tr>
-<tr class="separator:a9f59a9741d6c4e4aea22a9612404ec85"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e86d6af41c26480a04a498593fcfc66" id="r_a3e86d6af41c26480a04a498593fcfc66"><td class="memItemLeft" align="right" valign="top"><a id="a3e86d6af41c26480a04a498593fcfc66" name="a3e86d6af41c26480a04a498593fcfc66"></a>
-IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><b>playBuffer</b> (AudioClip _song)</td></tr>
-<tr class="separator:a3e86d6af41c26480a04a498593fcfc66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab225aca05f1a01a8afcfb0bc3e8779cf" id="r_ab225aca05f1a01a8afcfb0bc3e8779cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab225aca05f1a01a8afcfb0bc3e8779cf">SyncSequenceLoop</a> ()</td></tr>
+<tr class="memdesc:ab225aca05f1a01a8afcfb0bc3e8779cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is responsible for synchronizing a sequence loop with the current song time.  <br /></td></tr>
+<tr class="separator:ab225aca05f1a01a8afcfb0bc3e8779cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44c79b205dec16bfe650e21259860c5b" id="r_a44c79b205dec16bfe650e21259860c5b"><td class="memItemLeft" align="right" valign="top"><a id="a44c79b205dec16bfe650e21259860c5b" name="a44c79b205dec16bfe650e21259860c5b"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Update</b> ()</td></tr>
 <tr class="separator:a44c79b205dec16bfe650e21259860c5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90e52cb3961a66f1950c74da28cde5e2" id="r_a90e52cb3961a66f1950c74da28cde5e2"><td class="memItemLeft" align="right" valign="top"><a id="a90e52cb3961a66f1950c74da28cde5e2" name="a90e52cb3961a66f1950c74da28cde5e2"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>GoToNextLevel</b> ()</td></tr>
-<tr class="separator:a90e52cb3961a66f1950c74da28cde5e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01aee37740a25afb879f88ac1191f777" id="r_a01aee37740a25afb879f88ac1191f777"><td class="memItemLeft" align="right" valign="top"><a id="a01aee37740a25afb879f88ac1191f777" name="a01aee37740a25afb879f88ac1191f777"></a>
-IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><b>GoToNextLevelLoop</b> ()</td></tr>
-<tr class="separator:a01aee37740a25afb879f88ac1191f777"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77d2abb0c75e391d0745f12ae8be3b70" id="r_a77d2abb0c75e391d0745f12ae8be3b70"><td class="memItemLeft" align="right" valign="top"><a id="a77d2abb0c75e391d0745f12ae8be3b70" name="a77d2abb0c75e391d0745f12ae8be3b70"></a>
-IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><b>ReverseToCheckpointLoop</b> ()</td></tr>
-<tr class="memdesc:a77d2abb0c75e391d0745f12ae8be3b70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use to reverse the song's time back to last checkpoint. <br /></td></tr>
-<tr class="separator:a77d2abb0c75e391d0745f12ae8be3b70"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a828d1e90623eebc746a7892534a47f19" id="r_a828d1e90623eebc746a7892534a47f19"><td class="memItemLeft" align="right" valign="top"><a id="a828d1e90623eebc746a7892534a47f19" name="a828d1e90623eebc746a7892534a47f19"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>LateUpdate</b> ()</td></tr>
-<tr class="separator:a828d1e90623eebc746a7892534a47f19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a656d55ff5889b5dd4ced75fb03bb4cb9" id="r_a656d55ff5889b5dd4ced75fb03bb4cb9"><td class="memItemLeft" align="right" valign="top"><a id="a656d55ff5889b5dd4ced75fb03bb4cb9" name="a656d55ff5889b5dd4ced75fb03bb4cb9"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>LevelCleanUp</b> ()</td></tr>
+<tr class="separator:a656d55ff5889b5dd4ced75fb03bb4cb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7410a7545b421cdb1309542db1c0084c" id="r_a7410a7545b421cdb1309542db1c0084c"><td class="memItemLeft" align="right" valign="top"><a id="a7410a7545b421cdb1309542db1c0084c" name="a7410a7545b421cdb1309542db1c0084c"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Pause</b> (bool _showUI=true)</td></tr>
+<tr class="separator:a7410a7545b421cdb1309542db1c0084c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4fe2304add7051cfdd7ee51654ac700" id="r_ad4fe2304add7051cfdd7ee51654ac700"><td class="memItemLeft" align="right" valign="top"><a id="ad4fe2304add7051cfdd7ee51654ac700" name="ad4fe2304add7051cfdd7ee51654ac700"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>UnPause</b> ()</td></tr>
+<tr class="separator:ad4fe2304add7051cfdd7ee51654ac700"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42782459f13440db257a3c13f5770e1c" id="r_a42782459f13440db257a3c13f5770e1c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42782459f13440db257a3c13f5770e1c">CheckpointCheck</a> ()</td></tr>
+<tr class="memdesc:a42782459f13440db257a3c13f5770e1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if a checkpoint has been reached and triggers the checkpoint animation.  <br /></td></tr>
+<tr class="separator:a42782459f13440db257a3c13f5770e1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1947d5975318ea6b912913d800be05b2" id="r_a1947d5975318ea6b912913d800be05b2"><td class="memItemLeft" align="right" valign="top"><a id="a1947d5975318ea6b912913d800be05b2" name="a1947d5975318ea6b912913d800be05b2"></a>
+IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><b>PlayCheckpointAnimation</b> (int _index=0)</td></tr>
+<tr class="separator:a1947d5975318ea6b912913d800be05b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a992abe10e19bc11a6466c94cf76a756f" id="r_a992abe10e19bc11a6466c94cf76a756f"><td class="memItemLeft" align="right" valign="top"><a id="a992abe10e19bc11a6466c94cf76a756f" name="a992abe10e19bc11a6466c94cf76a756f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateTimeline</b> ()</td></tr>
+<tr class="separator:a992abe10e19bc11a6466c94cf76a756f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad30b21aa9eb2c4846f1cfd99f4f52d7e" id="r_ad30b21aa9eb2c4846f1cfd99f4f52d7e"><td class="memItemLeft" align="right" valign="top"><a id="ad30b21aa9eb2c4846f1cfd99f4f52d7e" name="ad30b21aa9eb2c4846f1cfd99f4f52d7e"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateEvents</b> ()</td></tr>
+<tr class="separator:ad30b21aa9eb2c4846f1cfd99f4f52d7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaeaad57f50ff2ce1e015266cec6421b4" id="r_aaeaad57f50ff2ce1e015266cec6421b4"><td class="memItemLeft" align="right" valign="top"><a id="aaeaad57f50ff2ce1e015266cec6421b4" name="aaeaad57f50ff2ce1e015266cec6421b4"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetupTheme</b> ()</td></tr>
+<tr class="separator:aaeaad57f50ff2ce1e015266cec6421b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad10aeb91c7cb315866d6f8d738c40c88" id="r_ad10aeb91c7cb315866d6f8d738c40c88"><td class="memItemLeft" align="right" valign="top"><a id="ad10aeb91c7cb315866d6f8d738c40c88" name="ad10aeb91c7cb315866d6f8d738c40c88"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetupTimelineImages</b> ()</td></tr>
+<tr class="separator:ad10aeb91c7cb315866d6f8d738c40c88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38b3398dab70d5a6071d95c1161742c3" id="r_a38b3398dab70d5a6071d95c1161742c3"><td class="memItemLeft" align="right" valign="top"><a id="a38b3398dab70d5a6071d95c1161742c3" name="a38b3398dab70d5a6071d95c1161742c3"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateTheme</b> ()</td></tr>
+<tr class="separator:a38b3398dab70d5a6071d95c1161742c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a365721f78c0c3d5aecd9bfb907b0b7b3" id="r_a365721f78c0c3d5aecd9bfb907b0b7b3"><td class="memItemLeft" align="right" valign="top"><a id="a365721f78c0c3d5aecd9bfb907b0b7b3" name="a365721f78c0c3d5aecd9bfb907b0b7b3"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>ClearEvents</b> ()</td></tr>
+<tr class="separator:a365721f78c0c3d5aecd9bfb907b0b7b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bf0703e02b5baa8225e90f00fc5269a" id="r_a6bf0703e02b5baa8225e90f00fc5269a"><td class="memItemLeft" align="right" valign="top"><a id="a6bf0703e02b5baa8225e90f00fc5269a" name="a6bf0703e02b5baa8225e90f00fc5269a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>ForceUpdateTime</b> (float _time)</td></tr>
+<tr class="separator:a6bf0703e02b5baa8225e90f00fc5269a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb375911db94970c07f62037ddbc63ea" id="r_afb375911db94970c07f62037ddbc63ea"><td class="memItemLeft" align="right" valign="top"><a id="afb375911db94970c07f62037ddbc63ea" name="afb375911db94970c07f62037ddbc63ea"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>InitTriggerSequence</b> (float _songLength)</td></tr>
+<tr class="separator:afb375911db94970c07f62037ddbc63ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88b9f2e962138e921f9c9eb5b6192fee" id="r_a88b9f2e962138e921f9c9eb5b6192fee"><td class="memItemLeft" align="right" valign="top"><a id="a88b9f2e962138e921f9c9eb5b6192fee" name="a88b9f2e962138e921f9c9eb5b6192fee"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetupTimeEventTriggers</b> ()</td></tr>
+<tr class="memdesc:a88b9f2e962138e921f9c9eb5b6192fee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setups the time event triggers. <br /></td></tr>
+<tr class="separator:a88b9f2e962138e921f9c9eb5b6192fee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6e938629b2f28662df2dfa08b21cb92" id="r_ae6e938629b2f28662df2dfa08b21cb92"><td class="memItemLeft" align="right" valign="top"><a id="ae6e938629b2f28662df2dfa08b21cb92" name="ae6e938629b2f28662df2dfa08b21cb92"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetupPlayerEventTriggers</b> ()</td></tr>
+<tr class="memdesc:ae6e938629b2f28662df2dfa08b21cb92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setups the event based event triggers. <br /></td></tr>
+<tr class="separator:ae6e938629b2f28662df2dfa08b21cb92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fd2cc85dc4df75d63828251d0b6c2da" id="r_a0fd2cc85dc4df75d63828251d0b6c2da"><td class="memItemLeft" align="right" valign="top"><a id="a0fd2cc85dc4df75d63828251d0b6c2da" name="a0fd2cc85dc4df75d63828251d0b6c2da"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetupLevelEventTriggers</b> ()</td></tr>
+<tr class="memdesc:a0fd2cc85dc4df75d63828251d0b6c2da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setups the event based event triggers. <br /></td></tr>
+<tr class="separator:a0fd2cc85dc4df75d63828251d0b6c2da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64cda95b15f0e98aea48fd49b88b563d" id="r_a64cda95b15f0e98aea48fd49b88b563d"><td class="memItemLeft" align="right" valign="top"><a id="a64cda95b15f0e98aea48fd49b88b563d" name="a64cda95b15f0e98aea48fd49b88b563d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>CallEvent</b> (<a class="el" href="../../dc/d21/class_data_manager_1_1_game_data_1_1_beatmap_data_1_1_event_triggers_1_1_trigger.html">DataManager.GameData.BeatmapData.EventTriggers.Trigger</a> _trigger)</td></tr>
+<tr class="separator:a64cda95b15f0e98aea48fd49b88b563d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a980e15bf1fc9f8c6687a00ee995918f6" id="r_a980e15bf1fc9f8c6687a00ee995918f6"><td class="memItemLeft" align="right" valign="top"><a id="a980e15bf1fc9f8c6687a00ee995918f6" name="a980e15bf1fc9f8c6687a00ee995918f6"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>CallEventRaw</b> (<a class="el" href="../../dc/d21/class_data_manager_1_1_game_data_1_1_beatmap_data_1_1_event_triggers_1_1_trigger.html">DataManager.GameData.BeatmapData.EventTriggers.Trigger</a> _trigger)</td></tr>
+<tr class="separator:a980e15bf1fc9f8c6687a00ee995918f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e2cd09a86af50acad7c31ea3ab46141" id="r_a4e2cd09a86af50acad7c31ea3ab46141"><td class="memItemLeft" align="right" valign="top"><a id="a4e2cd09a86af50acad7c31ea3ab46141" name="a4e2cd09a86af50acad7c31ea3ab46141"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>TestAudioDuck</b> (Vector3 _lowPass, Vector3 _lowPassRes)</td></tr>
+<tr class="separator:a4e2cd09a86af50acad7c31ea3ab46141"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_singleton_base"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_singleton_base')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../db/da7/class_singleton_base.html">SingletonBase&lt; GameManager &gt;</a></td></tr>
+<tr class="memitem:a91cc9bfeabc19080544602a2e0f3d255 inherit pub_methods_class_singleton_base" id="r_a91cc9bfeabc19080544602a2e0f3d255"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Awake</b> ()</td></tr>
+<tr class="separator:a91cc9bfeabc19080544602a2e0f3d255 inherit pub_methods_class_singleton_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73ebb320e41647fdbef39c55ddb349d0 inherit pub_methods_class_singleton_base" id="r_a73ebb320e41647fdbef39c55ddb349d0"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnAwake</b> ()</td></tr>
+<tr class="separator:a73ebb320e41647fdbef39c55ddb349d0 inherit pub_methods_class_singleton_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a029538ce1aa0457ecf9ba595af1790d4" id="r_a029538ce1aa0457ecf9ba595af1790d4"><td class="memItemLeft" align="right" valign="top"><a id="a029538ce1aa0457ecf9ba595af1790d4" name="a029538ce1aa0457ecf9ba595af1790d4"></a>
+Sequence&#160;</td><td class="memItemRight" valign="bottom"><b>GameSequence</b></td></tr>
+<tr class="separator:a029538ce1aa0457ecf9ba595af1790d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf6a3de4c463842c0bc63dcf6e07b497" id="r_acf6a3de4c463842c0bc63dcf6e07b497"><td class="memItemLeft" align="right" valign="top"><a id="acf6a3de4c463842c0bc63dcf6e07b497" name="acf6a3de4c463842c0bc63dcf6e07b497"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsArcade</b></td></tr>
+<tr class="separator:acf6a3de4c463842c0bc63dcf6e07b497"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abed3f907b66f116021c5be822234ad53" id="r_abed3f907b66f116021c5be822234ad53"><td class="memItemLeft" align="right" valign="top"><a id="abed3f907b66f116021c5be822234ad53" name="abed3f907b66f116021c5be822234ad53"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>HoldUpdates</b> = false</td></tr>
+<tr class="separator:abed3f907b66f116021c5be822234ad53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b6a148959f08f9d25534beefed4057b" id="r_a3b6a148959f08f9d25534beefed4057b"><td class="memItemLeft" align="right" valign="top"><a id="a3b6a148959f08f9d25534beefed4057b" name="a3b6a148959f08f9d25534beefed4057b"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsFinished</b> = false</td></tr>
+<tr class="separator:a3b6a148959f08f9d25534beefed4057b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b42de5ec99848be2eca989293839bba" id="r_a3b42de5ec99848be2eca989293839bba"><td class="memItemLeft" align="right" valign="top"><a id="a3b42de5ec99848be2eca989293839bba" name="a3b42de5ec99848be2eca989293839bba"></a>
+GameState&#160;</td><td class="memItemRight" valign="bottom"><b>CurGameState</b> = GameState.Loading</td></tr>
+<tr class="separator:a3b42de5ec99848be2eca989293839bba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26c46348525f5c62fbd6399a888270e5" id="r_a26c46348525f5c62fbd6399a888270e5"><td class="memItemLeft" align="right" valign="top"><a id="a26c46348525f5c62fbd6399a888270e5" name="a26c46348525f5c62fbd6399a888270e5"></a>
+<a class="el" href="../../d2/d7d/class_game_manager_1_1_loading_state.html">LoadingState</a>&#160;</td><td class="memItemRight" valign="bottom"><b>CurLoadingState</b> = new <a class="el" href="../../d2/d7d/class_game_manager_1_1_loading_state.html">LoadingState</a>()</td></tr>
+<tr class="separator:a26c46348525f5c62fbd6399a888270e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f91cd72e61e830b49b9a5824a78106a" id="r_a3f91cd72e61e830b49b9a5824a78106a"><td class="memItemLeft" align="right" valign="top"><a id="a3f91cd72e61e830b49b9a5824a78106a" name="a3f91cd72e61e830b49b9a5824a78106a"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>CurrentSongTime</b></td></tr>
+<tr class="separator:a3f91cd72e61e830b49b9a5824a78106a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a831459927d9ef7c351d6e27f9721b4" id="r_a5a831459927d9ef7c351d6e27f9721b4"><td class="memItemLeft" align="right" valign="top"><a id="a5a831459927d9ef7c351d6e27f9721b4" name="a5a831459927d9ef7c351d6e27f9721b4"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>CurrentSongLength</b></td></tr>
+<tr class="separator:a5a831459927d9ef7c351d6e27f9721b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a960d7ac8e88a0012deacb663f310e665" id="r_a960d7ac8e88a0012deacb663f310e665"><td class="memItemLeft" align="right" valign="top"><a id="a960d7ac8e88a0012deacb663f310e665" name="a960d7ac8e88a0012deacb663f310e665"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>CurrentSongTimeSmoothed</b></td></tr>
+<tr class="separator:a960d7ac8e88a0012deacb663f310e665"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad64ba0a760872ac91a4dd02caa19a5bd" id="r_ad64ba0a760872ac91a4dd02caa19a5bd"><td class="memItemLeft" align="right" valign="top"><a id="ad64ba0a760872ac91a4dd02caa19a5bd" name="ad64ba0a760872ac91a4dd02caa19a5bd"></a>
+<a class="el" href="../../d7/d65/class_data_manager_1_1_beatmap_theme.html">DataManager.BeatmapTheme</a>&#160;</td><td class="memItemRight" valign="bottom"><b>LiveTheme</b></td></tr>
+<tr class="separator:ad64ba0a760872ac91a4dd02caa19a5bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc9ed4fd8e4df0f2daf2a063ab251a3a" id="r_acc9ed4fd8e4df0f2daf2a063ab251a3a"><td class="memItemLeft" align="right" valign="top"><a id="acc9ed4fd8e4df0f2daf2a063ab251a3a" name="acc9ed4fd8e4df0f2daf2a063ab251a3a"></a>
+Sequence&#160;</td><td class="memItemRight" valign="bottom"><b>TriggerSequence</b></td></tr>
+<tr class="separator:acc9ed4fd8e4df0f2daf2a063ab251a3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfc9f8cc8ed62eaa6b70d418ee841cb7" id="r_abfc9f8cc8ed62eaa6b70d418ee841cb7"><td class="memItemLeft" align="right" valign="top"><a id="abfc9f8cc8ed62eaa6b70d418ee841cb7" name="abfc9f8cc8ed62eaa6b70d418ee841cb7"></a>
+bool[]&#160;</td><td class="memItemRight" valign="bottom"><b>checkpointsActivated</b> = new bool[0]</td></tr>
+<tr class="separator:abfc9f8cc8ed62eaa6b70d418ee841cb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b97319ca1937b804d7b3aa2daa52d83" id="r_a3b97319ca1937b804d7b3aa2daa52d83"><td class="memItemLeft" align="right" valign="top"><a id="a3b97319ca1937b804d7b3aa2daa52d83" name="a3b97319ca1937b804d7b3aa2daa52d83"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>lastCheckpointState</b> = -1</td></tr>
+<tr class="separator:a3b97319ca1937b804d7b3aa2daa52d83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8c5899b7116ed773fd4bdfdb74d52e7" id="r_ab8c5899b7116ed773fd4bdfdb74d52e7"><td class="memItemLeft" align="right" valign="top"><a id="ab8c5899b7116ed773fd4bdfdb74d52e7" name="ab8c5899b7116ed773fd4bdfdb74d52e7"></a>
+Animator&#160;</td><td class="memItemRight" valign="bottom"><b>CheckpointAnimator</b></td></tr>
+<tr class="separator:ab8c5899b7116ed773fd4bdfdb74d52e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2abea4c9b3070186137066644d6a63b7" id="r_a2abea4c9b3070186137066644d6a63b7"><td class="memItemLeft" align="right" valign="top"><a id="a2abea4c9b3070186137066644d6a63b7" name="a2abea4c9b3070186137066644d6a63b7"></a>
+Transform&#160;</td><td class="memItemRight" valign="bottom"><b>CheckpointTimeline</b></td></tr>
+<tr class="separator:a2abea4c9b3070186137066644d6a63b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0f3ead0c37e1215edc49757ce1ba5e2" id="r_ad0f3ead0c37e1215edc49757ce1ba5e2"><td class="memItemLeft" align="right" valign="top"><a id="ad0f3ead0c37e1215edc49757ce1ba5e2" name="ad0f3ead0c37e1215edc49757ce1ba5e2"></a>
+GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>CheckpointPrefab</b></td></tr>
+<tr class="separator:ad0f3ead0c37e1215edc49757ce1ba5e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9c509e9cb6f92b3990bfae5cc2210d4" id="r_ac9c509e9cb6f92b3990bfae5cc2210d4"><td class="memItemLeft" align="right" valign="top"><a id="ac9c509e9cb6f92b3990bfae5cc2210d4" name="ac9c509e9cb6f92b3990bfae5cc2210d4"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>playingCheckpointAnimation</b> = false</td></tr>
+<tr class="separator:ac9c509e9cb6f92b3990bfae5cc2210d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad36a2fcd5756410195affdf628bba6dd" id="r_ad36a2fcd5756410195affdf628bba6dd"><td class="memItemLeft" align="right" valign="top"><a id="ad36a2fcd5756410195affdf628bba6dd" name="ad36a2fcd5756410195affdf628bba6dd"></a>
+AudioClip&#160;</td><td class="memItemRight" valign="bottom"><b>LevelAudio</b></td></tr>
+<tr class="separator:ad36a2fcd5756410195affdf628bba6dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af428f3efaf71f35dd862ef580c958863" id="r_af428f3efaf71f35dd862ef580c958863"><td class="memItemLeft" align="right" valign="top"><a id="af428f3efaf71f35dd862ef580c958863" name="af428f3efaf71f35dd862ef580c958863"></a>
+string&#160;</td><td class="memItemRight" valign="bottom"><b>TrackName</b></td></tr>
+<tr class="separator:af428f3efaf71f35dd862ef580c958863"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5adead0765a3538470bea542f9e32f00" id="r_a5adead0765a3538470bea542f9e32f00"><td class="memItemLeft" align="right" valign="top"><a id="a5adead0765a3538470bea542f9e32f00" name="a5adead0765a3538470bea542f9e32f00"></a>
+string&#160;</td><td class="memItemRight" valign="bottom"><b>ArtistName</b></td></tr>
+<tr class="separator:a5adead0765a3538470bea542f9e32f00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20edcde6e41862462a6450a6c3f9aa7d" id="r_a20edcde6e41862462a6450a6c3f9aa7d"><td class="memItemLeft" align="right" valign="top"><a id="a20edcde6e41862462a6450a6c3f9aa7d" name="a20edcde6e41862462a6450a6c3f9aa7d"></a>
+string&#160;</td><td class="memItemRight" valign="bottom"><b>FolderName</b></td></tr>
+<tr class="separator:a20edcde6e41862462a6450a6c3f9aa7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a245d1662fab1beb16931fc3bbd9d5a01" id="r_a245d1662fab1beb16931fc3bbd9d5a01"><td class="memItemLeft" align="right" valign="top"><a id="a245d1662fab1beb16931fc3bbd9d5a01" name="a245d1662fab1beb16931fc3bbd9d5a01"></a>
+GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>TouchControls</b></td></tr>
+<tr class="separator:a245d1662fab1beb16931fc3bbd9d5a01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a736afc23f9640ebbdfbeb8bd11c8f65c" id="r_a736afc23f9640ebbdfbeb8bd11c8f65c"><td class="memItemLeft" align="right" valign="top"><a id="a736afc23f9640ebbdfbeb8bd11c8f65c" name="a736afc23f9640ebbdfbeb8bd11c8f65c"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>ColorID</b></td></tr>
+<tr class="separator:a736afc23f9640ebbdfbeb8bd11c8f65c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad12dc97c4b4ecb1ccf0e79065f34edec" id="r_ad12dc97c4b4ecb1ccf0e79065f34edec"><td class="memItemLeft" align="right" valign="top"><a id="ad12dc97c4b4ecb1ccf0e79065f34edec" name="ad12dc97c4b4ecb1ccf0e79065f34edec"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>EndColorID</b></td></tr>
+<tr class="separator:ad12dc97c4b4ecb1ccf0e79065f34edec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ace51782f5f044eb5d0e8b25ca9c0cd" id="r_a9ace51782f5f044eb5d0e8b25ca9c0cd"><td class="memItemLeft" align="right" valign="top"><a id="a9ace51782f5f044eb5d0e8b25ca9c0cd" name="a9ace51782f5f044eb5d0e8b25ca9c0cd"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>AlphaColorID</b></td></tr>
+<tr class="separator:a9ace51782f5f044eb5d0e8b25ca9c0cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e05714a0954585e6b8ccb9441617f82" id="r_a1e05714a0954585e6b8ccb9441617f82"><td class="memItemLeft" align="right" valign="top"><a id="a1e05714a0954585e6b8ccb9441617f82" name="a1e05714a0954585e6b8ccb9441617f82"></a>
+Transform&#160;</td><td class="memItemRight" valign="bottom"><b>playerParent</b></td></tr>
+<tr class="separator:a1e05714a0954585e6b8ccb9441617f82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac81b85f814e1838aebfa1029b9771d4a" id="r_ac81b85f814e1838aebfa1029b9771d4a"><td class="memItemLeft" align="right" valign="top"><a id="ac81b85f814e1838aebfa1029b9771d4a" name="ac81b85f814e1838aebfa1029b9771d4a"></a>
+RectTransform&#160;</td><td class="memItemRight" valign="bottom"><b>songLocationMarker</b></td></tr>
+<tr class="separator:ac81b85f814e1838aebfa1029b9771d4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c44d9e73e876ecd07a571d2bccf4157" id="r_a5c44d9e73e876ecd07a571d2bccf4157"><td class="memItemLeft" align="right" valign="top"><a id="a5c44d9e73e876ecd07a571d2bccf4157" name="a5c44d9e73e876ecd07a571d2bccf4157"></a>
+UI_TrackInfoView&#160;</td><td class="memItemRight" valign="bottom"><b>IntroView</b></td></tr>
+<tr class="separator:a5c44d9e73e876ecd07a571d2bccf4157"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20c84d0630154baf093fc3aca88bff49" id="r_a20c84d0630154baf093fc3aca88bff49"><td class="memItemLeft" align="right" valign="top"><a id="a20c84d0630154baf093fc3aca88bff49" name="a20c84d0630154baf093fc3aca88bff49"></a>
+Transform&#160;</td><td class="memItemRight" valign="bottom"><b>Timeline</b></td></tr>
+<tr class="separator:a20c84d0630154baf093fc3aca88bff49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad203705e3eae3520557d8ae648efef41" id="r_ad203705e3eae3520557d8ae648efef41"><td class="memItemLeft" align="right" valign="top"><a id="ad203705e3eae3520557d8ae648efef41" name="ad203705e3eae3520557d8ae648efef41"></a>
+Image[]&#160;</td><td class="memItemRight" valign="bottom"><b>TimelineImages</b></td></tr>
+<tr class="separator:ad203705e3eae3520557d8ae648efef41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3cd38871e40e66de7ea4b99e54f3915" id="r_ab3cd38871e40e66de7ea4b99e54f3915"><td class="memItemLeft" align="right" valign="top"><a id="ab3cd38871e40e66de7ea4b99e54f3915" name="ab3cd38871e40e66de7ea4b99e54f3915"></a>
+Image[]&#160;</td><td class="memItemRight" valign="bottom"><b>GUIImages</b></td></tr>
+<tr class="separator:ab3cd38871e40e66de7ea4b99e54f3915"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87d9e6b8367b2de116c1b69c8df2de77" id="r_a87d9e6b8367b2de116c1b69c8df2de77"><td class="memItemLeft" align="right" valign="top"><a id="a87d9e6b8367b2de116c1b69c8df2de77" name="a87d9e6b8367b2de116c1b69c8df2de77"></a>
+Image[]&#160;</td><td class="memItemRight" valign="bottom"><b>GUITransImages</b></td></tr>
+<tr class="separator:a87d9e6b8367b2de116c1b69c8df2de77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2148964c08045eeffa55ae1f9fdf1a00" id="r_a2148964c08045eeffa55ae1f9fdf1a00"><td class="memItemLeft" align="right" valign="top"><a id="a2148964c08045eeffa55ae1f9fdf1a00" name="a2148964c08045eeffa55ae1f9fdf1a00"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>Paused</b></td></tr>
+<tr class="separator:a2148964c08045eeffa55ae1f9fdf1a00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71c010fd1844703a18919b68fc3feb6c" id="r_a71c010fd1844703a18919b68fc3feb6c"><td class="memItemLeft" align="right" valign="top"><a id="a71c010fd1844703a18919b68fc3feb6c" name="a71c010fd1844703a18919b68fc3feb6c"></a>
+UI_Window&#160;</td><td class="memItemRight" valign="bottom"><b>PauseMenu</b></td></tr>
+<tr class="separator:a71c010fd1844703a18919b68fc3feb6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f07a767eb5705f11637917086ff73fb" id="r_a4f07a767eb5705f11637917086ff73fb"><td class="memItemLeft" align="right" valign="top"><a id="a4f07a767eb5705f11637917086ff73fb" name="a4f07a767eb5705f11637917086ff73fb"></a>
+PauseMenu&#160;</td><td class="memItemRight" valign="bottom"><b>PauseMenuScript</b></td></tr>
+<tr class="separator:a4f07a767eb5705f11637917086ff73fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac20804e27f47a0720310bad3e20f1723" id="r_ac20804e27f47a0720310bad3e20f1723"><td class="memItemLeft" align="right" valign="top"><a id="ac20804e27f47a0720310bad3e20f1723" name="ac20804e27f47a0720310bad3e20f1723"></a>
+<a class="el" href="../../d2/db5/class_v_g_level.html">VGLevel</a>&#160;</td><td class="memItemRight" valign="bottom"><b>DEFAULT_LEVEL</b></td></tr>
+<tr class="separator:ac20804e27f47a0720310bad3e20f1723"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12b84ccf9048d9afd7633c2b7e38ca8f" id="r_a12b84ccf9048d9afd7633c2b7e38ca8f"><td class="memItemLeft" align="right" valign="top"><a id="a12b84ccf9048d9afd7633c2b7e38ca8f" name="a12b84ccf9048d9afd7633c2b7e38ca8f"></a>
+Dictionary&lt; string, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>hasTriggered</b> = new Dictionary&lt;string, int&gt;()</td></tr>
+<tr class="separator:a12b84ccf9048d9afd7633c2b7e38ca8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_class_singleton_base"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_attribs_class_singleton_base')"><img src="../../closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="../../db/da7/class_singleton_base.html">SingletonBase&lt; GameManager &gt;</a></td></tr>
+<tr class="memitem:a47779a6fcf4f87fad6ca2bf2780f93e5 inherit pub_attribs_class_singleton_base" id="r_a47779a6fcf4f87fad6ca2bf2780f93e5"><td class="memItemLeft" align="right" valign="top">
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>DestroySingleton</b></td></tr>
+<tr class="separator:a47779a6fcf4f87fad6ca2bf2780f93e5 inherit pub_attribs_class_singleton_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
+Properties</h2></td></tr>
+<tr class="memitem:ad5076a60e9805b9bae01f52edd43b226" id="r_ad5076a60e9805b9bae01f52edd43b226"><td class="memItemLeft" align="right" valign="top"><a id="ad5076a60e9805b9bae01f52edd43b226" name="ad5076a60e9805b9bae01f52edd43b226"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsEditor</b><code> [get]</code></td></tr>
+<tr class="separator:ad5076a60e9805b9bae01f52edd43b226"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa30192efe13c8c877411af2209b98084" id="r_aa30192efe13c8c877411af2209b98084"><td class="memItemLeft" align="right" valign="top"><a id="aa30192efe13c8c877411af2209b98084" name="aa30192efe13c8c877411af2209b98084"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsHighContrast</b><code> [get]</code></td></tr>
+<tr class="separator:aa30192efe13c8c877411af2209b98084"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0cc95c2cba76c3effb78e2e3f4a22fee" id="r_a0cc95c2cba76c3effb78e2e3f4a22fee"><td class="memItemLeft" align="right" valign="top"><a id="a0cc95c2cba76c3effb78e2e3f4a22fee" name="a0cc95c2cba76c3effb78e2e3f4a22fee"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>GetSongSpeed</b><code> [get]</code></td></tr>
+<tr class="separator:a0cc95c2cba76c3effb78e2e3f4a22fee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header properties_class_singleton_base"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_class_singleton_base')"><img src="../../closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="../../db/da7/class_singleton_base.html">SingletonBase&lt; GameManager &gt;</a></td></tr>
+<tr class="memitem:ab426759d1f12b1a5bd6e9cffc2bf6351 inherit properties_class_singleton_base" id="r_ab426759d1f12b1a5bd6e9cffc2bf6351"><td class="memItemLeft" align="right" valign="top">
+static T&#160;</td><td class="memItemRight" valign="bottom"><b>Inst</b><code> [get]</code></td></tr>
+<tr class="separator:ab426759d1f12b1a5bd6e9cffc2bf6351 inherit properties_class_singleton_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="events" name="events"></a>
+Events</h2></td></tr>
+<tr class="memitem:ae304b86dcfd4e520a3fa32d7dbd17dcb" id="r_ae304b86dcfd4e520a3fa32d7dbd17dcb"><td class="memItemLeft" align="right" valign="top"><a id="ae304b86dcfd4e520a3fa32d7dbd17dcb" name="ae304b86dcfd4e520a3fa32d7dbd17dcb"></a>
+RestartDelegate&#160;</td><td class="memItemRight" valign="bottom"><b>levelRestartEvent</b></td></tr>
+<tr class="separator:ae304b86dcfd4e520a3fa32d7dbd17dcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae142f36c66179c87ad497a146c4a3b7c" id="r_ae142f36c66179c87ad497a146c4a3b7c"><td class="memItemLeft" align="right" valign="top"><a id="ae142f36c66179c87ad497a146c4a3b7c" name="ae142f36c66179c87ad497a146c4a3b7c"></a>
+RewindDelegate&#160;</td><td class="memItemRight" valign="bottom"><b>levelRewindEvent</b></td></tr>
+<tr class="separator:ae142f36c66179c87ad497a146c4a3b7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade626c7beccc0dfb00776fdfa76ae919" id="r_ade626c7beccc0dfb00776fdfa76ae919"><td class="memItemLeft" align="right" valign="top"><a id="ade626c7beccc0dfb00776fdfa76ae919" name="ade626c7beccc0dfb00776fdfa76ae919"></a>
+FinishDelegate&#160;</td><td class="memItemRight" valign="bottom"><b>levelFinishEvent</b></td></tr>
+<tr class="separator:ade626c7beccc0dfb00776fdfa76ae919"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93b72ce8d35af33c0b935559c9c39fc1" id="r_a93b72ce8d35af33c0b935559c9c39fc1"><td class="memItemLeft" align="right" valign="top"><a id="a93b72ce8d35af33c0b935559c9c39fc1" name="a93b72ce8d35af33c0b935559c9c39fc1"></a>
+StartDelegate&#160;</td><td class="memItemRight" valign="bottom"><b>levelStartEvent</b></td></tr>
+<tr class="separator:a93b72ce8d35af33c0b935559c9c39fc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a5ccfacd027ad08eeb4ff1f25a7f59c98" id="r_a5ccfacd027ad08eeb4ff1f25a7f59c98"><td class="memItemLeft" align="right" valign="top"><a id="a5ccfacd027ad08eeb4ff1f25a7f59c98" name="a5ccfacd027ad08eeb4ff1f25a7f59c98"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Start</b> ()</td></tr>
+<tr class="separator:a5ccfacd027ad08eeb4ff1f25a7f59c98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73b3858a5fdfa8869bd1df72c7d45bf6" id="r_a73b3858a5fdfa8869bd1df72c7d45bf6"><td class="memItemLeft" align="right" valign="top"><a id="a73b3858a5fdfa8869bd1df72c7d45bf6" name="a73b3858a5fdfa8869bd1df72c7d45bf6"></a>
+async System.Threading.Tasks.Task&#160;</td><td class="memItemRight" valign="bottom"><b>IsDoneLoading_Audio</b> ()</td></tr>
+<tr class="separator:a73b3858a5fdfa8869bd1df72c7d45bf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb74496eb7e35bd88e6bb8cc171c2f5e" id="r_aeb74496eb7e35bd88e6bb8cc171c2f5e"><td class="memItemLeft" align="right" valign="top"><a id="aeb74496eb7e35bd88e6bb8cc171c2f5e" name="aeb74496eb7e35bd88e6bb8cc171c2f5e"></a>
+async System.Threading.Tasks.Task&#160;</td><td class="memItemRight" valign="bottom"><b>IsDoneLoading_Data</b> ()</td></tr>
+<tr class="separator:aeb74496eb7e35bd88e6bb8cc171c2f5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa360cf2128c9d9f266e11b53c298c020" id="r_aa360cf2128c9d9f266e11b53c298c020"><td class="memItemLeft" align="right" valign="top"><a id="aa360cf2128c9d9f266e11b53c298c020" name="aa360cf2128c9d9f266e11b53c298c020"></a>
+async System.Threading.Tasks.Task&#160;</td><td class="memItemRight" valign="bottom"><b>IsDoneLoading_Metadata</b> ()</td></tr>
+<tr class="separator:aa360cf2128c9d9f266e11b53c298c020"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65b9ce0b0e9599a8892fa66b4783842c" id="r_a65b9ce0b0e9599a8892fa66b4783842c"><td class="memItemLeft" align="right" valign="top"><a id="a65b9ce0b0e9599a8892fa66b4783842c" name="a65b9ce0b0e9599a8892fa66b4783842c"></a>
+async System.Threading.Tasks.Task&#160;</td><td class="memItemRight" valign="bottom"><b>IsDoneLoading_Objects</b> ()</td></tr>
+<tr class="separator:a65b9ce0b0e9599a8892fa66b4783842c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a035b935443885dcb91b506be8f4d2598" id="r_a035b935443885dcb91b506be8f4d2598"><td class="memItemLeft" align="right" valign="top"><a id="a035b935443885dcb91b506be8f4d2598" name="a035b935443885dcb91b506be8f4d2598"></a>
+async System.Threading.Tasks.Task&#160;</td><td class="memItemRight" valign="bottom"><b>IsDoneLoading_Backgrounds</b> ()</td></tr>
+<tr class="separator:a035b935443885dcb91b506be8f4d2598"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bde863a4ab62de3ef55f08aedb8cff2" id="r_a9bde863a4ab62de3ef55f08aedb8cff2"><td class="memItemLeft" align="right" valign="top"><a id="a9bde863a4ab62de3ef55f08aedb8cff2" name="a9bde863a4ab62de3ef55f08aedb8cff2"></a>
+async System.Threading.Tasks.Task&#160;</td><td class="memItemRight" valign="bottom"><b>IsDoneLoading_Tweens</b> ()</td></tr>
+<tr class="separator:a9bde863a4ab62de3ef55f08aedb8cff2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a296650ee27cf09e809099a29ee759ed4" id="r_a296650ee27cf09e809099a29ee759ed4"><td class="memItemLeft" align="right" valign="top"><a id="a296650ee27cf09e809099a29ee759ed4" name="a296650ee27cf09e809099a29ee759ed4"></a>
+async System.Threading.Tasks.Task&#160;</td><td class="memItemRight" valign="bottom"><b>IsDoneLoading</b> ()</td></tr>
+<tr class="separator:a296650ee27cf09e809099a29ee759ed4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9effd4614ce6b6f9a7a806c980a9f394" id="r_a9effd4614ce6b6f9a7a806c980a9f394"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9effd4614ce6b6f9a7a806c980a9f394">SetupCheckpoints</a> ()</td></tr>
+<tr class="memdesc:a9effd4614ce6b6f9a7a806c980a9f394"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function sets up the checkpoints for the current level.  <br /></td></tr>
+<tr class="separator:a9effd4614ce6b6f9a7a806c980a9f394"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cfb17b9e10eb698898d35059bafaca4" id="r_a4cfb17b9e10eb698898d35059bafaca4"><td class="memItemLeft" align="right" valign="top"><a id="a4cfb17b9e10eb698898d35059bafaca4" name="a4cfb17b9e10eb698898d35059bafaca4"></a>
+IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><b>LoadAudio</b> (<a class="el" href="../../d2/db5/class_v_g_level.html">VGLevel</a> _level)</td></tr>
+<tr class="separator:a4cfb17b9e10eb698898d35059bafaca4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a292e8e2f8f2a856a15f79a625072ef61" id="r_a292e8e2f8f2a856a15f79a625072ef61"><td class="memItemLeft" align="right" valign="top"><a id="a292e8e2f8f2a856a15f79a625072ef61" name="a292e8e2f8f2a856a15f79a625072ef61"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>LoadMetadata</b> (<a class="el" href="../../d2/db5/class_v_g_level.html">VGLevel</a> _level)</td></tr>
+<tr class="separator:a292e8e2f8f2a856a15f79a625072ef61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bfd7cf2200c21ea2332b31ea791cc74" id="r_a7bfd7cf2200c21ea2332b31ea791cc74"><td class="memItemLeft" align="right" valign="top"><a id="a7bfd7cf2200c21ea2332b31ea791cc74" name="a7bfd7cf2200c21ea2332b31ea791cc74"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>LoadData</b> (<a class="el" href="../../d2/db5/class_v_g_level.html">VGLevel</a> _level)</td></tr>
+<tr class="separator:a7bfd7cf2200c21ea2332b31ea791cc74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7824fe17c33b88339c88b0de8fa0fbf7" id="r_a7824fe17c33b88339c88b0de8fa0fbf7"><td class="memItemLeft" align="right" valign="top">IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7824fe17c33b88339c88b0de8fa0fbf7">LoadObjects</a> (<a class="el" href="../../d2/db5/class_v_g_level.html">VGLevel</a> _level)</td></tr>
+<tr class="memdesc:a7824fe17c33b88339c88b0de8fa0fbf7"><td class="mdescLeft">&#160;</td><td class="mdescRight">This coroutine is responsible for loading the objects for a game level.  <br /></td></tr>
+<tr class="separator:a7824fe17c33b88339c88b0de8fa0fbf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c0984b541253f4c39ad19ea5937b9db" id="r_a2c0984b541253f4c39ad19ea5937b9db"><td class="memItemLeft" align="right" valign="top"><a id="a2c0984b541253f4c39ad19ea5937b9db" name="a2c0984b541253f4c39ad19ea5937b9db"></a>
+IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><b>LoadBackgrounds</b> (<a class="el" href="../../d2/db5/class_v_g_level.html">VGLevel</a> _level)</td></tr>
+<tr class="separator:a2c0984b541253f4c39ad19ea5937b9db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68c247edcd4869bc312e544bfc68a8ad" id="r_a68c247edcd4869bc312e544bfc68a8ad"><td class="memItemLeft" align="right" valign="top">IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68c247edcd4869bc312e544bfc68a8ad">LoadTweens</a> ()</td></tr>
+<tr class="memdesc:a68c247edcd4869bc312e544bfc68a8ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">This coroutine is responsible for loading the tweens for a game level.  <br /></td></tr>
+<tr class="separator:a68c247edcd4869bc312e544bfc68a8ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c4808a7ff3a486332c7994ff8cf31b1" id="r_a3c4808a7ff3a486332c7994ff8cf31b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c4808a7ff3a486332c7994ff8cf31b1">PlayGame</a> ()</td></tr>
+<tr class="memdesc:a3c4808a7ff3a486332c7994ff8cf31b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is responsible for starting the gameplay.  <br /></td></tr>
+<tr class="separator:a3c4808a7ff3a486332c7994ff8cf31b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2496d4cad1f0526be63e705a83087c2" id="r_af2496d4cad1f0526be63e705a83087c2"><td class="memItemLeft" align="right" valign="top"><a id="af2496d4cad1f0526be63e705a83087c2" name="af2496d4cad1f0526be63e705a83087c2"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>GameLoop</b> ()</td></tr>
+<tr class="separator:af2496d4cad1f0526be63e705a83087c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a246f3c0e365f4eff658e779f4336a4fa" id="r_a246f3c0e365f4eff658e779f4336a4fa"><td class="memItemLeft" align="right" valign="top"><a id="a246f3c0e365f4eff658e779f4336a4fa" name="a246f3c0e365f4eff658e779f4336a4fa"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>OnDestroy</b> ()</td></tr>
+<tr class="separator:a246f3c0e365f4eff658e779f4336a4fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a891e0757094362467133e03044bf9583" id="r_a891e0757094362467133e03044bf9583"><td class="memItemLeft" align="right" valign="top"><a id="a891e0757094362467133e03044bf9583" name="a891e0757094362467133e03044bf9583"></a>
-string&#160;</td><td class="memItemRight" valign="bottom"><b>className</b> = &quot;[&lt;color=#FF9800&gt;<a class="el" href="../../db/d10/class_game_manager.html">GameManager</a>&lt;/color&gt;] \n&quot;</td></tr>
-<tr class="separator:a891e0757094362467133e03044bf9583"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9253196e7f6d34e3dfab7ae8bee3d023" id="r_a9253196e7f6d34e3dfab7ae8bee3d023"><td class="memItemLeft" align="right" valign="top"><a id="a9253196e7f6d34e3dfab7ae8bee3d023" name="a9253196e7f6d34e3dfab7ae8bee3d023"></a>
-readonly <a class="el" href="../../d7/d65/class_data_manager_1_1_beatmap_theme.html">DataManager.BeatmapTheme</a>&#160;</td><td class="memItemRight" valign="bottom"><b>HighContrastTheme</b></td></tr>
+<tr class="memitem:ac9a872e769d66d2a8564d76fa8b2b840" id="r_ac9a872e769d66d2a8564d76fa8b2b840"><td class="memItemLeft" align="right" valign="top"><a id="ac9a872e769d66d2a8564d76fa8b2b840" name="ac9a872e769d66d2a8564d76fa8b2b840"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>PreviousSongTime</b></td></tr>
+<tr class="separator:ac9a872e769d66d2a8564d76fa8b2b840"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe0cb79a0d6b598685d6146dc7f692a7" id="r_afe0cb79a0d6b598685d6146dc7f692a7"><td class="memItemLeft" align="right" valign="top"><a id="afe0cb79a0d6b598685d6146dc7f692a7" name="afe0cb79a0d6b598685d6146dc7f692a7"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>isReversing</b> = false</td></tr>
+<tr class="separator:afe0cb79a0d6b598685d6146dc7f692a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33e8536d4e4b9ee69edf5efc1296664d" id="r_a33e8536d4e4b9ee69edf5efc1296664d"><td class="memItemLeft" align="right" valign="top"><a id="a33e8536d4e4b9ee69edf5efc1296664d" name="a33e8536d4e4b9ee69edf5efc1296664d"></a>
+float[]&#160;</td><td class="memItemRight" valign="bottom"><b>SongSpeeds</b> = new float[] { 1, 1.2f, 0.8f }</td></tr>
+<tr class="separator:a33e8536d4e4b9ee69edf5efc1296664d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9253196e7f6d34e3dfab7ae8bee3d023" id="r_a9253196e7f6d34e3dfab7ae8bee3d023"><td class="memItemLeft" align="right" valign="top">readonly <a class="el" href="../../d7/d65/class_data_manager_1_1_beatmap_theme.html">DataManager.BeatmapTheme</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9253196e7f6d34e3dfab7ae8bee3d023">HighContrastTheme</a></td></tr>
 <tr class="separator:a9253196e7f6d34e3dfab7ae8bee3d023"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b42ebd881ed9d97af6d4d62b2fd1326" id="r_a7b42ebd881ed9d97af6d4d62b2fd1326"><td class="memItemLeft" align="right" valign="top"><a id="a7b42ebd881ed9d97af6d4d62b2fd1326" name="a7b42ebd881ed9d97af6d4d62b2fd1326"></a>
+<a class="el" href="../../db/d5f/class_v_g_functions_1_1_debounce.html">Debounce</a>&#160;</td><td class="memItemRight" valign="bottom"><b>PauseDebounce</b></td></tr>
+<tr class="separator:a7b42ebd881ed9d97af6d4d62b2fd1326"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cf08b3a3ebac273380fdc99d9a7c54b" id="r_a7cf08b3a3ebac273380fdc99d9a7c54b"><td class="memItemLeft" align="right" valign="top"><a id="a7cf08b3a3ebac273380fdc99d9a7c54b" name="a7cf08b3a3ebac273380fdc99d9a7c54b"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>isHighContrast</b> = false</td></tr>
+<tr class="separator:a7cf08b3a3ebac273380fdc99d9a7c54b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ff5e00ccc0835943a47b85409c2e8a8" id="r_a3ff5e00ccc0835943a47b85409c2e8a8"><td class="memItemLeft" align="right" valign="top"><a id="a3ff5e00ccc0835943a47b85409c2e8a8" name="a3ff5e00ccc0835943a47b85409c2e8a8"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>audioTimeVelocity</b> = 0</td></tr>
+<tr class="separator:a3ff5e00ccc0835943a47b85409c2e8a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17bb761f7916d23cfba55b028f84680c" id="r_a17bb761f7916d23cfba55b028f84680c"><td class="memItemLeft" align="right" valign="top"><a id="a17bb761f7916d23cfba55b028f84680c" name="a17bb761f7916d23cfba55b028f84680c"></a>
+Color&#160;</td><td class="memItemRight" valign="bottom"><b>theme_workingColor</b></td></tr>
+<tr class="separator:a17bb761f7916d23cfba55b028f84680c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bf682ed00a5cc00f53ebab53c4cec54" id="r_a9bf682ed00a5cc00f53ebab53c4cec54"><td class="memItemLeft" align="right" valign="top"><a id="a9bf682ed00a5cc00f53ebab53c4cec54" name="a9bf682ed00a5cc00f53ebab53c4cec54"></a>
+Color&#160;</td><td class="memItemRight" valign="bottom"><b>theme_workingColorExtra</b></td></tr>
+<tr class="separator:a9bf682ed00a5cc00f53ebab53c4cec54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2aad1ad5ae892a38d9eb7124ff0fd243" id="r_a2aad1ad5ae892a38d9eb7124ff0fd243"><td class="memItemLeft" align="right" valign="top"><a id="a2aad1ad5ae892a38d9eb7124ff0fd243" name="a2aad1ad5ae892a38d9eb7124ff0fd243"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>theme_workingLayer</b></td></tr>
+<tr class="separator:a2aad1ad5ae892a38d9eb7124ff0fd243"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdc183a29549957906991773d16d168e" id="r_abdc183a29549957906991773d16d168e"><td class="memItemLeft" align="right" valign="top"><a id="abdc183a29549957906991773d16d168e" name="abdc183a29549957906991773d16d168e"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>theme_workingIndex</b></td></tr>
+<tr class="separator:abdc183a29549957906991773d16d168e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:ae81b726cce43117a2896afe7190d8b9c" id="r_ae81b726cce43117a2896afe7190d8b9c"><td class="memItemLeft" align="right" valign="top"><a id="ae81b726cce43117a2896afe7190d8b9c" name="ae81b726cce43117a2896afe7190d8b9c"></a>
+const float&#160;</td><td class="memItemRight" valign="bottom"><b>DampSpeed</b> = 1.0f / 50.0f</td></tr>
+<tr class="separator:ae81b726cce43117a2896afe7190d8b9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>This class manages the main gameplay loop. </p>
+<p>It is responsible for loading levels, spawning players, synchronizing game objects with the song time, and handling game state changes. It also provides functions for rewinding to checkpoints, reversing the song, and getting the closest checkpoint to a given time. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a42782459f13440db257a3c13f5770e1c" name="a42782459f13440db257a3c13f5770e1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42782459f13440db257a3c13f5770e1c">&#9670;&#160;</a></span>CheckpointCheck()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameManager.CheckpointCheck </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Checks if a checkpoint has been reached and triggers the checkpoint animation. </p>
+<p>This function checks if the current song time has reached any of the checkpoints that have not been activated yet. If a checkpoint is reached, it triggers the checkpoint animation and respawns the players. </p>
+
+</div>
+</div>
+<a id="a64a3e0eee2f14ae4981df46cc8c0786f" name="a64a3e0eee2f14ae4981df46cc8c0786f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64a3e0eee2f14ae4981df46cc8c0786f">&#9670;&#160;</a></span>InitCheckpoints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameManager.InitCheckpoints </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>_songLength</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function initializes the checkpoints for the current level. </p>
+<p>It takes a float representing the length of the song. The function creates a GameObject for each checkpoint in the beatmap data, sets its parent to the CheckpointTimeline, and positions it based on the checkpoint's time in the song.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">_songLength</td><td>The length of the song for the current level. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a70f2375bb0ee237a414224aad7b3a5b9" name="a70f2375bb0ee237a414224aad7b3a5b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70f2375bb0ee237a414224aad7b3a5b9">&#9670;&#160;</a></span>LoadGame()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">IEnumerator GameManager.LoadGame </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d2/db5/class_v_g_level.html">VGLevel</a></td>          <td class="paramname"><span class="paramname"><em>_level</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This coroutine is responsible for loading a game level. It takes a <a class="el" href="../../d2/db5/class_v_g_level.html">VGLevel</a> object representing the level to be loaded. The function performs several operations such as loading metadata, audio, data, backgrounds, objects, and tweens related to the level. After all the loading operations are done, it starts the game. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">_level</td><td>The level to be loaded. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a7824fe17c33b88339c88b0de8fa0fbf7" name="a7824fe17c33b88339c88b0de8fa0fbf7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7824fe17c33b88339c88b0de8fa0fbf7">&#9670;&#160;</a></span>LoadObjects()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IEnumerator GameManager.LoadObjects </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d2/db5/class_v_g_level.html">VGLevel</a></td>          <td class="paramname"><span class="paramname"><em>_level</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This coroutine is responsible for loading the objects for a game level. </p>
+<p>It takes a <a class="el" href="../../d2/db5/class_v_g_level.html">VGLevel</a> object representing the level to be loaded. The function initializes the trigger sequence and spawn and kill sequence for the level's objects. It then iterates over each beatmap object in the game data, initializing its data, parent chain, and visual. If an error occurs during this process, it is logged and the function continues to the next object.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">_level</td><td>The level whose objects are to be loaded. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a68c247edcd4869bc312e544bfc68a8ad" name="a68c247edcd4869bc312e544bfc68a8ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68c247edcd4869bc312e544bfc68a8ad">&#9670;&#160;</a></span>LoadTweens()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IEnumerator GameManager.LoadTweens </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This coroutine is responsible for loading the tweens for a game level. </p>
+<p>It iterates over each beatmap object in the game data and initializes its keyframes. If an error occurs during this process, it is logged and the function continues to the next object. After all beatmap objects have been processed, the function initializes the keyframes for the events. </p>
+
+</div>
+</div>
+<a id="a3c4808a7ff3a486332c7994ff8cf31b1" name="a3c4808a7ff3a486332c7994ff8cf31b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c4808a7ff3a486332c7994ff8cf31b1">&#9670;&#160;</a></span>PlayGame()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameManager.PlayGame </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This function is responsible for starting the gameplay. </p>
+<p>It sets the UI volume weight to 0, logs the start of the game, and checks if the game is in high contrast mode. It then calls several setup functions to prepare the game level. It also sets up the intro view with the track name, artist name, practice mode status, and main color. Finally, it inserts callbacks into the kill sequence to show and hide the intro background at specific times. </p>
+
+</div>
+</div>
+<a id="a92d707fe3b85c7833b7e456920342895" name="a92d707fe3b85c7833b7e456920342895"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92d707fe3b85c7833b7e456920342895">&#9670;&#160;</a></span>ResetCheckpoints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameManager.ResetCheckpoints </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>baseOnTime</em><span class="paramdefsep"> = </span><span class="paramdefval">false</span></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function resets the checkpoints for the current level. </p>
+<p>It takes an optional boolean parameter that determines whether the reset is based on time. If the game data or beatmap data is null, or if there are no checkpoints, the function returns immediately.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">baseOnTime</td><td>An optional parameter that determines whether the reset is based on time. Default value is false. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aba6281b5975b66aae9da901454d4e641" name="aba6281b5975b66aae9da901454d4e641"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba6281b5975b66aae9da901454d4e641">&#9670;&#160;</a></span>RewindToCheckpoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameManager.RewindToCheckpoint </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>_indexForce</em><span class="paramdefsep"> = </span><span class="paramdefval">-1</span>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>_instant</em><span class="paramdefsep"> = </span><span class="paramdefval">false</span></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function is responsible for rewinding the game to a specific checkpoint. </p>
+<p>It takes an integer representing the index of the checkpoint to rewind to. The function sets the current song time to the time of the checkpoint, resets all game objects, and synchronizes them with the new song time.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">checkpointIndex</td><td>The index of the checkpoint to rewind to. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a9effd4614ce6b6f9a7a806c980a9f394" name="a9effd4614ce6b6f9a7a806c980a9f394"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9effd4614ce6b6f9a7a806c980a9f394">&#9670;&#160;</a></span>SetupCheckpoints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameManager.SetupCheckpoints </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This function sets up the checkpoints for the current level. </p>
+<p>It resets the current checkpoints and initializes new ones based on the length of the level audio. </p>
+
+</div>
+</div>
+<a id="ac42efb6df13ac04d4b3569f2f18cc1fe" name="ac42efb6df13ac04d4b3569f2f18cc1fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac42efb6df13ac04d4b3569f2f18cc1fe">&#9670;&#160;</a></span>SpawnPlayers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameManager.SpawnPlayers </td>
+          <td>(</td>
+          <td class="paramtype">Vector3</td>          <td class="paramname"><span class="paramname"><em>_pos</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function is responsible for spawning player objects in the game. </p>
+<p>It iterates over each player in the game data and spawns a player object for them. The player object is initialized with the player's data, and its position is set based on the player's spawn position. If the player has a spawn animation, it is played. </p>
+
+</div>
+</div>
+<a id="ad3899bb8d79484a05dbab9cfa89bf82d" name="ad3899bb8d79484a05dbab9cfa89bf82d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3899bb8d79484a05dbab9cfa89bf82d">&#9670;&#160;</a></span>SyncAllObjects()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameManager.SyncAllObjects </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function synchronizes all game objects with the current song time. </p>
+<p>It iterates over each game object in the beatmap and checks if it should be active based on the current song time. If the song time is outside the object's start time and length, and the object is currently active, it deactivates the object. If the song time is within the object's start time and length, and the object is currently inactive, it activates the object. </p>
+
+</div>
+</div>
+<a id="ab225aca05f1a01a8afcfb0bc3e8779cf" name="ab225aca05f1a01a8afcfb0bc3e8779cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab225aca05f1a01a8afcfb0bc3e8779cf">&#9670;&#160;</a></span>SyncSequenceLoop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameManager.SyncSequenceLoop </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function is responsible for synchronizing a sequence loop with the current song time. </p>
+<p>It takes a SequenceLoop object and checks if it should be active based on the current song time. If the song time is outside the loop's start time and length, and the loop is currently active, it deactivates the loop. If the song time is within the loop's start time and length, and the loop is currently inactive, it activates the loop.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sequenceLoop</td><td>The sequence loop to be synchronized. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a9253196e7f6d34e3dfab7ae8bee3d023" name="a9253196e7f6d34e3dfab7ae8bee3d023"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9253196e7f6d34e3dfab7ae8bee3d023">&#9670;&#160;</a></span>HighContrastTheme</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly <a class="el" href="../../d7/d65/class_data_manager_1_1_beatmap_theme.html">DataManager.BeatmapTheme</a> GameManager.HighContrastTheme</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> <a class="code hl_class" href="../../d9/de1/class_data_manager.html">DataManager</a>.<a class="code hl_class" href="../../d7/d65/class_data_manager_1_1_beatmap_theme.html">BeatmapTheme</a>()</div>
+<div class="line">    {</div>
+<div class="line">        <span class="keywordtype">id</span> = <span class="stringliteral">&quot;99&quot;</span>,</div>
+<div class="line">        name = <span class="stringliteral">&quot;high contrast&quot;</span>,</div>
+<div class="line">        folder = <span class="stringliteral">&quot;&quot;</span>,</div>
+<div class="line"> </div>
+<div class="line">        guiColor = LSColors.gray600,</div>
+<div class="line">        backgroundColor = LSColors.gray50,</div>
+<div class="line">        playerColors = <span class="keyword">new</span> List&lt;Color&gt;() { LSColors.red500, LSColors.blue500, LSColors.green500, LSColors.yellow500, },</div>
+<div class="line">        effectColors = <span class="keyword">new</span> List&lt;Color&gt;() { <a class="code hl_class" href="../../da/dc5/class_v_g_functions_1_1_l_s_colors.html">LSColors</a>.transparent, <a class="code hl_class" href="../../da/dc5/class_v_g_functions_1_1_l_s_colors.html">LSColors</a>.transparent, <a class="code hl_class" href="../../da/dc5/class_v_g_functions_1_1_l_s_colors.html">LSColors</a>.transparent, <a class="code hl_class" href="../../da/dc5/class_v_g_functions_1_1_l_s_colors.html">LSColors</a>.transparent, <a class="code hl_class" href="../../da/dc5/class_v_g_functions_1_1_l_s_colors.html">LSColors</a>.transparent, <a class="code hl_class" href="../../da/dc5/class_v_g_functions_1_1_l_s_colors.html">LSColors</a>.transparent, <a class="code hl_class" href="../../da/dc5/class_v_g_functions_1_1_l_s_colors.html">LSColors</a>.transparent, <a class="code hl_class" href="../../da/dc5/class_v_g_functions_1_1_l_s_colors.html">LSColors</a>.transparent, <a class="code hl_class" href="../../da/dc5/class_v_g_functions_1_1_l_s_colors.html">LSColors</a>.transparent, },</div>
+<div class="line">        objectColors = <span class="keyword">new</span> List&lt;Color&gt;() { LSColors.gray900, LSColors.gray900, LSColors.gray900, LSColors.gray900, LSColors.gray900, LSColors.gray900, LSColors.gray900, LSColors.gray900, LSColors.gray900, },</div>
+<div class="line">        parallaxColors = <span class="keyword">new</span> List&lt;Color&gt;() { LSColors.gray700, LSColors.gray700, LSColors.gray700, LSColors.gray700, LSColors.gray700, LSColors.gray700, LSColors.gray700, LSColors.gray700, LSColors.gray700, }</div>
+<div class="line">    }</div>
+<div class="ttc" id="aclass_data_manager_1_1_beatmap_theme_html"><div class="ttname"><a href="../../d7/d65/class_data_manager_1_1_beatmap_theme.html">DataManager.BeatmapTheme</a></div><div class="ttdef"><b>Definition</b> DataManager.cs:863</div></div>
+<div class="ttc" id="aclass_data_manager_html"><div class="ttname"><a href="../../d9/de1/class_data_manager.html">DataManager</a></div><div class="ttdef"><b>Definition</b> DataManager.cs:19</div></div>
+<div class="ttc" id="aclass_v_g_functions_1_1_l_s_colors_html"><div class="ttname"><a href="../../da/dc5/class_v_g_functions_1_1_l_s_colors.html">VGFunctions.LSColors</a></div><div class="ttdoc">A class that handles color operations.</div><div class="ttdef"><b>Definition</b> VGFunctions.cs:2374</div></div>
+</div><!-- fragment -->
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>C:/Users/Pidge/Documents/gamedev/core_project_arrhythmia/Assets/Scripts/Managers/<b>GameManager.cs</b></li>
 </ul>

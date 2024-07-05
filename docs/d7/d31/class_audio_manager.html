@@ -158,9 +158,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>SetAllMusicLevels</b>
 <tr class="memitem:ac9717e85495d067ebacc48e852e6c26a" id="r_ac9717e85495d067ebacc48e852e6c26a"><td class="memItemLeft" align="right" valign="top"><a id="ac9717e85495d067ebacc48e852e6c26a" name="ac9717e85495d067ebacc48e852e6c26a"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>ApplyLowPass</b> (float _attack=0.1f, float _hold=0.1f, float _decay=0.1f)</td></tr>
 <tr class="separator:ac9717e85495d067ebacc48e852e6c26a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2812df35a3924705d1ffd90b6efdfdfa" id="r_a2812df35a3924705d1ffd90b6efdfdfa"><td class="memItemLeft" align="right" valign="top"><a id="a2812df35a3924705d1ffd90b6efdfdfa" name="a2812df35a3924705d1ffd90b6efdfdfa"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>PlaySound</b> (string _soundName)</td></tr>
-<tr class="separator:a2812df35a3924705d1ffd90b6efdfdfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4fc641b9f5089818e594a0b35c549dd" id="r_af4fc641b9f5089818e594a0b35c549dd"><td class="memItemLeft" align="right" valign="top"><a id="af4fc641b9f5089818e594a0b35c549dd" name="af4fc641b9f5089818e594a0b35c549dd"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>ApplyLowPassResonance</b> (float _attack=0.1f, float _hold=0.1f, float _decay=0.1f)</td></tr>
+<tr class="separator:af4fc641b9f5089818e594a0b35c549dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22b400f2fd7d103f1b6d070968f37daf" id="r_a22b400f2fd7d103f1b6d070968f37daf"><td class="memItemLeft" align="right" valign="top"><a id="a22b400f2fd7d103f1b6d070968f37daf" name="a22b400f2fd7d103f1b6d070968f37daf"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>PlaySound</b> (string _soundName, float _volume=1f)</td></tr>
+<tr class="separator:a22b400f2fd7d103f1b6d070968f37daf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_singleton_base"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_singleton_base')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../db/da7/class_singleton_base.html">SingletonBase&lt; AudioManager &gt;</a></td></tr>
 <tr class="memitem:a91cc9bfeabc19080544602a2e0f3d255 inherit pub_methods_class_singleton_base" id="r_a91cc9bfeabc19080544602a2e0f3d255"><td class="memItemLeft" align="right" valign="top">
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Awake</b> ()</td></tr>
@@ -180,6 +183,9 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>activeSource</b> = 0</
 <tr class="memitem:a659aa8327f436705724d3b68fa5f5fc7" id="r_a659aa8327f436705724d3b68fa5f5fc7"><td class="memItemLeft" align="right" valign="top"><a id="a659aa8327f436705724d3b68fa5f5fc7" name="a659aa8327f436705724d3b68fa5f5fc7"></a>
 List&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>currentlyPlayingSFX</b></td></tr>
 <tr class="separator:a659aa8327f436705724d3b68fa5f5fc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af20e9441762e9b8086842802fd93fd69" id="r_af20e9441762e9b8086842802fd93fd69"><td class="memItemLeft" align="right" valign="top"><a id="af20e9441762e9b8086842802fd93fd69" name="af20e9441762e9b8086842802fd93fd69"></a>
+AudioSource&#160;</td><td class="memItemRight" valign="bottom"><b>sfxSource</b></td></tr>
+<tr class="separator:af20e9441762e9b8086842802fd93fd69"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a87c10b9353faee6fbc91b869bd763e55" id="r_a87c10b9353faee6fbc91b869bd763e55"><td class="memItemLeft" align="right" valign="top"><a id="a87c10b9353faee6fbc91b869bd763e55" name="a87c10b9353faee6fbc91b869bd763e55"></a>
 AudioSource[]&#160;</td><td class="memItemRight" valign="bottom"><b>musicSources</b></td></tr>
 <tr class="separator:a87c10b9353faee6fbc91b869bd763e55"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -221,15 +227,18 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a8fe80288771ca7a0483f7f5c0b623f87" id="r_a8fe80288771ca7a0483f7f5c0b623f87"><td class="memItemLeft" align="right" valign="top"><a id="a8fe80288771ca7a0483f7f5c0b623f87" name="a8fe80288771ca7a0483f7f5c0b623f87"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>FixedUpdate</b> ()</td></tr>
 <tr class="separator:a8fe80288771ca7a0483f7f5c0b623f87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87ecc608a909c6f1099a810e0c51569b" id="r_a87ecc608a909c6f1099a810e0c51569b"><td class="memItemLeft" align="right" valign="top"><a id="a87ecc608a909c6f1099a810e0c51569b" name="a87ecc608a909c6f1099a810e0c51569b"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>EvaluateVolume</b> (float _volume)</td></tr>
+<tr class="separator:a87ecc608a909c6f1099a810e0c51569b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8b6acf64b1256226db32ac029fbf15a" id="r_ac8b6acf64b1256226db32ac029fbf15a"><td class="memItemLeft" align="right" valign="top"><a id="ac8b6acf64b1256226db32ac029fbf15a" name="ac8b6acf64b1256226db32ac029fbf15a"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateAudioMixer</b> ()</td></tr>
 <tr class="separator:ac8b6acf64b1256226db32ac029fbf15a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e9082562bfd5f462ff57a04cec33101" id="r_a5e9082562bfd5f462ff57a04cec33101"><td class="memItemLeft" align="right" valign="top"><a id="a5e9082562bfd5f462ff57a04cec33101" name="a5e9082562bfd5f462ff57a04cec33101"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>PlayMusic</b> (string _name, AudioClip _clip, bool _loop, bool _force=false, bool _immediate=false)</td></tr>
 <tr class="separator:a5e9082562bfd5f462ff57a04cec33101"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4595393a4c2494274732289cda73b82e" id="r_a4595393a4c2494274732289cda73b82e"><td class="memItemLeft" align="right" valign="top"><a id="a4595393a4c2494274732289cda73b82e" name="a4595393a4c2494274732289cda73b82e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>PlaySound</b> (string _soundName, string _group=&quot;SFX&quot;)</td></tr>
-<tr class="separator:a4595393a4c2494274732289cda73b82e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bd0f2af5dd50594c7b1655939054f1f" id="r_a6bd0f2af5dd50594c7b1655939054f1f"><td class="memItemLeft" align="right" valign="top"><a id="a6bd0f2af5dd50594c7b1655939054f1f" name="a6bd0f2af5dd50594c7b1655939054f1f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>PlaySound</b> (string _soundName, string _group=&quot;SFX&quot;, float _volume=1f)</td></tr>
+<tr class="separator:a6bd0f2af5dd50594c7b1655939054f1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12a02b5a947b4cfba5a3b25f6b5df27d" id="r_a12a02b5a947b4cfba5a3b25f6b5df27d"><td class="memItemLeft" align="right" valign="top"><a id="a12a02b5a947b4cfba5a3b25f6b5df27d" name="a12a02b5a947b4cfba5a3b25f6b5df27d"></a>
 IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><b>DestroySFXSource</b> (string _soundName, AudioSource _audioSource, float delay)</td></tr>
 <tr class="separator:a12a02b5a947b4cfba5a3b25f6b5df27d"><td class="memSeparator" colspan="2">&#160;</td></tr>

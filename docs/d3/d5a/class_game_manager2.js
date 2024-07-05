@@ -1,6 +1,7 @@
 var class_game_manager2 =
 [
     [ "LoadingState", "db/d51/class_game_manager2_1_1_loading_state.html", null ],
+    [ "CheckpointCheck", "d3/d5a/class_game_manager2.html#a2416f8411aea34b21bccabaa66069759", null ],
     [ "InitCheckpoints", "d3/d5a/class_game_manager2.html#a15a430ae9593decdb3e8d5b40fe39e59", null ],
     [ "LoadGame", "d3/d5a/class_game_manager2.html#ab5343c253674c3debb13f80fc129fe31", null ],
     [ "LoadObjects", "d3/d5a/class_game_manager2.html#a81ea7fb70b570e3fdc173446af3af338", null ],

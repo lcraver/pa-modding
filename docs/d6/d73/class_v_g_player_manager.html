@@ -134,11 +134,6 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a9fd404057fea45dbdf812e9db0022a4e" id="r_a9fd404057fea45dbdf812e9db0022a4e"><td class="memItemLeft" align="right" valign="top"><a id="a9fd404057fea45dbdf812e9db0022a4e" name="a9fd404057fea45dbdf812e9db0022a4e"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>ControlType</b> { <b>Desktop</b>
-, <b>Mobile</b>
-, <b>Arcade</b>
- }</td></tr>
-<tr class="separator:a9fd404057fea45dbdf812e9db0022a4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6cfda949c3ab802b571481a5dba458c6" id="r_a6cfda949c3ab802b571481a5dba458c6"><td class="memItemLeft" align="right" valign="top"><a id="a6cfda949c3ab802b571481a5dba458c6" name="a6cfda949c3ab802b571481a5dba458c6"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>RumbleType</b> { <b>Deep</b> = 0
 , <b>Light</b> = 1
  }</td></tr>
@@ -151,9 +146,9 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a2df33dae664468406c20801eeb2a6965" id="r_a2df33dae664468406c20801eeb2a6965"><td class="memItemLeft" align="right" valign="top"><a id="a2df33dae664468406c20801eeb2a6965" name="a2df33dae664468406c20801eeb2a6965"></a>
-delegate void&#160;</td><td class="memItemRight" valign="bottom"><b>SpawnPlayersDelegate</b> (Vector3 _pos)</td></tr>
-<tr class="separator:a2df33dae664468406c20801eeb2a6965"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad37921f8b0943f63d79df461672cfdc7" id="r_ad37921f8b0943f63d79df461672cfdc7"><td class="memItemLeft" align="right" valign="top"><a id="ad37921f8b0943f63d79df461672cfdc7" name="ad37921f8b0943f63d79df461672cfdc7"></a>
+delegate void&#160;</td><td class="memItemRight" valign="bottom"><b>SpawnPlayersDelegate</b> (Vector3 _pos, List&lt; int &gt; _playerIDs=null)</td></tr>
+<tr class="separator:ad37921f8b0943f63d79df461672cfdc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a718501e570baa51ce0d6504b14cd00df" id="r_a718501e570baa51ce0d6504b14cd00df"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a718501e570baa51ce0d6504b14cd00df">OnAwake</a> ()</td></tr>
 <tr class="separator:a718501e570baa51ce0d6504b14cd00df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa7edd3066a09ecfbff939b99652f2122" id="r_aa7edd3066a09ecfbff939b99652f2122"><td class="memItemLeft" align="right" valign="top"><a id="aa7edd3066a09ecfbff939b99652f2122" name="aa7edd3066a09ecfbff939b99652f2122"></a>
@@ -165,6 +160,18 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>SetPlayerLocation</b>
 <tr class="memitem:a976c516e92beb69f1d8ffb7f61525f1a" id="r_a976c516e92beb69f1d8ffb7f61525f1a"><td class="memItemLeft" align="right" valign="top"><a id="a976c516e92beb69f1d8ffb7f61525f1a" name="a976c516e92beb69f1d8ffb7f61525f1a"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>SetPlayerDashLock</b> (bool _canDash)</td></tr>
 <tr class="separator:a976c516e92beb69f1d8ffb7f61525f1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4518de7bad140bb04d5e6fbf42625b33" id="r_a4518de7bad140bb04d5e6fbf42625b33"><td class="memItemLeft" align="right" valign="top"><a id="a4518de7bad140bb04d5e6fbf42625b33" name="a4518de7bad140bb04d5e6fbf42625b33"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetPlayerMoveXLock</b> (bool _canMoveX)</td></tr>
+<tr class="separator:a4518de7bad140bb04d5e6fbf42625b33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53f3c42429034081a683b6b362f7964f" id="r_a53f3c42429034081a683b6b362f7964f"><td class="memItemLeft" align="right" valign="top"><a id="a53f3c42429034081a683b6b362f7964f" name="a53f3c42429034081a683b6b362f7964f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetPlayerMoveYLock</b> (bool _canMoveY)</td></tr>
+<tr class="separator:a53f3c42429034081a683b6b362f7964f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49a60f4d424b378f098cf92fc8fd6203" id="r_a49a60f4d424b378f098cf92fc8fd6203"><td class="memItemLeft" align="right" valign="top"><a id="a49a60f4d424b378f098cf92fc8fd6203" name="a49a60f4d424b378f098cf92fc8fd6203"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetPlayerDashDirection</b> (Vector2 _direction)</td></tr>
+<tr class="separator:a49a60f4d424b378f098cf92fc8fd6203"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc7f7c92374b247de109b41a14188e0d" id="r_afc7f7c92374b247de109b41a14188e0d"><td class="memItemLeft" align="right" valign="top"><a id="afc7f7c92374b247de109b41a14188e0d" name="afc7f7c92374b247de109b41a14188e0d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>InitPlayerStatus</b> ()</td></tr>
+<tr class="separator:afc7f7c92374b247de109b41a14188e0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a022336c73c40f7beceb135ab632307b1" id="r_a022336c73c40f7beceb135ab632307b1"><td class="memItemLeft" align="right" valign="top"><a id="a022336c73c40f7beceb135ab632307b1" name="a022336c73c40f7beceb135ab632307b1"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>CheckControllers</b> ()</td></tr>
 <tr class="separator:a022336c73c40f7beceb135ab632307b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -238,8 +245,8 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><b>ValidPlayer</b
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ac687f4eb47229e8bcafdfe53bd3b4b73" id="r_ac687f4eb47229e8bcafdfe53bd3b4b73"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; ControlType, List&lt; ControllerType &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac687f4eb47229e8bcafdfe53bd3b4b73">ValidControlTypes</a></td></tr>
-<tr class="separator:ac687f4eb47229e8bcafdfe53bd3b4b73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7622eb3eff4ed0587ea5011cdc7d0823" id="r_a7622eb3eff4ed0587ea5011cdc7d0823"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; SystemManager.ControlType, List&lt; ControllerType &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7622eb3eff4ed0587ea5011cdc7d0823">ValidControlTypes</a></td></tr>
+<tr class="separator:a7622eb3eff4ed0587ea5011cdc7d0823"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae68606407faa3da61e818046ba7987b9" id="r_ae68606407faa3da61e818046ba7987b9"><td class="memItemLeft" align="right" valign="top"><a id="ae68606407faa3da61e818046ba7987b9" name="ae68606407faa3da61e818046ba7987b9"></a>
 GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>LastSelection</b></td></tr>
 <tr class="separator:ae68606407faa3da61e818046ba7987b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -264,9 +271,9 @@ Canvas&#160;</td><td class="memItemRight" valign="bottom"><b>RewiredCanvas</b></
 <tr class="memitem:ada91430954d67834e9f62cdbb1dffd48" id="r_ada91430954d67834e9f62cdbb1dffd48"><td class="memItemLeft" align="right" valign="top"><a id="ada91430954d67834e9f62cdbb1dffd48" name="ada91430954d67834e9f62cdbb1dffd48"></a>
 Canvas&#160;</td><td class="memItemRight" valign="bottom"><b>PointerCanvas</b></td></tr>
 <tr class="separator:ada91430954d67834e9f62cdbb1dffd48"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7436bc5ff1b6b652c4c246a0bdb7bf81" id="r_a7436bc5ff1b6b652c4c246a0bdb7bf81"><td class="memItemLeft" align="right" valign="top"><a id="a7436bc5ff1b6b652c4c246a0bdb7bf81" name="a7436bc5ff1b6b652c4c246a0bdb7bf81"></a>
-ControlType&#160;</td><td class="memItemRight" valign="bottom"><b>CurrentControlType</b></td></tr>
-<tr class="separator:a7436bc5ff1b6b652c4c246a0bdb7bf81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc618fcab8c53291b5bc3840fc11d307" id="r_adc618fcab8c53291b5bc3840fc11d307"><td class="memItemLeft" align="right" valign="top"><a id="adc618fcab8c53291b5bc3840fc11d307" name="adc618fcab8c53291b5bc3840fc11d307"></a>
+SystemManager.ControlType&#160;</td><td class="memItemRight" valign="bottom"><b>CurrentControlType</b></td></tr>
+<tr class="separator:adc618fcab8c53291b5bc3840fc11d307"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f320efe33c074b5ca9248a1c993fc26" id="r_a9f320efe33c074b5ca9248a1c993fc26"><td class="memItemLeft" align="right" valign="top"><a id="a9f320efe33c074b5ca9248a1c993fc26" name="a9f320efe33c074b5ca9248a1c993fc26"></a>
 System.Action&lt; Vector2, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>PlayerMovementEvent</b></td></tr>
 <tr class="separator:a9f320efe33c074b5ca9248a1c993fc26"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -276,9 +283,15 @@ System.Action&lt; string, float &gt;&#160;</td><td class="memItemRight" valign="
 <tr class="memitem:a2d543d99f872645f21341154001f9ea4" id="r_a2d543d99f872645f21341154001f9ea4"><td class="memItemLeft" align="right" valign="top"><a id="a2d543d99f872645f21341154001f9ea4" name="a2d543d99f872645f21341154001f9ea4"></a>
 System.Action&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>PlayerDashLockEvent</b></td></tr>
 <tr class="separator:a2d543d99f872645f21341154001f9ea4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a21a431e60a950ec44154a0b64344a309" id="r_a21a431e60a950ec44154a0b64344a309"><td class="memItemLeft" align="right" valign="top"><a id="a21a431e60a950ec44154a0b64344a309" name="a21a431e60a950ec44154a0b64344a309"></a>
-System.Action&lt; bool, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>PlayerMovementLockEvent</b></td></tr>
-<tr class="separator:a21a431e60a950ec44154a0b64344a309"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d595db193b3c60dd25daa5690d06fb3" id="r_a4d595db193b3c60dd25daa5690d06fb3"><td class="memItemLeft" align="right" valign="top"><a id="a4d595db193b3c60dd25daa5690d06fb3" name="a4d595db193b3c60dd25daa5690d06fb3"></a>
+System.Action&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>PlayerMoveXLockEvent</b></td></tr>
+<tr class="separator:a4d595db193b3c60dd25daa5690d06fb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3155897a66092c7d86b3975159572281" id="r_a3155897a66092c7d86b3975159572281"><td class="memItemLeft" align="right" valign="top"><a id="a3155897a66092c7d86b3975159572281" name="a3155897a66092c7d86b3975159572281"></a>
+System.Action&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>PlayerMoveYLockEvent</b></td></tr>
+<tr class="separator:a3155897a66092c7d86b3975159572281"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a468f1905bf4902bf29d92e6584f2ae2f" id="r_a468f1905bf4902bf29d92e6584f2ae2f"><td class="memItemLeft" align="right" valign="top"><a id="a468f1905bf4902bf29d92e6584f2ae2f" name="a468f1905bf4902bf29d92e6584f2ae2f"></a>
+System.Action&lt; Vector2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>PlayerDashDirectionEvent</b></td></tr>
+<tr class="separator:a468f1905bf4902bf29d92e6584f2ae2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29a9b3abb755bc9680c2d13ab866f2ca" id="r_a29a9b3abb755bc9680c2d13ab866f2ca"><td class="memItemLeft" align="right" valign="top"><a id="a29a9b3abb755bc9680c2d13ab866f2ca" name="a29a9b3abb755bc9680c2d13ab866f2ca"></a>
 System.Action&lt; ControllerType, ControllerType &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateControllerTypeEvent</b></td></tr>
 <tr class="separator:a29a9b3abb755bc9680c2d13ab866f2ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -356,33 +369,34 @@ static T&#160;</td><td class="memItemRight" valign="bottom"><b>Inst</b><code> [g
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="ac687f4eb47229e8bcafdfe53bd3b4b73" name="ac687f4eb47229e8bcafdfe53bd3b4b73"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac687f4eb47229e8bcafdfe53bd3b4b73">&#9670;&#160;</a></span>ValidControlTypes</h2>
+<a id="a7622eb3eff4ed0587ea5011cdc7d0823" name="a7622eb3eff4ed0587ea5011cdc7d0823"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7622eb3eff4ed0587ea5011cdc7d0823">&#9670;&#160;</a></span>ValidControlTypes</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Dictionary&lt;ControlType, List&lt;ControllerType&gt; &gt; VGPlayerManager.ValidControlTypes</td>
+          <td class="memname">Dictionary&lt;SystemManager.ControlType, List&lt;ControllerType&gt; &gt; VGPlayerManager.ValidControlTypes</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> Dictionary&lt;ControlType, List&lt;ControllerType&gt;&gt;{</div>
-<div class="line">        {ControlType.Desktop, <span class="keyword">new</span> List&lt;ControllerType&gt;{</div>
+<b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> Dictionary&lt;<a class="code hl_class" href="../../d6/d8f/class_system_manager.html">SystemManager</a>.ControlType, List&lt;ControllerType&gt;&gt;{</div>
+<div class="line">        {<a class="code hl_class" href="../../d6/d8f/class_system_manager.html">SystemManager</a>.ControlType.Desktop, <span class="keyword">new</span> List&lt;ControllerType&gt;{</div>
 <div class="line">            ControllerType.Mouse,</div>
 <div class="line">            ControllerType.Keyboard,</div>
 <div class="line">            ControllerType.Joystick,</div>
 <div class="line">            ControllerType.Custom</div>
 <div class="line">        }},</div>
-<div class="line">        {ControlType.Mobile, <span class="keyword">new</span> List&lt;ControllerType&gt;{</div>
+<div class="line">        {<a class="code hl_class" href="../../d6/d8f/class_system_manager.html">SystemManager</a>.ControlType.Mobile, <span class="keyword">new</span> List&lt;ControllerType&gt;{</div>
 <div class="line">            ControllerType.Mouse,</div>
 <div class="line">            ControllerType.Joystick,</div>
 <div class="line">            ControllerType.Custom</div>
 <div class="line">        }},</div>
-<div class="line">        {ControlType.Arcade, <span class="keyword">new</span> List&lt;ControllerType&gt;{</div>
+<div class="line">        {<a class="code hl_class" href="../../d6/d8f/class_system_manager.html">SystemManager</a>.ControlType.Arcade, <span class="keyword">new</span> List&lt;ControllerType&gt;{</div>
 <div class="line">            ControllerType.Joystick</div>
 <div class="line">        }}</div>
 <div class="line">    }</div>
+<div class="ttc" id="aclass_system_manager_html"><div class="ttname"><a href="../../d6/d8f/class_system_manager.html">SystemManager</a></div><div class="ttdef"><b>Definition</b> SystemManager.cs:11</div></div>
 </div><!-- fragment -->
 </div>
 </div>

@@ -100,8 +100,10 @@ $(function(){initNavTree('d6/d8f/class_system_manager.html','../../'); initResiz
 
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#properties">Properties</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-static-methods">Static Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
@@ -118,14 +120,25 @@ $(function(){initNavTree('d6/d8f/class_system_manager.html','../../'); initResiz
   <img src="../../d6/d8f/class_system_manager.png" alt=""/>
  </div></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a6a7a1e0bda19396f81d7b7c5b53547f0" id="r_a6a7a1e0bda19396f81d7b7c5b53547f0"><td class="memItemLeft" align="right" valign="top"><a id="a6a7a1e0bda19396f81d7b7c5b53547f0" name="a6a7a1e0bda19396f81d7b7c5b53547f0"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>ControlType</b> { <b>Desktop</b>
+, <b>Mobile</b>
+, <b>Arcade</b>
+ }</td></tr>
+<tr class="separator:a6a7a1e0bda19396f81d7b7c5b53547f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ac3408bc345124837410a73a6d7c6adb3" id="r_ac3408bc345124837410a73a6d7c6adb3"><td class="memItemLeft" align="right" valign="top"><a id="ac3408bc345124837410a73a6d7c6adb3" name="ac3408bc345124837410a73a6d7c6adb3"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>IsMobile</b> ()</td></tr>
-<tr class="separator:ac3408bc345124837410a73a6d7c6adb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a76ffa9cb40d8fbcf4c048ab9baa58f4c" id="r_a76ffa9cb40d8fbcf4c048ab9baa58f4c"><td class="memItemLeft" align="right" valign="top"><a id="a76ffa9cb40d8fbcf4c048ab9baa58f4c" name="a76ffa9cb40d8fbcf4c048ab9baa58f4c"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>IsDesktop</b> ()</td></tr>
-<tr class="separator:a76ffa9cb40d8fbcf4c048ab9baa58f4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f552466f6b8f522010d2fd33952d7b1" id="r_a8f552466f6b8f522010d2fd33952d7b1"><td class="memItemLeft" align="right" valign="top"><a id="a8f552466f6b8f522010d2fd33952d7b1" name="a8f552466f6b8f522010d2fd33952d7b1"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetupLogger</b> ()</td></tr>
+<tr class="separator:a8f552466f6b8f522010d2fd33952d7b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81bb358a5dfe5e294777218d56d9cbd1" id="r_a81bb358a5dfe5e294777218d56d9cbd1"><td class="memItemLeft" align="right" valign="top"><a id="a81bb358a5dfe5e294777218d56d9cbd1" name="a81bb358a5dfe5e294777218d56d9cbd1"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>OnMobile</b> ()</td></tr>
+<tr class="separator:a81bb358a5dfe5e294777218d56d9cbd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81d3265ebe47a045f90f74b18023ce59" id="r_a81d3265ebe47a045f90f74b18023ce59"><td class="memItemLeft" align="right" valign="top"><a id="a81d3265ebe47a045f90f74b18023ce59" name="a81d3265ebe47a045f90f74b18023ce59"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>OnDesktop</b> ()</td></tr>
+<tr class="separator:a81d3265ebe47a045f90f74b18023ce59"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53fd33ab5324f8e8aa533027d765d57d" id="r_a53fd33ab5324f8e8aa533027d765d57d"><td class="memItemLeft" align="right" valign="top"><a id="a53fd33ab5324f8e8aa533027d765d57d" name="a53fd33ab5324f8e8aa533027d765d57d"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>DoSlowmotion</b> (float _slowdownFactor, float _attack, float _hold, float _release, bool _setPitch=true)</td></tr>
 <tr class="separator:a53fd33ab5324f8e8aa533027d765d57d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -135,12 +148,21 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>OpenURL</b> (string _
 <tr class="memitem:aaefeceb50d442cf57bc4925e909bccec" id="r_aaefeceb50d442cf57bc4925e909bccec"><td class="memItemLeft" align="right" valign="top"><a id="aaefeceb50d442cf57bc4925e909bccec" name="aaefeceb50d442cf57bc4925e909bccec"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>ForceSeedRandomization</b> ()</td></tr>
 <tr class="separator:aaefeceb50d442cf57bc4925e909bccec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab582ed705906453bf3b8ebb9db4d43f5" id="r_ab582ed705906453bf3b8ebb9db4d43f5"><td class="memItemLeft" align="right" valign="top"><a id="ab582ed705906453bf3b8ebb9db4d43f5" name="ab582ed705906453bf3b8ebb9db4d43f5"></a>
+ControlType&#160;</td><td class="memItemRight" valign="bottom"><b>GetCurrentControlSetup</b> ()</td></tr>
+<tr class="separator:ab582ed705906453bf3b8ebb9db4d43f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:ac5fdbf164ef913af1a8eb83faa874d89" id="r_ac5fdbf164ef913af1a8eb83faa874d89"><td class="memItemLeft" align="right" valign="top"><a id="ac5fdbf164ef913af1a8eb83faa874d89" name="ac5fdbf164ef913af1a8eb83faa874d89"></a>
 static <a class="el" href="../../d6/d8f/class_system_manager.html">SystemManager</a>&#160;</td><td class="memItemRight" valign="bottom"><b>inst</b></td></tr>
 <tr class="separator:ac5fdbf164ef913af1a8eb83faa874d89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
+Properties</h2></td></tr>
+<tr class="memitem:a8dbe9f285d0462b86232a8be3604344c" id="r_a8dbe9f285d0462b86232a8be3604344c"><td class="memItemLeft" align="right" valign="top"><a id="a8dbe9f285d0462b86232a8be3604344c" name="a8dbe9f285d0462b86232a8be3604344c"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsMobile</b><code> [get]</code></td></tr>
+<tr class="separator:a8dbe9f285d0462b86232a8be3604344c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>

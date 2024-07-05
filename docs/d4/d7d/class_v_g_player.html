@@ -228,6 +228,9 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>PlayerID</b></td></tr>
 <tr class="memitem:a3e992721f068ca64814f32d87f207ea2" id="r_a3e992721f068ca64814f32d87f207ea2"><td class="memItemLeft" align="right" valign="top"><a id="a3e992721f068ca64814f32d87f207ea2" name="a3e992721f068ca64814f32d87f207ea2"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>Health</b></td></tr>
 <tr class="separator:a3e992721f068ca64814f32d87f207ea2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7f5beb998b6f816a869563ad1fba1bf" id="r_ae7f5beb998b6f816a869563ad1fba1bf"><td class="memItemLeft" align="right" valign="top"><a id="ae7f5beb998b6f816a869563ad1fba1bf" name="ae7f5beb998b6f816a869563ad1fba1bf"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsPaused</b></td></tr>
+<tr class="separator:ae7f5beb998b6f816a869563ad1fba1bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac437534e33ec8fed65fbf96cd54fe672" id="r_ac437534e33ec8fed65fbf96cd54fe672"><td class="memItemLeft" align="right" valign="top"><a id="ac437534e33ec8fed65fbf96cd54fe672" name="ac437534e33ec8fed65fbf96cd54fe672"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>CanMove</b></td></tr>
 <tr class="separator:ac437534e33ec8fed65fbf96cd54fe672"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -237,6 +240,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>CanTakeDamage</b></td
 <tr class="memitem:aff0e2d914bf9ebe4913126c20f7cc450" id="r_aff0e2d914bf9ebe4913126c20f7cc450"><td class="memItemLeft" align="right" valign="top"><a id="aff0e2d914bf9ebe4913126c20f7cc450" name="aff0e2d914bf9ebe4913126c20f7cc450"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>isHurting</b></td></tr>
 <tr class="separator:aff0e2d914bf9ebe4913126c20f7cc450"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5caf49864f068416e39f3d9de8580209" id="r_a5caf49864f068416e39f3d9de8580209"><td class="memItemLeft" align="right" valign="top"><a id="a5caf49864f068416e39f3d9de8580209" name="a5caf49864f068416e39f3d9de8580209"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>isHurtingHold</b></td></tr>
+<tr class="separator:a5caf49864f068416e39f3d9de8580209"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adbe596a937b09b4a37ab506cd3e8c6b8" id="r_adbe596a937b09b4a37ab506cd3e8c6b8"><td class="memItemLeft" align="right" valign="top"><a id="adbe596a937b09b4a37ab506cd3e8c6b8" name="adbe596a937b09b4a37ab506cd3e8c6b8"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>CanBoost</b></td></tr>
 <tr class="separator:adbe596a937b09b4a37ab506cd3e8c6b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -351,9 +357,18 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a93f1f0d43527c605b7aa2666f3f374d1" id="r_a93f1f0d43527c605b7aa2666f3f374d1"><td class="memItemLeft" align="right" valign="top"><a id="a93f1f0d43527c605b7aa2666f3f374d1" name="a93f1f0d43527c605b7aa2666f3f374d1"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Init</b> ()</td></tr>
 <tr class="separator:a93f1f0d43527c605b7aa2666f3f374d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1eb1b6a06c71cfd69a7636cc5e158a20" id="r_a1eb1b6a06c71cfd69a7636cc5e158a20"><td class="memItemLeft" align="right" valign="top"><a id="a1eb1b6a06c71cfd69a7636cc5e158a20" name="a1eb1b6a06c71cfd69a7636cc5e158a20"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>ForceMoveXLock</b> (bool _lock)</td></tr>
+<tr class="separator:a1eb1b6a06c71cfd69a7636cc5e158a20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea3f89965ce2c095ffbba97492653141" id="r_aea3f89965ce2c095ffbba97492653141"><td class="memItemLeft" align="right" valign="top"><a id="aea3f89965ce2c095ffbba97492653141" name="aea3f89965ce2c095ffbba97492653141"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>ForceMoveYLock</b> (bool _lock)</td></tr>
+<tr class="separator:aea3f89965ce2c095ffbba97492653141"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d6f68432ce703e2659dd4e7596cb497" id="r_a3d6f68432ce703e2659dd4e7596cb497"><td class="memItemLeft" align="right" valign="top"><a id="a3d6f68432ce703e2659dd4e7596cb497" name="a3d6f68432ce703e2659dd4e7596cb497"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>ForceDashLock</b> (bool _lock)</td></tr>
 <tr class="separator:a3d6f68432ce703e2659dd4e7596cb497"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada3c1e2b68ce8c9353599f35338f0184" id="r_ada3c1e2b68ce8c9353599f35338f0184"><td class="memItemLeft" align="right" valign="top"><a id="ada3c1e2b68ce8c9353599f35338f0184" name="ada3c1e2b68ce8c9353599f35338f0184"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>ForceDashDirection</b> (Vector2 _direction)</td></tr>
+<tr class="separator:ada3c1e2b68ce8c9353599f35338f0184"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d73bf895374e2a4aab9b4836ac2c969" id="r_a9d73bf895374e2a4aab9b4836ac2c969"><td class="memItemLeft" align="right" valign="top"><a id="a9d73bf895374e2a4aab9b4836ac2c969" name="a9d73bf895374e2a4aab9b4836ac2c969"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>ForceMovePlayer</b> (Vector2 _pos, float _time)</td></tr>
 <tr class="separator:a9d73bf895374e2a4aab9b4836ac2c969"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -435,6 +450,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>StartBoost</b> ()</td
 <tr class="memitem:a05d4a6f03fccbfb3dd7ab477f60c56da" id="r_a05d4a6f03fccbfb3dd7ab477f60c56da"><td class="memItemLeft" align="right" valign="top"><a id="a05d4a6f03fccbfb3dd7ab477f60c56da" name="a05d4a6f03fccbfb3dd7ab477f60c56da"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>EndBoost</b> ()</td></tr>
 <tr class="separator:a05d4a6f03fccbfb3dd7ab477f60c56da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ac1923650313f1a1f0acc79290db1f0" id="r_a0ac1923650313f1a1f0acc79290db1f0"><td class="memItemLeft" align="right" valign="top"><a id="a0ac1923650313f1a1f0acc79290db1f0" name="a0ac1923650313f1a1f0acc79290db1f0"></a>
+IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><b>SpawnSandyInstances</b> ()</td></tr>
+<tr class="separator:a0ac1923650313f1a1f0acc79290db1f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa57ca47af2745f98edfc0b02505e4fad" id="r_aa57ca47af2745f98edfc0b02505e4fad"><td class="memItemLeft" align="right" valign="top"><a id="aa57ca47af2745f98edfc0b02505e4fad" name="aa57ca47af2745f98edfc0b02505e4fad"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>StartHurtDecay</b> ()</td></tr>
 <tr class="separator:aa57ca47af2745f98edfc0b02505e4fad"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -477,6 +495,9 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>CurrentSpeed</b> = 0
 <tr class="memitem:a3ea0e63e783932ba2011651f0d1f03d0" id="r_a3ea0e63e783932ba2011651f0d1f03d0"><td class="memItemLeft" align="right" valign="top"><a id="a3ea0e63e783932ba2011651f0d1f03d0" name="a3ea0e63e783932ba2011651f0d1f03d0"></a>
 Vector2&#160;</td><td class="memItemRight" valign="bottom"><b>internalVelocity</b> = Vector2.zero</td></tr>
 <tr class="separator:a3ea0e63e783932ba2011651f0d1f03d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac870a0675ec6576caac5f37df3349fe0" id="r_ac870a0675ec6576caac5f37df3349fe0"><td class="memItemLeft" align="right" valign="top"><a id="ac870a0675ec6576caac5f37df3349fe0" name="ac870a0675ec6576caac5f37df3349fe0"></a>
+Vector2&#160;</td><td class="memItemRight" valign="bottom"><b>ForcedLastMove</b> = Vector2.zero</td></tr>
+<tr class="separator:ac870a0675ec6576caac5f37df3349fe0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A class that represents a player in the game. </p>

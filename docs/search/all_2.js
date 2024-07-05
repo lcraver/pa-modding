@@ -8,11 +8,14 @@ var searchData=
   ['beatmapobject_5',['BeatmapObject',['../db/d9a/class_data_manager_1_1_game_data_1_1_beatmap_object.html',1,'DataManager::GameData']]],
   ['beatmaptheme_6',['BeatmapTheme',['../d7/d65/class_data_manager_1_1_beatmap_theme.html',1,'DataManager']]],
   ['boldformater_7',['BoldFormater',['../d1/d23/class_steam_workshop_facepunch.html#a5aaccc6671d9f007c9c5bb3718b6a4f4',1,'SteamWorkshopFacepunch']]],
-  ['bouncein_8',['BounceIn',['../d4/d66/class_v_g_ease.html#aa1ba35bb2c5bf66000aadb5dc2c92956',1,'VGEase']]],
-  ['bounceinout_9',['BounceInOut',['../d4/d66/class_v_g_ease.html#aa78c1c136420fb583a2a70089135220d',1,'VGEase']]],
-  ['bounceout_10',['BounceOut',['../d4/d66/class_v_g_ease.html#aead682277b93a6ff7f48183d81d3b484',1,'VGEase']]],
-  ['bpm_11',['BPM',['../dd/db2/class_data_manager_1_1_game_data_1_1_beatmap_data_1_1_editor_settings_1_1_b_p_m.html',1,'DataManager::GameData::BeatmapData::EditorSettings']]],
-  ['buffer_12',['Buffer',['../d8/df0/class_twitch_plays_your_game_1_1_twitch_manager.html#a0ca85fd7d9640a7a6061c8511e3f68dc',1,'TwitchPlaysYourGame::TwitchManager']]],
-  ['buttondataholder_13',['ButtonDataHolder',['../d3/d1d/class_button_data_holder.html',1,'']]],
-  ['buttoninfo_14',['ButtonInfo',['../d0/dc8/class_button_info.html',1,'']]]
+  ['bootstrapper_8',['Bootstrapper',['../d5/d90/class_bootstrapper.html',1,'']]],
+  ['bouncein_9',['BounceIn',['../d4/d66/class_v_g_ease.html#aa1ba35bb2c5bf66000aadb5dc2c92956',1,'VGEase']]],
+  ['bounceinout_10',['BounceInOut',['../d4/d66/class_v_g_ease.html#aa78c1c136420fb583a2a70089135220d',1,'VGEase']]],
+  ['bounceout_11',['BounceOut',['../d4/d66/class_v_g_ease.html#aead682277b93a6ff7f48183d81d3b484',1,'VGEase']]],
+  ['bpm_12',['BPM',['../dd/db2/class_data_manager_1_1_game_data_1_1_beatmap_data_1_1_editor_settings_1_1_b_p_m.html',1,'DataManager::GameData::BeatmapData::EditorSettings']]],
+  ['buffer_13',['Buffer',['../d8/df0/class_twitch_plays_your_game_1_1_twitch_manager.html#a0ca85fd7d9640a7a6061c8511e3f68dc',1,'TwitchPlaysYourGame::TwitchManager']]],
+  ['buildloadingbar_14',['BuildLoadingBar',['../df/d6e/class_systems_1_1_scene_management_1_1_scene_loader.html#aa5377d5d8f3ee392a226ce5cff0012a9',1,'Systems::SceneManagement::SceneLoader']]],
+  ['buildloadingtext_15',['BuildLoadingText',['../df/d6e/class_systems_1_1_scene_management_1_1_scene_loader.html#afbe5df57504360813b272ef4702dd2bd',1,'Systems::SceneManagement::SceneLoader']]],
+  ['buttondataholder_16',['ButtonDataHolder',['../d3/d1d/class_button_data_holder.html',1,'']]],
+  ['buttoninfo_17',['ButtonInfo',['../d0/dc8/class_button_info.html',1,'']]]
 ];

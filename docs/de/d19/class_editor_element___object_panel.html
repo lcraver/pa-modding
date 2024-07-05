@@ -124,9 +124,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a908d1c36dbe5236d28f62d8b3f4b99b0" id="r_a908d1c36dbe5236d28f62d8b3f4b99b0"><td class="memItemLeft" align="right" valign="top"><a id="a908d1c36dbe5236d28f62d8b3f4b99b0" name="a908d1c36dbe5236d28f62d8b3f4b99b0"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>SetTitle</b> (string _override=null)</td></tr>
 <tr class="separator:a908d1c36dbe5236d28f62d8b3f4b99b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d4c413b6b68dcbce9d6651360eaf418" id="r_a2d4c413b6b68dcbce9d6651360eaf418"><td class="memItemLeft" align="right" valign="top"><a id="a2d4c413b6b68dcbce9d6651360eaf418" name="a2d4c413b6b68dcbce9d6651360eaf418"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetMainTimelineZoom</b> (float _zoom, bool _render=true, float timelinePos=0)</td></tr>
-<tr class="separator:a2d4c413b6b68dcbce9d6651360eaf418"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecf382b68b416b657b9bd454df11e6be" id="r_aecf382b68b416b657b9bd454df11e6be"><td class="memItemLeft" align="right" valign="top"><a id="aecf382b68b416b657b9bd454df11e6be" name="aecf382b68b416b657b9bd454df11e6be"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetMainTimelineZoom</b> (float timelinePos=0)</td></tr>
+<tr class="separator:aecf382b68b416b657b9bd454df11e6be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6cc2be7136406bb91e031545ec73e92" id="r_aa6cc2be7136406bb91e031545ec73e92"><td class="memItemLeft" align="right" valign="top"><a id="aa6cc2be7136406bb91e031545ec73e92" name="aa6cc2be7136406bb91e031545ec73e92"></a>
 IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateTimelineScrollRect</b> (float _delay, float _val)</td></tr>
 <tr class="separator:aa6cc2be7136406bb91e031545ec73e92"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -157,6 +157,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>CreateKeyframes</b> (
 <tr class="memitem:ad78b50b11954e719f2840590a26c193a" id="r_ad78b50b11954e719f2840590a26c193a"><td class="memItemLeft" align="right" valign="top"><a id="ad78b50b11954e719f2840590a26c193a" name="ad78b50b11954e719f2840590a26c193a"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>SetSliderValue</b> (float _time)</td></tr>
 <tr class="separator:ad78b50b11954e719f2840590a26c193a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6280cf883f054855356c1b4e8b454372" id="r_a6280cf883f054855356c1b4e8b454372"><td class="memItemLeft" align="right" valign="top"><a id="a6280cf883f054855356c1b4e8b454372" name="a6280cf883f054855356c1b4e8b454372"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>MoveTimeline</b> (float _normalizedAmount)</td></tr>
+<tr class="separator:a6280cf883f054855356c1b4e8b454372"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad57dd76a3f28d8c62410aaf2871d5ff3" id="r_ad57dd76a3f28d8c62410aaf2871d5ff3"><td class="memItemLeft" align="right" valign="top"><a id="ad57dd76a3f28d8c62410aaf2871d5ff3" name="ad57dd76a3f28d8c62410aaf2871d5ff3"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>GetKeyframeTime</b> (float _time)</td></tr>
 <tr class="separator:ad57dd76a3f28d8c62410aaf2871d5ff3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -175,6 +178,18 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>RefreshExpandParentOp
 <tr class="memitem:aa0395d485ec25397befd65245752da6e" id="r_aa0395d485ec25397befd65245752da6e"><td class="memItemLeft" align="right" valign="top"><a id="aa0395d485ec25397befd65245752da6e" name="aa0395d485ec25397befd65245752da6e"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>RefreshParentGUI</b> (string _parent)</td></tr>
 <tr class="separator:aa0395d485ec25397befd65245752da6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a276d4c10c7015bb2f62faedbdb03bdf6" id="r_a276d4c10c7015bb2f62faedbdb03bdf6"><td class="memItemLeft" align="right" valign="top"><a id="a276d4c10c7015bb2f62faedbdb03bdf6" name="a276d4c10c7015bb2f62faedbdb03bdf6"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>JumpToNewKeyframeSelection</b> (KeyframeSelection _new)</td></tr>
+<tr class="separator:a276d4c10c7015bb2f62faedbdb03bdf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af30b07011b3a50c05fdb8600ee11e147" id="r_af30b07011b3a50c05fdb8600ee11e147"><td class="memItemLeft" align="right" valign="top"><a id="af30b07011b3a50c05fdb8600ee11e147" name="af30b07011b3a50c05fdb8600ee11e147"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Left</b> ()</td></tr>
+<tr class="separator:af30b07011b3a50c05fdb8600ee11e147"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2afcfb336f96352d028cc930505a0b80" id="r_a2afcfb336f96352d028cc930505a0b80"><td class="memItemLeft" align="right" valign="top"><a id="a2afcfb336f96352d028cc930505a0b80" name="a2afcfb336f96352d028cc930505a0b80"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Right</b> ()</td></tr>
+<tr class="separator:a2afcfb336f96352d028cc930505a0b80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a127339e7d854c4f1a99ecaadfccf1931" id="r_a127339e7d854c4f1a99ecaadfccf1931"><td class="memItemLeft" align="right" valign="top"><a id="a127339e7d854c4f1a99ecaadfccf1931" name="a127339e7d854c4f1a99ecaadfccf1931"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>RenderColorBools</b> ()</td></tr>
+<tr class="separator:a127339e7d854c4f1a99ecaadfccf1931"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8186fd427e8e4ac1b04de2f68f15a9c" id="r_aa8186fd427e8e4ac1b04de2f68f15a9c"><td class="memItemLeft" align="right" valign="top"><a id="aa8186fd427e8e4ac1b04de2f68f15a9c" name="aa8186fd427e8e4ac1b04de2f68f15a9c"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>RefreshKeyframeGUI</b> ()</td></tr>
 <tr class="memdesc:aa8186fd427e8e4ac1b04de2f68f15a9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup keyframe GUI. <br /></td></tr>
@@ -289,6 +304,15 @@ GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>objTimelinePref
 <tr class="memitem:a078d21609521b9e7b36b00158d411f94" id="r_a078d21609521b9e7b36b00158d411f94"><td class="memItemLeft" align="right" valign="top"><a id="a078d21609521b9e7b36b00158d411f94" name="a078d21609521b9e7b36b00158d411f94"></a>
 GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>markerTimelinePrefab</b></td></tr>
 <tr class="separator:a078d21609521b9e7b36b00158d411f94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0439c20c5e988cf96188bf2d4e290e63" id="r_a0439c20c5e988cf96188bf2d4e290e63"><td class="memItemLeft" align="right" valign="top"><a id="a0439c20c5e988cf96188bf2d4e290e63" name="a0439c20c5e988cf96188bf2d4e290e63"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>ScreenOffset</b> = 765</td></tr>
+<tr class="separator:a0439c20c5e988cf96188bf2d4e290e63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a035fc19bae520a6a3458da1f8409484e" id="r_a035fc19bae520a6a3458da1f8409484e"><td class="memItemLeft" align="right" valign="top"><a id="a035fc19bae520a6a3458da1f8409484e" name="a035fc19bae520a6a3458da1f8409484e"></a>
+List&lt; Toggle &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>TextColorButtons</b> = new List&lt;Toggle&gt;()</td></tr>
+<tr class="separator:a035fc19bae520a6a3458da1f8409484e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad130e8113fdc9054e499927e32bbb400" id="r_ad130e8113fdc9054e499927e32bbb400"><td class="memItemLeft" align="right" valign="top"><a id="ad130e8113fdc9054e499927e32bbb400" name="ad130e8113fdc9054e499927e32bbb400"></a>
+List&lt; Toggle &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>BGColorButtons</b> = new List&lt;Toggle&gt;()</td></tr>
+<tr class="separator:ad130e8113fdc9054e499927e32bbb400"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>

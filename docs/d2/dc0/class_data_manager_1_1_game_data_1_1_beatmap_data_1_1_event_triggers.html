@@ -133,9 +133,10 @@ Public Types</h2></td></tr>
 &#160;&#160;<b>Player_Dash</b> = 4
 , <b>Player_X_Movement</b> = 5
 , <b>Player_Y_Movement</b> = 6
-, <b>BG_Spin</b> = 7
+, <b>Player_Dash_Direction</b> = 9
 , <br />
-&#160;&#160;<b>BG_Move</b> = 8
+&#160;&#160;<b>BG_Spin</b> = 7
+, <b>BG_Move</b> = 8
 <br />
  }</td></tr>
 <tr class="separator:a3efca093057ee1e4496ab355ec865eb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -170,8 +171,9 @@ List&lt; <a class="el" href="../../dc/d21/class_data_manager_1_1_game_data_1_1_b
 <div class="line">                    { EventType.Player_Bubble, <span class="keyword">new</span> List&lt;string&gt; { <span class="stringliteral">&quot;Bubble Text&quot;</span>, <span class="stringliteral">&quot;Bubble Display Length&quot;</span> } },</div>
 <div class="line">                    { EventType.Player_Location, <span class="keyword">new</span> List&lt;string&gt; { <span class="stringliteral">&quot;X Location&quot;</span>, <span class="stringliteral">&quot;Y Location&quot;</span>, <span class="stringliteral">&quot;Movement Length&quot;</span> } },</div>
 <div class="line">                    { EventType.Player_Dash, <span class="keyword">new</span> List&lt;string&gt; { <span class="stringliteral">&quot;Lock Dash?&quot;</span>, <span class="stringliteral">&quot;Show Bubble?&quot;</span>, <span class="stringliteral">&quot;Bubble Display Length&quot;</span> } },</div>
-<div class="line">                    { EventType.Player_X_Movement, <span class="keyword">new</span> List&lt;string&gt; { <span class="stringliteral">&quot;Lock X Movement?&quot;</span> } },</div>
-<div class="line">                    { EventType.Player_Y_Movement, <span class="keyword">new</span> List&lt;string&gt; { <span class="stringliteral">&quot;Lock Y Movement?&quot;</span> } },</div>
+<div class="line">                    { EventType.Player_X_Movement, <span class="keyword">new</span> List&lt;string&gt; { <span class="stringliteral">&quot;Lock X Movement?&quot;</span>, <span class="stringliteral">&quot;Show Bubble?&quot;</span>, <span class="stringliteral">&quot;Bubble Display Length&quot;</span> } },</div>
+<div class="line">                    { EventType.Player_Y_Movement, <span class="keyword">new</span> List&lt;string&gt; { <span class="stringliteral">&quot;Lock Y Movement?&quot;</span>, <span class="stringliteral">&quot;Show Bubble?&quot;</span>, <span class="stringliteral">&quot;Bubble Display Length&quot;</span> } },</div>
+<div class="line">                    { EventType.Player_Dash_Direction, <span class="keyword">new</span> List&lt;string&gt; { <span class="stringliteral">&quot;Direction X&quot;</span>, <span class="stringliteral">&quot;Direction Y&quot;</span> } },</div>
 <div class="line"> </div>
 <div class="line">                    { EventType.BG_Spin, <span class="keyword">new</span> List&lt;string&gt; { <span class="stringliteral">&quot;Spin Layer (-1 for all)&quot;</span>, <span class="stringliteral">&quot;Spin Amount&quot;</span>, <span class="stringliteral">&quot;Spin Length&quot;</span>, <span class="stringliteral">&quot;Tween Type&quot;</span> } },</div>
 <div class="line">                    { EventType.BG_Move, <span class="keyword">new</span> List&lt;string&gt; { <span class="stringliteral">&quot;Move Layer (-1 for all)&quot;</span>, <span class="stringliteral">&quot;Move Location X&quot;</span>, <span class="stringliteral">&quot;Move Location Y&quot;</span>, <span class="stringliteral">&quot;Move Length&quot;</span>, <span class="stringliteral">&quot;Tween Type&quot;</span> } },</div>

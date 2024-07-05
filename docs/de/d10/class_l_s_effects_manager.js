@@ -1,4 +1,4 @@
 var class_l_s_effects_manager =
 [
-    [ "Awake", "de/d10/class_l_s_effects_manager.html#a5cdb0a40413f7d8aaa7e625161159a72", null ]
+    [ "OnAwake", "de/d10/class_l_s_effects_manager.html#a17455d1d04cd6820936b39ab6a939bab", null ]
 ];

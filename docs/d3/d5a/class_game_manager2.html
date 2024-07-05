@@ -214,6 +214,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>Pause</b> (bool _show
 <tr class="memitem:ad887f26a94c1620c2c6431b690c59e3f" id="r_ad887f26a94c1620c2c6431b690c59e3f"><td class="memItemLeft" align="right" valign="top"><a id="ad887f26a94c1620c2c6431b690c59e3f" name="ad887f26a94c1620c2c6431b690c59e3f"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>UnPause</b> ()</td></tr>
 <tr class="separator:ad887f26a94c1620c2c6431b690c59e3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2416f8411aea34b21bccabaa66069759" id="r_a2416f8411aea34b21bccabaa66069759"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2416f8411aea34b21bccabaa66069759">CheckpointCheck</a> ()</td></tr>
+<tr class="memdesc:a2416f8411aea34b21bccabaa66069759"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if a checkpoint has been reached and triggers the checkpoint animation.  <br /></td></tr>
+<tr class="separator:a2416f8411aea34b21bccabaa66069759"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1e66171533b1942bcb07fde5c780140" id="r_ab1e66171533b1942bcb07fde5c780140"><td class="memItemLeft" align="right" valign="top"><a id="ab1e66171533b1942bcb07fde5c780140" name="ab1e66171533b1942bcb07fde5c780140"></a>
 IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><b>PlayCheckpointAnimation</b> (int _index=0)</td></tr>
 <tr class="separator:ab1e66171533b1942bcb07fde5c780140"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -269,9 +272,6 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnAwake</b> (
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a7c79659102915232344936a05f436f28" id="r_a7c79659102915232344936a05f436f28"><td class="memItemLeft" align="right" valign="top"><a id="a7c79659102915232344936a05f436f28" name="a7c79659102915232344936a05f436f28"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>CanPause</b> = true</td></tr>
-<tr class="separator:a7c79659102915232344936a05f436f28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7136c8f88e4f90ebfd5d9b410517b6bc" id="r_a7136c8f88e4f90ebfd5d9b410517b6bc"><td class="memItemLeft" align="right" valign="top"><a id="a7136c8f88e4f90ebfd5d9b410517b6bc" name="a7136c8f88e4f90ebfd5d9b410517b6bc"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsArcade</b></td></tr>
 <tr class="separator:a7136c8f88e4f90ebfd5d9b410517b6bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -486,6 +486,9 @@ float[]&#160;</td><td class="memItemRight" valign="bottom"><b>SongSpeeds</b> = n
 <tr class="memitem:afb79d04b8f4fb03df898826d66d4afbb" id="r_afb79d04b8f4fb03df898826d66d4afbb"><td class="memItemLeft" align="right" valign="top"><a id="afb79d04b8f4fb03df898826d66d4afbb" name="afb79d04b8f4fb03df898826d66d4afbb"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>isHighContrast</b> = false</td></tr>
 <tr class="separator:afb79d04b8f4fb03df898826d66d4afbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a847dce32bcb81ee5371ae5644baae552" id="r_a847dce32bcb81ee5371ae5644baae552"><td class="memItemLeft" align="right" valign="top"><a id="a847dce32bcb81ee5371ae5644baae552" name="a847dce32bcb81ee5371ae5644baae552"></a>
+<a class="el" href="../../db/d5f/class_v_g_functions_1_1_debounce.html">Debounce</a>&#160;</td><td class="memItemRight" valign="bottom"><b>PauseDebounce</b> = new <a class="el" href="../../db/d5f/class_v_g_functions_1_1_debounce.html">Debounce</a>()</td></tr>
+<tr class="separator:a847dce32bcb81ee5371ae5644baae552"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a491adc33cd2fbefd20b97a64557251d3" id="r_a491adc33cd2fbefd20b97a64557251d3"><td class="memItemLeft" align="right" valign="top"><a id="a491adc33cd2fbefd20b97a64557251d3" name="a491adc33cd2fbefd20b97a64557251d3"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>audioTimeVelocity</b> = 0</td></tr>
 <tr class="separator:a491adc33cd2fbefd20b97a64557251d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -509,6 +512,26 @@ const float&#160;</td><td class="memItemRight" valign="bottom"><b>DampSpeed</b> 
 <div class="textblock"><p>This class manages the main gameplay loop. </p>
 <p>It is responsible for loading levels, spawning players, synchronizing game objects with the song time, and handling game state changes. It also provides functions for rewinding to checkpoints, reversing the song, and getting the closest checkpoint to a given time. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a2416f8411aea34b21bccabaa66069759" name="a2416f8411aea34b21bccabaa66069759"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2416f8411aea34b21bccabaa66069759">&#9670;&#160;</a></span>CheckpointCheck()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameManager2.CheckpointCheck </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Checks if a checkpoint has been reached and triggers the checkpoint animation. </p>
+<p>This function checks if the current song time has reached any of the checkpoints that have not been activated yet. If a checkpoint is reached, it triggers the checkpoint animation and respawns the players. </p>
+
+</div>
+</div>
 <a id="a15a430ae9593decdb3e8d5b40fe39e59" name="a15a430ae9593decdb3e8d5b40fe39e59"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a15a430ae9593decdb3e8d5b40fe39e59">&#9670;&#160;</a></span>InitCheckpoints()</h2>
 
