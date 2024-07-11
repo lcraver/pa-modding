@@ -27,8 +27,10 @@ Mods made for the Alpha branch of the game. Guide for changing branches [here](h
 
 | Name | Link | Description |
 | ---- | ---- | ----------- |
+| Multiplayer | [LINK](https://github.com/Aiden-ytarame/PAMultiplayer) | Multiplayer implemented with steam! |
 | Replace Prefabs | [LINK](https://github.com/Aiden-ytarame/ReplacePrefab) | Replace a prefab and all its instances with a new one |
 | Prefab On Object | [LINK](https://github.com/Aiden-ytarame/PrefabOnObject) | Spawn prefabs in the position (or rotation) of another object |
+
 </details>
 
 <details>
