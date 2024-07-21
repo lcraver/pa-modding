@@ -145,6 +145,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adadc2516b88e155989603ca4f251636b" id="r_adadc2516b88e155989603ca4f251636b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adadc2516b88e155989603ca4f251636b">LoadSceneGroup</a> (string _name)</td></tr>
 <tr class="memdesc:adadc2516b88e155989603ca4f251636b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a group of scenes by name, adding them to the current scene.  <br /></td></tr>
 <tr class="separator:adadc2516b88e155989603ca4f251636b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac502663db8d18be0c5c7ec52d18e16a8" id="r_ac502663db8d18be0c5c7ec52d18e16a8"><td class="memItemLeft" align="right" valign="top"><a id="ac502663db8d18be0c5c7ec52d18e16a8" name="ac502663db8d18be0c5c7ec52d18e16a8"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>pickTip</b> ()</td></tr>
+<tr class="separator:ac502663db8d18be0c5c7ec52d18e16a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a62dd7928de6d8a54b2bc0c16cff86e6a" id="r_a62dd7928de6d8a54b2bc0c16cff86e6a"><td class="memItemLeft" align="right" valign="top"><a id="a62dd7928de6d8a54b2bc0c16cff86e6a" name="a62dd7928de6d8a54b2bc0c16cff86e6a"></a>
 async Task&#160;</td><td class="memItemRight" valign="bottom"><b>LoadSceneGroup</b> (int index)</td></tr>
 <tr class="separator:a62dd7928de6d8a54b2bc0c16cff86e6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -213,12 +216,17 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>barLength</b> = 10</td
 <tr class="memitem:a3d87145dc6857cad6db1a30045e700f6" id="r_a3d87145dc6857cad6db1a30045e700f6"><td class="memItemLeft" align="right" valign="top"><a id="a3d87145dc6857cad6db1a30045e700f6" name="a3d87145dc6857cad6db1a30045e700f6"></a>
 string&#160;</td><td class="memItemRight" valign="bottom"><b>music</b></td></tr>
 <tr class="separator:a3d87145dc6857cad6db1a30045e700f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d5c0e9060d6d5cf3e41becc7f430573" id="r_a0d5c0e9060d6d5cf3e41becc7f430573"><td class="memItemLeft" align="right" valign="top">string[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d5c0e9060d6d5cf3e41becc7f430573">Tips</a></td></tr>
+<tr class="separator:a0d5c0e9060d6d5cf3e41becc7f430573"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6a22892d9b6ee38863fe4514759b77b" id="r_ae6a22892d9b6ee38863fe4514759b77b"><td class="memItemLeft" align="right" valign="top"><a id="ae6a22892d9b6ee38863fe4514759b77b" name="ae6a22892d9b6ee38863fe4514759b77b"></a>
 <a class="el" href="../../da/d27/class_systems_1_1_scene_management_1_1_scene_group.html">SceneGroup</a>&#160;</td><td class="memItemRight" valign="bottom"><b>persistentScenes</b></td></tr>
 <tr class="separator:ae6a22892d9b6ee38863fe4514759b77b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e5b511deb6f399532314b427e37a1dc" id="r_a8e5b511deb6f399532314b427e37a1dc"><td class="memItemLeft" align="right" valign="top"><a id="a8e5b511deb6f399532314b427e37a1dc" name="a8e5b511deb6f399532314b427e37a1dc"></a>
 <a class="el" href="../../da/d27/class_systems_1_1_scene_management_1_1_scene_group.html">SceneGroup</a>[]&#160;</td><td class="memItemRight" valign="bottom"><b>sceneGroups</b></td></tr>
 <tr class="separator:a8e5b511deb6f399532314b427e37a1dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1d782eaf58d8ed559a9d0b031fabeb2" id="r_ae1d782eaf58d8ed559a9d0b031fabeb2"><td class="memItemLeft" align="right" valign="top"><a id="ae1d782eaf58d8ed559a9d0b031fabeb2" name="ae1d782eaf58d8ed559a9d0b031fabeb2"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>currentTipIndex</b> = 0</td></tr>
+<tr class="separator:ae1d782eaf58d8ed559a9d0b031fabeb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a512615b2cd6555ce82d60e6b309ee553" id="r_a512615b2cd6555ce82d60e6b309ee553"><td class="memItemLeft" align="right" valign="top"><a id="a512615b2cd6555ce82d60e6b309ee553" name="a512615b2cd6555ce82d60e6b309ee553"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>targetProgress</b></td></tr>
 <tr class="separator:a512615b2cd6555ce82d60e6b309ee553"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -383,6 +391,36 @@ static T&#160;</td><td class="memItemRight" valign="bottom"><b>Inst</b><code> [g
 
 <p>Reimplemented from <a class="el" href="../../db/da7/class_singleton_base.html">SingletonBase&lt; SceneLoader &gt;</a>.</p>
 
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a0d5c0e9060d6d5cf3e41becc7f430573" name="a0d5c0e9060d6d5cf3e41becc7f430573"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d5c0e9060d6d5cf3e41becc7f430573">&#9670;&#160;</a></span>Tips</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string [] Systems.SceneManagement.SceneLoader.Tips</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> <span class="keywordtype">string</span>[5]{</div>
+<div class="line">            <span class="stringliteral">&quot;Use your boost to get out of tight situations&quot;</span>,</div>
+<div class="line">            <span class="stringliteral">&quot;Use practice mode to learn the layout of a log without the pain of dying&quot;</span>,</div>
+<div class="line">            <span class="stringliteral">&quot;Back for more are ya?&quot;</span>,</div>
+<div class="line">            <span class="stringliteral">&quot;Tip 4&quot;</span>,</div>
+<div class="line">            <span class="stringliteral">&quot;Tip 5&quot;</span></div>
+<div class="line">        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>

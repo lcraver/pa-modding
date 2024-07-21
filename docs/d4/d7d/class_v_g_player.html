@@ -222,6 +222,9 @@ Transform&#160;</td><td class="memItemRight" valign="bottom"><b>Player_Boost</b>
 <tr class="memitem:ab7ebe88374b890972daaa0f08af4a4e1" id="r_ab7ebe88374b890972daaa0f08af4a4e1"><td class="memItemLeft" align="right" valign="top"><a id="ab7ebe88374b890972daaa0f08af4a4e1" name="ab7ebe88374b890972daaa0f08af4a4e1"></a>
 GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>PlayerDashPrefab</b></td></tr>
 <tr class="separator:ab7ebe88374b890972daaa0f08af4a4e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab22a44198721098066b80687543fc001" id="r_ab22a44198721098066b80687543fc001"><td class="memItemLeft" align="right" valign="top"><a id="ab22a44198721098066b80687543fc001" name="ab22a44198721098066b80687543fc001"></a>
+PlayerText&#160;</td><td class="memItemRight" valign="bottom"><b>SpeechBubble</b></td></tr>
+<tr class="separator:ab22a44198721098066b80687543fc001"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1ac9e730278c68bce065f8508d8984a" id="r_af1ac9e730278c68bce065f8508d8984a"><td class="memItemLeft" align="right" valign="top"><a id="af1ac9e730278c68bce065f8508d8984a" name="af1ac9e730278c68bce065f8508d8984a"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>PlayerID</b></td></tr>
 <tr class="separator:af1ac9e730278c68bce065f8508d8984a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -321,6 +324,9 @@ static readonly float&#160;</td><td class="memItemRight" valign="bottom"><b>EDGE
 <tr class="memitem:a0a9cd2d641906cae97ac01063476e71d" id="r_a0a9cd2d641906cae97ac01063476e71d"><td class="memItemLeft" align="right" valign="top"><a id="a0a9cd2d641906cae97ac01063476e71d" name="a0a9cd2d641906cae97ac01063476e71d"></a>
 static readonly float&#160;</td><td class="memItemRight" valign="bottom"><b>CLOSECALL_TIME</b> = 0.2f</td></tr>
 <tr class="separator:a0a9cd2d641906cae97ac01063476e71d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07bd6d2329319e758e3d580a42cd8ca3" id="r_a07bd6d2329319e758e3d580a42cd8ca3"><td class="memItemLeft" align="right" valign="top"><a id="a07bd6d2329319e758e3d580a42cd8ca3" name="a07bd6d2329319e758e3d580a42cd8ca3"></a>
+static readonly float&#160;</td><td class="memItemRight" valign="bottom"><b>SPAWN_TIME</b> = 0.417f</td></tr>
+<tr class="separator:a07bd6d2329319e758e3d580a42cd8ca3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
@@ -381,12 +387,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>PlayParticles</b> (Pa
 <tr class="memitem:a364bf386eeae4e1f5309577cf264cde8" id="r_a364bf386eeae4e1f5309577cf264cde8"><td class="memItemLeft" align="right" valign="top"><a id="a364bf386eeae4e1f5309577cf264cde8" name="a364bf386eeae4e1f5309577cf264cde8"></a>
 IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><b>KillParticleSystem</b> (ParticleSystem _ps)</td></tr>
 <tr class="separator:a364bf386eeae4e1f5309577cf264cde8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a444c0088000f9a160f41a4198e4e4d07" id="r_a444c0088000f9a160f41a4198e4e4d07"><td class="memItemLeft" align="right" valign="top"><a id="a444c0088000f9a160f41a4198e4e4d07" name="a444c0088000f9a160f41a4198e4e4d07"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Spawn</b> (float _delay)</td></tr>
-<tr class="separator:a444c0088000f9a160f41a4198e4e4d07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b336cf2e12ce25b845e30baac343bcd" id="r_a9b336cf2e12ce25b845e30baac343bcd"><td class="memItemLeft" align="right" valign="top"><a id="a9b336cf2e12ce25b845e30baac343bcd" name="a9b336cf2e12ce25b845e30baac343bcd"></a>
-IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><b>SpawnWait</b> (float _delay)</td></tr>
-<tr class="separator:a9b336cf2e12ce25b845e30baac343bcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1f87373093f2522a6f4def9f8761c54" id="r_af1f87373093f2522a6f4def9f8761c54"><td class="memItemLeft" align="right" valign="top"><a id="af1f87373093f2522a6f4def9f8761c54" name="af1f87373093f2522a6f4def9f8761c54"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>SetState</b> (float _delay, bool _canMove, bool _canTakeDamage, bool _canBoost)</td></tr>
 <tr class="separator:af1f87373093f2522a6f4def9f8761c54"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -408,6 +408,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>SetDamage</b> (bool _
 <tr class="memitem:a72832bcdcaece8806fbda0f9ae5aa44a" id="r_a72832bcdcaece8806fbda0f9ae5aa44a"><td class="memItemLeft" align="right" valign="top"><a id="a72832bcdcaece8806fbda0f9ae5aa44a" name="a72832bcdcaece8806fbda0f9ae5aa44a"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Spawn</b> ()</td></tr>
 <tr class="separator:a72832bcdcaece8806fbda0f9ae5aa44a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3e8bcf45ea76091aa6ff90d89dd422b" id="r_ad3e8bcf45ea76091aa6ff90d89dd422b"><td class="memItemLeft" align="right" valign="top"><a id="ad3e8bcf45ea76091aa6ff90d89dd422b" name="ad3e8bcf45ea76091aa6ff90d89dd422b"></a>
+IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><b>SpawnLoop</b> ()</td></tr>
+<tr class="separator:ad3e8bcf45ea76091aa6ff90d89dd422b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e5cbc81214df6eaeac992ba1c6e31bb" id="r_a8e5cbc81214df6eaeac992ba1c6e31bb"><td class="memItemLeft" align="right" valign="top"><a id="a8e5cbc81214df6eaeac992ba1c6e31bb" name="a8e5cbc81214df6eaeac992ba1c6e31bb"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Update</b> ()</td></tr>
 <tr class="separator:a8e5cbc81214df6eaeac992ba1c6e31bb"><td class="memSeparator" colspan="2">&#160;</td></tr>

@@ -105,6 +105,7 @@ $(function(){initNavTree('d6/d94/class_event_manager.html','../../'); initResiza
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="../../d6/d77/class_event_manager-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">EventManager Class Reference</div></div>
@@ -127,6 +128,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab889b4364858170c2605fd21313f4658" id="r_ab889b4364858170c2605fd21313f4658"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab889b4364858170c2605fd21313f4658">GetCameraZoom</a> ()</td></tr>
 <tr class="memdesc:ab889b4364858170c2605fd21313f4658"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is used to get the current camera zoom level.  <br /></td></tr>
 <tr class="separator:ab889b4364858170c2605fd21313f4658"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab19abf0449b63504c833c7205a9f8ee" id="r_aab19abf0449b63504c833c7205a9f8ee"><td class="memItemLeft" align="right" valign="top"><a id="aab19abf0449b63504c833c7205a9f8ee" name="aab19abf0449b63504c833c7205a9f8ee"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetJiggle</b> ()</td></tr>
+<tr class="separator:aab19abf0449b63504c833c7205a9f8ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a620a245a998e554f3a8b80233648d9be" id="r_a620a245a998e554f3a8b80233648d9be"><td class="memItemLeft" align="right" valign="top"><a id="a620a245a998e554f3a8b80233648d9be" name="a620a245a998e554f3a8b80233648d9be"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>isFirstKeyframe</b> (int _index)</td></tr>
 <tr class="separator:a620a245a998e554f3a8b80233648d9be"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -306,6 +310,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>Awake</b> ()</td></tr
 <tr class="memitem:a78838eb337e993284fa0e392db468919" id="r_a78838eb337e993284fa0e392db468919"><td class="memItemLeft" align="right" valign="top"><a id="a78838eb337e993284fa0e392db468919" name="a78838eb337e993284fa0e392db468919"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Update</b> ()</td></tr>
 <tr class="separator:a78838eb337e993284fa0e392db468919"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33f629af1b59bcb61eeb8c9047d8d977" id="r_a33f629af1b59bcb61eeb8c9047d8d977"><td class="memItemLeft" align="right" valign="top"><a id="a33f629af1b59bcb61eeb8c9047d8d977" name="a33f629af1b59bcb61eeb8c9047d8d977"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>GetHasJiggle</b> ()</td></tr>
+<tr class="separator:a33f629af1b59bcb61eeb8c9047d8d977"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4cb9f97f3919fc9695f70a7f49e99676" id="r_a4cb9f97f3919fc9695f70a7f49e99676"><td class="memItemLeft" align="right" valign="top"><a id="a4cb9f97f3919fc9695f70a7f49e99676" name="a4cb9f97f3919fc9695f70a7f49e99676"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>LateUpdate</b> ()</td></tr>
 <tr class="separator:a4cb9f97f3919fc9695f70a7f49e99676"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -378,6 +385,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>updateCameraVignetteR
 <tr class="memitem:abf14ef29092a81b59505f548ec5af8ce" id="r_abf14ef29092a81b59505f548ec5af8ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf14ef29092a81b59505f548ec5af8ce">updateCameraGrainSize</a> (float _size)</td></tr>
 <tr class="memdesc:abf14ef29092a81b59505f548ec5af8ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the grain size of the camera.  <br /></td></tr>
 <tr class="separator:abf14ef29092a81b59505f548ec5af8ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:ac837a02f4aad6bc9842954e3a5292582" id="r_ac837a02f4aad6bc9842954e3a5292582"><td class="memItemLeft" align="right" valign="top"><a id="ac837a02f4aad6bc9842954e3a5292582" name="ac837a02f4aad6bc9842954e3a5292582"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>HasJiggle</b> = true</td></tr>
+<tr class="separator:ac837a02f4aad6bc9842954e3a5292582"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
@@ -602,11 +615,11 @@ static ThemeUpdaterDotweenPlugin&#160;</td><td class="memItemRight" valign="bott
 
 <p>This is used to trigger all events in the level. Triggers are a special type of event that can be made by the level creator in the game's editor. </p>
 <p>Usage: </p><div class="fragment"><div class="line"><a class="code hl_function" href="#a48df5b9efb97bb5596cbcc54bebdc40d">TriggerEvent</a>(0.5f, <a class="code hl_class" href="../../d9/de1/class_data_manager.html">DataManager</a>.<a class="code hl_class" href="../../da/d01/class_data_manager_1_1_game_data.html">GameData</a>.<a class="code hl_class" href="../../db/dc5/class_data_manager_1_1_game_data_1_1_beatmap_data.html">BeatmapData</a>.<a class="code hl_class" href="../../d2/dc0/class_data_manager_1_1_game_data_1_1_beatmap_data_1_1_event_triggers.html">EventTriggers</a>.EventType.Player_Bubble, <span class="keyword">new</span> List&lt;string&gt; { <span class="stringliteral">&quot;Hello World&quot;</span> });</div>
-<div class="ttc" id="aclass_data_manager_1_1_game_data_1_1_beatmap_data_1_1_event_triggers_html"><div class="ttname"><a href="../../d2/dc0/class_data_manager_1_1_game_data_1_1_beatmap_data_1_1_event_triggers.html">DataManager.GameData.BeatmapData.EventTriggers</a></div><div class="ttdoc">A beatmap's event trigger settings.</div><div class="ttdef"><b>Definition</b> DataManager.cs:2528</div></div>
-<div class="ttc" id="aclass_data_manager_1_1_game_data_1_1_beatmap_data_html"><div class="ttname"><a href="../../db/dc5/class_data_manager_1_1_game_data_1_1_beatmap_data.html">DataManager.GameData.BeatmapData</a></div><div class="ttdoc">Stores all the beatmapData for a level.</div><div class="ttdef"><b>Definition</b> DataManager.cs:2505</div></div>
-<div class="ttc" id="aclass_data_manager_1_1_game_data_html"><div class="ttname"><a href="../../da/d01/class_data_manager_1_1_game_data.html">DataManager.GameData</a></div><div class="ttdef"><b>Definition</b> DataManager.cs:1629</div></div>
+<div class="ttc" id="aclass_data_manager_1_1_game_data_1_1_beatmap_data_1_1_event_triggers_html"><div class="ttname"><a href="../../d2/dc0/class_data_manager_1_1_game_data_1_1_beatmap_data_1_1_event_triggers.html">DataManager.GameData.BeatmapData.EventTriggers</a></div><div class="ttdoc">A beatmap's event trigger settings.</div><div class="ttdef"><b>Definition</b> DataManager.cs:2543</div></div>
+<div class="ttc" id="aclass_data_manager_1_1_game_data_1_1_beatmap_data_html"><div class="ttname"><a href="../../db/dc5/class_data_manager_1_1_game_data_1_1_beatmap_data.html">DataManager.GameData.BeatmapData</a></div><div class="ttdoc">Stores all the beatmapData for a level.</div><div class="ttdef"><b>Definition</b> DataManager.cs:2520</div></div>
+<div class="ttc" id="aclass_data_manager_1_1_game_data_html"><div class="ttname"><a href="../../da/d01/class_data_manager_1_1_game_data.html">DataManager.GameData</a></div><div class="ttdef"><b>Definition</b> DataManager.cs:1644</div></div>
 <div class="ttc" id="aclass_data_manager_html"><div class="ttname"><a href="../../d9/de1/class_data_manager.html">DataManager</a></div><div class="ttdef"><b>Definition</b> DataManager.cs:19</div></div>
-<div class="ttc" id="aclass_event_manager_html_a48df5b9efb97bb5596cbcc54bebdc40d"><div class="ttname"><a href="#a48df5b9efb97bb5596cbcc54bebdc40d">EventManager.TriggerEvent</a></div><div class="ttdeci">void TriggerEvent(Vector2 _time, DataManager.GameData.BeatmapData.EventTriggers.EventType _event, List&lt; string &gt; _data)</div><div class="ttdoc">This is used to trigger all events in the level. Triggers are a special type of event that can be mad...</div><div class="ttdef"><b>Definition</b> EventManager.cs:1879</div></div>
+<div class="ttc" id="aclass_event_manager_html_a48df5b9efb97bb5596cbcc54bebdc40d"><div class="ttname"><a href="#a48df5b9efb97bb5596cbcc54bebdc40d">EventManager.TriggerEvent</a></div><div class="ttdeci">void TriggerEvent(Vector2 _time, DataManager.GameData.BeatmapData.EventTriggers.EventType _event, List&lt; string &gt; _data)</div><div class="ttdoc">This is used to trigger all events in the level. Triggers are a special type of event that can be mad...</div><div class="ttdef"><b>Definition</b> EventManager.cs:1904</div></div>
 </div><!-- fragment --> <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">_time</td><td>Time the trigger is executing at. Used in the case of the event needs that info.</td></tr>

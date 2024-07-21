@@ -13,7 +13,7 @@ var searchData=
   ['difficultiesclass_10',['DifficultiesClass',['../df/dfd/class_data_manager_1_1_difficulties_class.html',1,'DataManager']]],
   ['difficultysetting_11',['DifficultySetting',['../d8/d77/class_data_manager_1_1_difficulty_setting.html',1,'DataManager']]],
   ['disableelement_12',['DisableElement',['../d1/d4c/class_u_i_element.html#a33973c42f554ad7867b277b8983f3a78',1,'UIElement']]],
-  ['displaynotification_13',['DisplayNotification',['../d1/dc7/class_editor_manager.html#a55c94c294f500036ae9663418c8e0bbf',1,'EditorManager']]],
+  ['displaynotification_13',['DisplayNotification',['../d1/dc7/class_editor_manager.html#aec74e475750b1a4e80a1d62d47400a52',1,'EditorManager']]],
   ['displaytest_14',['DisplayTest',['../d4/def/class_display_test.html',1,'']]],
   ['doessceneexist_15',['DoesSceneExist',['../df/d6e/class_systems_1_1_scene_management_1_1_scene_loader.html#a37e77b06f9f6761cbc1eababbb7cf373',1,'Systems::SceneManagement::SceneLoader']]],
   ['drawobject_16',['DrawObject',['../d2/d97/class_g_l_render_manager_1_1_draw_object.html',1,'GLRenderManager']]]
