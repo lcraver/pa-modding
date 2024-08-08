@@ -16,6 +16,7 @@ Please, if you think you have something to add to the modding discussion, feel f
 | ---- | ---- | ----------- |
 | Project Launcher | [LINK](https://github.com/RTMecha/ProjectLauncher) | Launcher for managing mods(Legacy Only) |
 | BepInEx | [LINK](https://github.com/BepInEx/BepInEx) | Modding framework for Unity |
+| ProjectArrhythmia.GameLibs | [LINK](https://www.nuget.org/packages/ProjectArrhythmia.GameLibs) | [Reference libraries](https://docs.bepinex.dev/master/articles/dev_guide/plugin_tutorial/2_plugin_start.html#referencing-game-libraries) for PA mods |
 | Cpp2IL | [LINK](https://github.com/SamboyCoding/Cpp2IL) | Tool to reverse unity's IL2CPP toolchain |
 
 
