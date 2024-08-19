@@ -1,15 +1,15 @@
 var hierarchy =
 [
-    [ "SaveManager.Settings.AccessibilityData", "d6/d20/class_save_manager_1_1_settings_1_1_accessibility_data.html", null ],
+    [ "SettingsData.AccessibilityData", "d9/d10/class_settings_data_1_1_accessibility_data.html", null ],
+    [ "SettingsData.VideoData.AdvancedData", "da/d31/class_settings_data_1_1_video_data_1_1_advanced_data.html", null ],
     [ "ParallaxObject.AnimationData", "da/dee/class_parallax_object_1_1_animation_data.html", null ],
-    [ "SaveManager.Settings.StateOfGameData.ArcadeData", "d4/dcc/class_save_manager_1_1_settings_1_1_state_of_game_data_1_1_arcade_data.html", null ],
     [ "Artist", "d3/d0d/class_artist.html", null ],
     [ "DataManager.MetaData.Artist", "d6/dd2/class_data_manager_1_1_meta_data_1_1_artist.html", null ],
     [ "DataManager.MetadataLegacy.Artist", "dd/d7c/class_data_manager_1_1_metadata_legacy_1_1_artist.html", null ],
     [ "VGFunctions.LSText.ASCII", "da/d70/class_v_g_functions_1_1_l_s_text_1_1_a_s_c_i_i.html", null ],
     [ "Systems.SceneManagement.AsyncOperationGroup", "d8/da5/struct_systems_1_1_scene_management_1_1_async_operation_group.html", null ],
     [ "Systems.SceneManagement.AsyncOperationHandleGroup", "d3/d84/struct_systems_1_1_scene_management_1_1_async_operation_handle_group.html", null ],
-    [ "SaveManager.Settings.AudioData", "da/d35/class_save_manager_1_1_settings_1_1_audio_data.html", null ],
+    [ "SettingsData.AudioData", "d8/d79/class_settings_data_1_1_audio_data.html", null ],
     [ "SoundLibrary.AudioGroup", "d7/d6b/class_sound_library_1_1_audio_group.html", null ],
     [ "DataManager.GameData.BeatmapData.EditorSettings.AutoSave", "d6/dd6/class_data_manager_1_1_game_data_1_1_beatmap_data_1_1_editor_settings_1_1_auto_save.html", null ],
     [ "DataManager.MetaData.Beatmap", "df/d21/class_data_manager_1_1_meta_data_1_1_beatmap.html", null ],
@@ -60,12 +60,18 @@ var hierarchy =
     [ "DataManager.GameData.EventObjects", "de/d3c/class_data_manager_1_1_game_data_1_1_event_objects.html", null ],
     [ "DataManager.GameData.BeatmapData.EventTriggers", "d2/dc0/class_data_manager_1_1_game_data_1_1_beatmap_data_1_1_event_triggers.html", null ],
     [ "DataManager.FileTypeDefinition", "d8/da5/class_data_manager_1_1_file_type_definition.html", null ],
+    [ "DataManager.MetaData.References.Game", "d3/d88/class_data_manager_1_1_meta_data_1_1_references_1_1_game.html", null ],
     [ "DataManager.GameData", "da/d01/class_data_manager_1_1_game_data.html", null ],
     [ "DataManager.GameObjectCategory", "d4/d4c/class_data_manager_1_1_game_object_category.html", null ],
     [ "ObjectHelpers.GameObjectRef", "d5/d2e/class_object_helpers_1_1_game_object_ref.html", null ],
     [ "DataManager.GameObjectCategory.GameObjectShape", "d3/d82/class_data_manager_1_1_game_object_category_1_1_game_object_shape.html", null ],
-    [ "SaveManager.Settings.GameplayData", "d7/dbb/class_save_manager_1_1_settings_1_1_gameplay_data.html", null ],
+    [ "SettingsData.AudioData.GameplayData", "d4/db5/class_settings_data_1_1_audio_data_1_1_gameplay_data.html", null ],
+    [ "SettingsData.GameplayData", "d6/d1a/class_settings_data_1_1_gameplay_data.html", null ],
     [ "DataManager.GameData.BeatmapData.EditorSettings.General", "d0/d66/class_data_manager_1_1_game_data_1_1_beatmap_data_1_1_editor_settings_1_1_general.html", null ],
+    [ "SettingsData.AccessibilityData.GeneralData", "df/dbf/class_settings_data_1_1_accessibility_data_1_1_general_data.html", null ],
+    [ "SettingsData.AudioData.GeneralData", "db/dc1/class_settings_data_1_1_audio_data_1_1_general_data.html", null ],
+    [ "SettingsData.GameplayData.GeneralData", "d8/d29/class_settings_data_1_1_gameplay_data_1_1_general_data.html", null ],
+    [ "SettingsData.VideoData.GeneralData", "db/d98/class_settings_data_1_1_video_data_1_1_general_data.html", null ],
     [ "DataManager.GameData.BeatmapData.EditorSettings.Grid", "dd/dc1/class_data_manager_1_1_game_data_1_1_beatmap_data_1_1_editor_settings_1_1_grid.html", null ],
     [ "History", "d8/dd3/class_history.html", null ],
     [ "IJobParallelFor", null, [
@@ -143,6 +149,8 @@ var hierarchy =
     [ "LSResponse", "d7/da0/class_l_s_response.html", null ],
     [ "VGFunctions.LSText", "d8/d71/class_v_g_functions_1_1_l_s_text.html", null ],
     [ "DataManager.GameData.BeatmapData.Marker", "d9/d5e/class_data_manager_1_1_game_data_1_1_beatmap_data_1_1_marker.html", null ],
+    [ "SettingsData.AccessibilityData.MenuData", "d9/de8/class_settings_data_1_1_accessibility_data_1_1_menu_data.html", null ],
+    [ "SettingsData.AudioData.MenuData", "d0/db4/class_settings_data_1_1_audio_data_1_1_menu_data.html", null ],
     [ "DataManager.MetaData", "df/dbb/class_data_manager_1_1_meta_data.html", null ],
     [ "DataManager.MetadataLegacy", "d3/df9/class_data_manager_1_1_metadata_legacy.html", null ],
     [ "VGEditor.MetadataWrapper", "dd/db7/class_v_g_editor_1_1_metadata_wrapper.html", null ],
@@ -254,7 +262,9 @@ var hierarchy =
     [ "DataManager.GameData.PrefabObject", "d0/d78/class_data_manager_1_1_game_data_1_1_prefab_object.html", null ],
     [ "DataManager.PrefabTypeInfo", "d6/d6a/class_data_manager_1_1_prefab_type_info.html", null ],
     [ "DataManager.GameData.BeatmapData.EditorSettings.Preview", "dc/d4b/class_data_manager_1_1_game_data_1_1_beatmap_data_1_1_editor_settings_1_1_preview.html", null ],
+    [ "DataManager.MetaData.References", "d9/d56/class_data_manager_1_1_meta_data_1_1_references.html", null ],
     [ "LSRenderManager.RenderObject", "d0/d79/class_l_s_render_manager_1_1_render_object.html", null ],
+    [ "SavesManager.SaveData", "d1/d99/class_saves_manager_1_1_save_data.html", null ],
     [ "DataManager.SaveState", "dd/d22/class_data_manager_1_1_save_state.html", null ],
     [ "Systems.SceneManagement.SceneData", "d0/d76/class_systems_1_1_scene_management_1_1_scene_data.html", null ],
     [ "Systems.SceneManagement.SceneGroup", "da/d27/class_systems_1_1_scene_management_1_1_scene_group.html", null ],
@@ -277,7 +287,7 @@ var hierarchy =
       [ "StoryManager.InkAssetDictionary", "d6/def/class_story_manager_1_1_ink_asset_dictionary.html", null ],
       [ "Systems.SceneManagement.SceneLoader.SceneTypesClass", "d3/dff/class_systems_1_1_scene_management_1_1_scene_loader_1_1_scene_types_class.html", null ]
     ] ],
-    [ "SaveManager.Settings", "d6/de7/class_save_manager_1_1_settings.html", null ],
+    [ "SettingsData", "d8/d05/class_settings_data.html", null ],
     [ "ParallaxObject.ShapeData", "d6/d7e/class_parallax_object_1_1_shape_data.html", null ],
     [ "SingletonBase< ArcadeManager >", "db/da7/class_singleton_base.html", [
       [ "ArcadeManager", "dd/d7d/class_arcade_manager.html", null ]
@@ -297,14 +307,17 @@ var hierarchy =
     [ "SingletonBase< LSEffectsManager >", "db/da7/class_singleton_base.html", [
       [ "LSEffectsManager", "de/d10/class_l_s_effects_manager.html", null ]
     ] ],
-    [ "SingletonBase< SaveManager >", "db/da7/class_singleton_base.html", [
-      [ "SaveManager", "da/da0/class_save_manager.html", null ]
+    [ "SingletonBase< SavesManager >", "db/da7/class_singleton_base.html", [
+      [ "SavesManager", "dc/d9b/class_saves_manager.html", null ]
     ] ],
     [ "SingletonBase< SceneLoader >", "db/da7/class_singleton_base.html", [
       [ "Systems.SceneManagement.SceneLoader", "df/d6e/class_systems_1_1_scene_management_1_1_scene_loader.html", null ]
     ] ],
     [ "SingletonBase< SequenceManager >", "db/da7/class_singleton_base.html", [
       [ "SequenceManager", "da/d4d/class_sequence_manager.html", null ]
+    ] ],
+    [ "SingletonBase< SettingsManager >", "db/da7/class_singleton_base.html", [
+      [ "SettingsManager", "de/de2/class_settings_manager.html", null ]
     ] ],
     [ "SingletonBase< StoryManager >", "db/da7/class_singleton_base.html", [
       [ "StoryManager", "d0/dbb/class_story_manager.html", null ]
@@ -325,8 +338,7 @@ var hierarchy =
     [ "SongPack", "d3/d44/class_song_pack.html", null ],
     [ "SpeedString", "d6/d2d/class_speed_string.html", null ],
     [ "VGEditor.SpriteLimits", "d7/d58/class_v_g_editor_1_1_sprite_limits.html", null ],
-    [ "SaveManager.Settings.StateOfGameData", "de/dee/class_save_manager_1_1_settings_1_1_state_of_game_data.html", null ],
-    [ "DataManager.MetaData.StoryLine", "d9/db1/class_data_manager_1_1_meta_data_1_1_story_line.html", null ],
+    [ "SettingsData.StateOfGameData", "da/dc6/class_settings_data_1_1_state_of_game_data.html", null ],
     [ "DataManager.MetadataLegacy.StoryLine", "d1/dcb/class_data_manager_1_1_metadata_legacy_1_1_story_line.html", null ],
     [ "Systems.SceneManagement.TaskData", "d0/d9f/struct_systems_1_1_scene_management_1_1_task_data.html", null ],
     [ "yamltest.Test", "d1/d4a/classyamltest_1_1_test.html", null ],
@@ -346,5 +358,5 @@ var hierarchy =
     [ "VGFunctions.VGLog", "da/d71/class_v_g_functions_1_1_v_g_log.html", null ],
     [ "VGPlayerManager.VGPlayerData", "da/df8/class_v_g_player_manager_1_1_v_g_player_data.html", null ],
     [ "VGFunctions.LSColors.VGReturn< T >", "d8/d42/class_v_g_functions_1_1_l_s_colors_1_1_v_g_return.html", null ],
-    [ "SaveManager.Settings.VideoData", "da/daf/class_save_manager_1_1_settings_1_1_video_data.html", null ]
+    [ "SettingsData.VideoData", "db/d64/class_settings_data_1_1_video_data.html", null ]
 ];

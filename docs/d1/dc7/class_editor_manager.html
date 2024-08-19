@@ -340,12 +340,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>SetSaveAsBeatmapName<
 <tr class="memitem:a39d40738545a767374d5bc6d5e249d19" id="r_a39d40738545a767374d5bc6d5e249d19"><td class="memItemLeft" align="right" valign="top"><a id="a39d40738545a767374d5bc6d5e249d19" name="a39d40738545a767374d5bc6d5e249d19"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>SaveBeatmapAs</b> ()</td></tr>
 <tr class="separator:a39d40738545a767374d5bc6d5e249d19"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06351067f68dee5d306fa8b189f426dd" id="r_a06351067f68dee5d306fa8b189f426dd"><td class="memItemLeft" align="right" valign="top"><a id="a06351067f68dee5d306fa8b189f426dd" name="a06351067f68dee5d306fa8b189f426dd"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SaveBeatmapAs</b> (string _levelName)</td></tr>
-<tr class="separator:a06351067f68dee5d306fa8b189f426dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b94077a131c7215cb65b0bc578402d8" id="r_a7b94077a131c7215cb65b0bc578402d8"><td class="memItemLeft" align="right" valign="top"><a id="a7b94077a131c7215cb65b0bc578402d8" name="a7b94077a131c7215cb65b0bc578402d8"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SaveBeatmap</b> ()</td></tr>
-<tr class="separator:a7b94077a131c7215cb65b0bc578402d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd182387c6cd852d568c888d73fc742b" id="r_afd182387c6cd852d568c888d73fc742b"><td class="memItemLeft" align="right" valign="top"><a id="afd182387c6cd852d568c888d73fc742b" name="afd182387c6cd852d568c888d73fc742b"></a>
+async void&#160;</td><td class="memItemRight" valign="bottom"><b>SaveBeatmapAs</b> (string _levelName)</td></tr>
+<tr class="separator:afd182387c6cd852d568c888d73fc742b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75c84ed3bb6af1b3adb6ada6efb35724" id="r_a75c84ed3bb6af1b3adb6ada6efb35724"><td class="memItemLeft" align="right" valign="top"><a id="a75c84ed3bb6af1b3adb6ada6efb35724" name="a75c84ed3bb6af1b3adb6ada6efb35724"></a>
+async void&#160;</td><td class="memItemRight" valign="bottom"><b>SaveBeatmap</b> ()</td></tr>
+<tr class="separator:a75c84ed3bb6af1b3adb6ada6efb35724"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99d4e822a25d51b68110411f47da0fc7" id="r_a99d4e822a25d51b68110411f47da0fc7"><td class="memItemLeft" align="right" valign="top"><a id="a99d4e822a25d51b68110411f47da0fc7" name="a99d4e822a25d51b68110411f47da0fc7"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>SaveMetadata</b> (bool _isLegacy=false)</td></tr>
 <tr class="separator:a99d4e822a25d51b68110411f47da0fc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -379,12 +379,15 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>QuitGame</b> ()</td><
 <tr class="memitem:ac504c4bd4d86524bd997cba82a19ce40" id="r_ac504c4bd4d86524bd997cba82a19ce40"><td class="memItemLeft" align="right" valign="top"><a id="ac504c4bd4d86524bd997cba82a19ce40" name="ac504c4bd4d86524bd997cba82a19ce40"></a>
 Rect&#160;</td><td class="memItemRight" valign="bottom"><b>GetEditViewRect</b> ()</td></tr>
 <tr class="separator:ac504c4bd4d86524bd997cba82a19ce40"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa215181a534a3c3baf5593151f31ae92" id="r_aa215181a534a3c3baf5593151f31ae92"><td class="memItemLeft" align="right" valign="top"><a id="aa215181a534a3c3baf5593151f31ae92" name="aa215181a534a3c3baf5593151f31ae92"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SaveCoverImage</b> (string _imageFile, string _levelName)</td></tr>
-<tr class="separator:aa215181a534a3c3baf5593151f31ae92"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33796103412253284222b80d9907769d" id="r_a33796103412253284222b80d9907769d"><td class="memItemLeft" align="right" valign="top"><a id="a33796103412253284222b80d9907769d" name="a33796103412253284222b80d9907769d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SaveCoverImageLegacy</b> (string _imageFile, string _levelName)</td></tr>
-<tr class="separator:a33796103412253284222b80d9907769d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b3877814cf3c8f3db8263787df716c9" id="r_a7b3877814cf3c8f3db8263787df716c9"><td class="memItemLeft" align="right" valign="top"><a id="a7b3877814cf3c8f3db8263787df716c9" name="a7b3877814cf3c8f3db8263787df716c9"></a>
+async System.Threading.Tasks.Task&#160;</td><td class="memItemRight" valign="bottom"><b>SaveCoverImage</b> (string _imageFilePath, string _levelName)</td></tr>
+<tr class="separator:a7b3877814cf3c8f3db8263787df716c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a219ba5ba42d7b0624bf7bccb601d6347" id="r_a219ba5ba42d7b0624bf7bccb601d6347"><td class="memItemLeft" align="right" valign="top"><a id="a219ba5ba42d7b0624bf7bccb601d6347" name="a219ba5ba42d7b0624bf7bccb601d6347"></a>
+async System.Threading.Tasks.Task&#160;</td><td class="memItemRight" valign="bottom"><b>SaveCoverImageLegacy</b> (string _imageFilePath, string _levelName)</td></tr>
+<tr class="separator:a219ba5ba42d7b0624bf7bccb601d6347"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8edb7205993a2a1da786565df925d153" id="r_a8edb7205993a2a1da786565df925d153"><td class="memItemLeft" align="right" valign="top"><a id="a8edb7205993a2a1da786565df925d153" name="a8edb7205993a2a1da786565df925d153"></a>
+async System.Threading.Tasks.Task&#160;</td><td class="memItemRight" valign="bottom"><b>SaveCoverImage</b> (string _imageFilePath, string _levelName, bool _isLegacy)</td></tr>
+<tr class="separator:a8edb7205993a2a1da786565df925d153"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56b5d1182038adffe8fdc01ac56e11c4" id="r_a56b5d1182038adffe8fdc01ac56e11c4"><td class="memItemLeft" align="right" valign="top"><a id="a56b5d1182038adffe8fdc01ac56e11c4" name="a56b5d1182038adffe8fdc01ac56e11c4"></a>
 string&#160;</td><td class="memItemRight" valign="bottom"><b>GetTimeToString</b> (float _time)</td></tr>
 <tr class="separator:a56b5d1182038adffe8fdc01ac56e11c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -810,9 +813,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>StopLoadingLevel</b> 
 <tr class="memitem:affc2b66c9046aa466f84703ed189ea2c" id="r_affc2b66c9046aa466f84703ed189ea2c"><td class="memItemLeft" align="right" valign="top"><a id="affc2b66c9046aa466f84703ed189ea2c" name="affc2b66c9046aa466f84703ed189ea2c"></a>
 IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><b>LoadLevelInternal</b> (<a class="el" href="../../dd/db7/class_v_g_editor_1_1_metadata_wrapper.html">MetadataWrapper</a> _level, float _delay=0f)</td></tr>
 <tr class="separator:affc2b66c9046aa466f84703ed189ea2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac339486cdbb9e628b6e88bbf05655e54" id="r_ac339486cdbb9e628b6e88bbf05655e54"><td class="memItemLeft" align="right" valign="top"><a id="ac339486cdbb9e628b6e88bbf05655e54" name="ac339486cdbb9e628b6e88bbf05655e54"></a>
-IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><b>AutoSaveCycle</b> (string _path, string _file)</td></tr>
-<tr class="separator:ac339486cdbb9e628b6e88bbf05655e54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a003ab7fe182184ea3233d4dce441b55b" id="r_a003ab7fe182184ea3233d4dce441b55b"><td class="memItemLeft" align="right" valign="top"><a id="a003ab7fe182184ea3233d4dce441b55b" name="a003ab7fe182184ea3233d4dce441b55b"></a>
+async void&#160;</td><td class="memItemRight" valign="bottom"><b>AutoSaveCycle</b> (string _path, string _file)</td></tr>
+<tr class="separator:a003ab7fe182184ea3233d4dce441b55b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a138c1a30e0de6fd299e8b4c35bc7f908" id="r_a138c1a30e0de6fd299e8b4c35bc7f908"><td class="memItemLeft" align="right" valign="top"><a id="a138c1a30e0de6fd299e8b4c35bc7f908" name="a138c1a30e0de6fd299e8b4c35bc7f908"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>DisplayNotificationLoop</b> (string _text, float _time, NotificationType _type)</td></tr>
 <tr class="separator:a138c1a30e0de6fd299e8b4c35bc7f908"><td class="memSeparator" colspan="2">&#160;</td></tr>

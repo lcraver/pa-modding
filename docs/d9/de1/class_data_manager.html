@@ -200,6 +200,12 @@ Public Types</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="separator:a8916410f05e78bda00dffc82c52ab48e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ea674f600c39e0bb6aeea77367824ec" id="r_a8ea674f600c39e0bb6aeea77367824ec"><td class="memItemLeft" align="right" valign="top"><a id="a8ea674f600c39e0bb6aeea77367824ec" name="a8ea674f600c39e0bb6aeea77367824ec"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>Game</b> { <b>None</b> = 0
+, <b>Custom</b> = 1
+, <b>ADOFAI</b> = 2
+, <b>_1000xRESIST</b> = 3
+ }</td></tr>
+<tr class="separator:a8ea674f600c39e0bb6aeea77367824ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abad5551df9ef64163474c54eac4e34f5" id="r_abad5551df9ef64163474c54eac4e34f5"><td class="memItemLeft" align="right" valign="top"><a id="abad5551df9ef64163474c54eac4e34f5" name="abad5551df9ef64163474c54eac4e34f5"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>VersionComparison</b> { <b>LessThan</b>
 , <b>EqualTo</b>
 , <b>GreaterThan</b>
@@ -345,27 +351,27 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>InitThemes</b> ()</td
 <tr class="memitem:a92d3df09619ef29a16069d5cb5850c8b" id="r_a92d3df09619ef29a16069d5cb5850c8b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/dbb/class_data_manager_1_1_meta_data.html">MetaData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92d3df09619ef29a16069d5cb5850c8b">ParseMetadata</a> (string _metadata, bool _setActive=true, bool _isLegacy=true)</td></tr>
 <tr class="memdesc:a92d3df09619ef29a16069d5cb5850c8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse all the metadata data.  <br /></td></tr>
 <tr class="separator:a92d3df09619ef29a16069d5cb5850c8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b23df7e6f8aeef25013265b22d45515" id="r_a6b23df7e6f8aeef25013265b22d45515"><td class="memItemLeft" align="right" valign="top"><a id="a6b23df7e6f8aeef25013265b22d45515" name="a6b23df7e6f8aeef25013265b22d45515"></a>
-string&#160;</td><td class="memItemRight" valign="bottom"><b>SaveMetadata</b> (string _path)</td></tr>
-<tr class="separator:a6b23df7e6f8aeef25013265b22d45515"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a793327dc3b5466270103ee41f9f2647a" id="r_a793327dc3b5466270103ee41f9f2647a"><td class="memItemLeft" align="right" valign="top"><a id="a793327dc3b5466270103ee41f9f2647a" name="a793327dc3b5466270103ee41f9f2647a"></a>
-string&#160;</td><td class="memItemRight" valign="bottom"><b>SaveMetadata</b> (string _path, <a class="el" href="../../df/dbb/class_data_manager_1_1_meta_data.html">MetaData</a> _data)</td></tr>
-<tr class="separator:a793327dc3b5466270103ee41f9f2647a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1a1ad4c08f9051904a09ab7751281c7" id="r_aa1a1ad4c08f9051904a09ab7751281c7"><td class="memItemLeft" align="right" valign="top"><a id="aa1a1ad4c08f9051904a09ab7751281c7" name="aa1a1ad4c08f9051904a09ab7751281c7"></a>
-string&#160;</td><td class="memItemRight" valign="bottom"><b>SaveMetadata_Legacy</b> (string _path)</td></tr>
-<tr class="separator:aa1a1ad4c08f9051904a09ab7751281c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abab687f2354bc14c7b790f93e72c77dc" id="r_abab687f2354bc14c7b790f93e72c77dc"><td class="memItemLeft" align="right" valign="top"><a id="abab687f2354bc14c7b790f93e72c77dc" name="abab687f2354bc14c7b790f93e72c77dc"></a>
-string&#160;</td><td class="memItemRight" valign="bottom"><b>SaveMetadata_Legacy</b> (string _path, <a class="el" href="../../df/dbb/class_data_manager_1_1_meta_data.html">MetaData</a> _data)</td></tr>
-<tr class="separator:abab687f2354bc14c7b790f93e72c77dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05bf918bff4c94c3949de70ee984eefb" id="r_a05bf918bff4c94c3949de70ee984eefb"><td class="memItemLeft" align="right" valign="top"><a id="a05bf918bff4c94c3949de70ee984eefb" name="a05bf918bff4c94c3949de70ee984eefb"></a>
-IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><b>SaveData</b> (string _path)</td></tr>
-<tr class="separator:a05bf918bff4c94c3949de70ee984eefb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a476c3e3da3a08c2a2f910b1b3ffe6f33" id="r_a476c3e3da3a08c2a2f910b1b3ffe6f33"><td class="memItemLeft" align="right" valign="top"><a id="a476c3e3da3a08c2a2f910b1b3ffe6f33" name="a476c3e3da3a08c2a2f910b1b3ffe6f33"></a>
+async Task&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>SaveMetadata</b> (string _path)</td></tr>
+<tr class="separator:a476c3e3da3a08c2a2f910b1b3ffe6f33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5c2bcf80904e8f6951c2b54ee668d49" id="r_ad5c2bcf80904e8f6951c2b54ee668d49"><td class="memItemLeft" align="right" valign="top"><a id="ad5c2bcf80904e8f6951c2b54ee668d49" name="ad5c2bcf80904e8f6951c2b54ee668d49"></a>
+async Task&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>SaveMetadata</b> (string _path, <a class="el" href="../../df/dbb/class_data_manager_1_1_meta_data.html">MetaData</a> _data)</td></tr>
+<tr class="separator:ad5c2bcf80904e8f6951c2b54ee668d49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a906fbd6c2a072ce9bd517d0c1f99d011" id="r_a906fbd6c2a072ce9bd517d0c1f99d011"><td class="memItemLeft" align="right" valign="top"><a id="a906fbd6c2a072ce9bd517d0c1f99d011" name="a906fbd6c2a072ce9bd517d0c1f99d011"></a>
+Task&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>SaveMetadata_Legacy</b> (string _path)</td></tr>
+<tr class="separator:a906fbd6c2a072ce9bd517d0c1f99d011"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade59038cd5be474cda07082d32dce417" id="r_ade59038cd5be474cda07082d32dce417"><td class="memItemLeft" align="right" valign="top"><a id="ade59038cd5be474cda07082d32dce417" name="ade59038cd5be474cda07082d32dce417"></a>
+async Task&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>SaveMetadata_Legacy</b> (string _path, <a class="el" href="../../df/dbb/class_data_manager_1_1_meta_data.html">MetaData</a> _data)</td></tr>
+<tr class="separator:ade59038cd5be474cda07082d32dce417"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9acd9467f554eeb4f8597e837ca95cf2" id="r_a9acd9467f554eeb4f8597e837ca95cf2"><td class="memItemLeft" align="right" valign="top"><a id="a9acd9467f554eeb4f8597e837ca95cf2" name="a9acd9467f554eeb4f8597e837ca95cf2"></a>
+async System.Threading.Tasks.Task&#160;</td><td class="memItemRight" valign="bottom"><b>SaveData</b> (string _path)</td></tr>
+<tr class="separator:a9acd9467f554eeb4f8597e837ca95cf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af21f7edad38e8d7914e08ad1136b60be" id="r_af21f7edad38e8d7914e08ad1136b60be"><td class="memItemLeft" align="right" valign="top"><a id="af21f7edad38e8d7914e08ad1136b60be" name="af21f7edad38e8d7914e08ad1136b60be"></a>
 JSONNode&#160;</td><td class="memItemRight" valign="bottom"><b>GeneratePrefabJSON</b> (<a class="el" href="../../d5/d2b/class_data_manager_1_1_game_data_1_1_prefab.html">DataManager.GameData.Prefab</a> _prefab)</td></tr>
 <tr class="separator:af21f7edad38e8d7914e08ad1136b60be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff1c76856a7a78726b677fd6fe8b4d4f" id="r_aff1c76856a7a78726b677fd6fe8b4d4f"><td class="memItemLeft" align="right" valign="top"><a id="aff1c76856a7a78726b677fd6fe8b4d4f" name="aff1c76856a7a78726b677fd6fe8b4d4f"></a>
-IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><b>SaveDataNew</b> (string _path, <a class="el" href="../../da/d01/class_data_manager_1_1_game_data.html">GameData</a> _data)</td></tr>
-<tr class="separator:aff1c76856a7a78726b677fd6fe8b4d4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f8f08ef65c58f4e65d109766f2bf01d" id="r_a5f8f08ef65c58f4e65d109766f2bf01d"><td class="memItemLeft" align="right" valign="top"><a id="a5f8f08ef65c58f4e65d109766f2bf01d" name="a5f8f08ef65c58f4e65d109766f2bf01d"></a>
+async System.Threading.Tasks.Task&#160;</td><td class="memItemRight" valign="bottom"><b>SaveDataNew</b> (string _path, <a class="el" href="../../da/d01/class_data_manager_1_1_game_data.html">GameData</a> _data)</td></tr>
+<tr class="separator:a5f8f08ef65c58f4e65d109766f2bf01d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a377ab46b768c93915cefdeb13540513f" id="r_a377ab46b768c93915cefdeb13540513f"><td class="memItemLeft" align="right" valign="top"><a id="a377ab46b768c93915cefdeb13540513f" name="a377ab46b768c93915cefdeb13540513f"></a>
 <a class="el" href="../../da/d01/class_data_manager_1_1_game_data.html">GameData</a>&#160;</td><td class="memItemRight" valign="bottom"><b>CreateBaseBeatmap</b> ()</td></tr>
 <tr class="memdesc:a377ab46b768c93915cefdeb13540513f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes a new <a class="el" href="../../da/d01/class_data_manager_1_1_game_data.html">GameData</a> object with the basics to make a level. <br /></td></tr>
@@ -414,6 +420,8 @@ Dictionary&lt; Vector2Int, <a class="el" href="../../d3/d82/class_data_manager_1
 <tr class="separator:ad5abef64bec4c24fc0287aef9e0e14af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84ee4f19a49fdbb5d4a9798511169f03" id="r_a84ee4f19a49fdbb5d4a9798511169f03"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="../../d4/d92/class_data_manager_1_1_link_type.html">LinkType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84ee4f19a49fdbb5d4a9798511169f03">linkTypes</a></td></tr>
 <tr class="separator:a84ee4f19a49fdbb5d4a9798511169f03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3e6408f69264cf67d330d90ab97b710" id="r_ab3e6408f69264cf67d330d90ab97b710"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; Game, string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3e6408f69264cf67d330d90ab97b710">gameTypes</a></td></tr>
+<tr class="separator:ab3e6408f69264cf67d330d90ab97b710"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80f27771d3ac014d095c48e97856ae1e" id="r_a80f27771d3ac014d095c48e97856ae1e"><td class="memItemLeft" align="right" valign="top"><a id="a80f27771d3ac014d095c48e97856ae1e" name="a80f27771d3ac014d095c48e97856ae1e"></a>
 AnimationCurve&#160;</td><td class="memItemRight" valign="bottom"><b>InstantEaseOut</b></td></tr>
 <tr class="separator:a80f27771d3ac014d095c48e97856ae1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -493,7 +501,7 @@ const decimal&#160;</td><td class="memItemRight" valign="bottom"><b>FPS_MIN</b> 
 static string&#160;</td><td class="memItemRight" valign="bottom"><b>LEGACY_VERSION</b> = &quot;20.4.4&quot;</td></tr>
 <tr class="separator:aaa723d18996fdd06ad68339d36633fe8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add0332204045c6a721060fea9834bbff" id="r_add0332204045c6a721060fea9834bbff"><td class="memItemLeft" align="right" valign="top"><a id="add0332204045c6a721060fea9834bbff" name="add0332204045c6a721060fea9834bbff"></a>
-const string&#160;</td><td class="memItemRight" valign="bottom"><b>versionNumber</b> = &quot;24.7.7&quot;</td></tr>
+const string&#160;</td><td class="memItemRight" valign="bottom"><b>versionNumber</b> = &quot;24.8.4&quot;</td></tr>
 <tr class="separator:add0332204045c6a721060fea9834bbff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a386f9f91de23bf58a9f33e8c20549cac" id="r_a386f9f91de23bf58a9f33e8c20549cac"><td class="memItemLeft" align="right" valign="top"><a id="a386f9f91de23bf58a9f33e8c20549cac" name="a386f9f91de23bf58a9f33e8c20549cac"></a>
 const int&#160;</td><td class="memItemRight" valign="bottom"><b>appID</b> = 440310</td></tr>
@@ -701,6 +709,25 @@ System.Threading.Thread&#160;</td><td class="memItemRight" valign="bottom"><b>ma
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="ab3e6408f69264cf67d330d90ab97b710" name="ab3e6408f69264cf67d330d90ab97b710"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3e6408f69264cf67d330d90ab97b710">&#9670;&#160;</a></span>gameTypes</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Dictionary&lt;Game, string&gt; DataManager.gameTypes</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> Dictionary&lt;Game, string&gt;(){</div>
+<div class="line">        { Game.Custom, <span class="keyword">null</span> },</div>
+<div class="line">        { Game.ADOFAI, <span class="stringliteral">&quot;https://store.steampowered.com/app/977950/A_Dance_of_Fire_and_Ice&quot;</span> },</div>
+<div class="line">        { Game._1000xRESIST, <span class="stringliteral">&quot;https://store.steampowered.com/app/1675830/1000xRESIST&quot;</span> }</div>
+<div class="line">    }</div>
+</div><!-- fragment -->
+</div>
+</div>
 <a id="a84ee4f19a49fdbb5d4a9798511169f03" name="a84ee4f19a49fdbb5d4a9798511169f03"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a84ee4f19a49fdbb5d4a9798511169f03">&#9670;&#160;</a></span>linkTypes</h2>
 

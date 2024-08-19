@@ -110,9 +110,22 @@ $(function(){initNavTree('dc/d9d/class_v_g_functions_1_1_l_s_text_1_1_t_m_p_extr
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a5743e7cf016e6245fccf8adb34256d6d" id="r_a5743e7cf016e6245fccf8adb34256d6d"><td class="memItemLeft" align="right" valign="top"><a id="a5743e7cf016e6245fccf8adb34256d6d" name="a5743e7cf016e6245fccf8adb34256d6d"></a>
-static string&#160;</td><td class="memItemRight" valign="bottom"><b>RemoveRichText</b> (string _input)</td></tr>
-<tr class="separator:a5743e7cf016e6245fccf8adb34256d6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b0412aa4b338174de8d977dd756f3cc" id="r_a5b0412aa4b338174de8d977dd756f3cc"><td class="memItemLeft" align="right" valign="top"><a id="a5b0412aa4b338174de8d977dd756f3cc" name="a5b0412aa4b338174de8d977dd756f3cc"></a>
+static string&#160;</td><td class="memItemRight" valign="bottom"><b>RemoveAllDangerousRichText</b> (string _input)</td></tr>
+<tr class="memdesc:a5b0412aa4b338174de8d977dd756f3cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove all possible "dangerous" tags that could affect UI rendering. <br /></td></tr>
+<tr class="separator:a5b0412aa4b338174de8d977dd756f3cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c786b8ceff76697d51b2729b7053bad" id="r_a1c786b8ceff76697d51b2729b7053bad"><td class="memItemLeft" align="right" valign="top"><a id="a1c786b8ceff76697d51b2729b7053bad" name="a1c786b8ceff76697d51b2729b7053bad"></a>
+static string&#160;</td><td class="memItemRight" valign="bottom"><b>RemoveAllRichText</b> (string _input)</td></tr>
+<tr class="memdesc:a1c786b8ceff76697d51b2729b7053bad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove all possible tags. <br /></td></tr>
+<tr class="separator:a1c786b8ceff76697d51b2729b7053bad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cc11510c80bf253409d32222276fb61" id="r_a4cc11510c80bf253409d32222276fb61"><td class="memItemLeft" align="right" valign="top"><a id="a4cc11510c80bf253409d32222276fb61" name="a4cc11510c80bf253409d32222276fb61"></a>
+static string&#160;</td><td class="memItemRight" valign="bottom"><b>RemoveRichTextTag</b> (string input, string tag, bool isStart=true)</td></tr>
+<tr class="memdesc:a4cc11510c80bf253409d32222276fb61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove only the select basic tag. <br /></td></tr>
+<tr class="separator:a4cc11510c80bf253409d32222276fb61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2932118d9b7fb914c19c220fa26746b5" id="r_a2932118d9b7fb914c19c220fa26746b5"><td class="memItemLeft" align="right" valign="top"><a id="a2932118d9b7fb914c19c220fa26746b5" name="a2932118d9b7fb914c19c220fa26746b5"></a>
+static string&#160;</td><td class="memItemRight" valign="bottom"><b>RemovePATags</b> (string input, bool isStart=true)</td></tr>
+<tr class="memdesc:a2932118d9b7fb914c19c220fa26746b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove only custom PA tags. <br /></td></tr>
+<tr class="separator:a2932118d9b7fb914c19c220fa26746b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
@@ -120,20 +133,65 @@ Properties</h2></td></tr>
 <tr class="separator:a4f83dea2541fca1a334ddd952f0c849b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aefdd657b11b84f37ea55e04a3b4b8fa8" id="r_aefdd657b11b84f37ea55e04a3b4b8fa8"><td class="memItemLeft" align="right" valign="top">static string[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefdd657b11b84f37ea55e04a3b4b8fa8">RichTextDynamic</a><code> [get]</code></td></tr>
 <tr class="separator:aefdd657b11b84f37ea55e04a3b4b8fa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e2876fc16b17a92a502723cd8c97990" id="r_a0e2876fc16b17a92a502723cd8c97990"><td class="memItemLeft" align="right" valign="top">static string[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e2876fc16b17a92a502723cd8c97990">DangerousTags</a><code> [get]</code></td></tr>
+<tr class="separator:a0e2876fc16b17a92a502723cd8c97990"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
 Static Private Member Functions</h2></td></tr>
 <tr class="memitem:aafa13d50a39e9e33cadeba41d6dd3db5" id="r_aafa13d50a39e9e33cadeba41d6dd3db5"><td class="memItemLeft" align="right" valign="top"><a id="aafa13d50a39e9e33cadeba41d6dd3db5" name="aafa13d50a39e9e33cadeba41d6dd3db5"></a>
 static string&#160;</td><td class="memItemRight" valign="bottom"><b>RemoveRichTextDynamicTag</b> (string input, string tag)</td></tr>
+<tr class="memdesc:aafa13d50a39e9e33cadeba41d6dd3db5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove the more "dangerous" tags that can break the UI. <br /></td></tr>
 <tr class="separator:aafa13d50a39e9e33cadeba41d6dd3db5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4cc11510c80bf253409d32222276fb61" id="r_a4cc11510c80bf253409d32222276fb61"><td class="memItemLeft" align="right" valign="top"><a id="a4cc11510c80bf253409d32222276fb61" name="a4cc11510c80bf253409d32222276fb61"></a>
-static string&#160;</td><td class="memItemRight" valign="bottom"><b>RemoveRichTextTag</b> (string input, string tag, bool isStart=true)</td></tr>
-<tr class="separator:a4cc11510c80bf253409d32222276fb61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2932118d9b7fb914c19c220fa26746b5" id="r_a2932118d9b7fb914c19c220fa26746b5"><td class="memItemLeft" align="right" valign="top"><a id="a2932118d9b7fb914c19c220fa26746b5" name="a2932118d9b7fb914c19c220fa26746b5"></a>
-static string&#160;</td><td class="memItemRight" valign="bottom"><b>RemovePATags</b> (string input, bool isStart=true)</td></tr>
-<tr class="separator:a2932118d9b7fb914c19c220fa26746b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Property Documentation</h2>
+<a id="a0e2876fc16b17a92a502723cd8c97990" name="a0e2876fc16b17a92a502723cd8c97990"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e2876fc16b17a92a502723cd8c97990">&#9670;&#160;</a></span>DangerousTags</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string [] VGFunctions.LSText.TMPExtras.DangerousTags</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">get</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> <span class="keywordtype">string</span>[] {</div>
+<div class="line">                <span class="stringliteral">&quot;align&quot;</span>,</div>
+<div class="line">                <span class="stringliteral">&quot;size&quot;</span>,</div>
+<div class="line">                <span class="stringliteral">&quot;cspace&quot;</span>,</div>
+<div class="line">                <span class="stringliteral">&quot;font&quot;</span>,</div>
+<div class="line">                <span class="stringliteral">&quot;indent&quot;</span>,</div>
+<div class="line">                <span class="stringliteral">&quot;line-height&quot;</span>,</div>
+<div class="line">                <span class="stringliteral">&quot;line-indent&quot;</span>,</div>
+<div class="line">                <span class="stringliteral">&quot;link&quot;</span>,</div>
+<div class="line">                <span class="stringliteral">&quot;margin&quot;</span>,</div>
+<div class="line">                <span class="stringliteral">&quot;margin-left&quot;</span>,</div>
+<div class="line">                <span class="stringliteral">&quot;margin-right&quot;</span>,</div>
+<div class="line">                <span class="stringliteral">&quot;mark&quot;</span>,</div>
+<div class="line">                <span class="stringliteral">&quot;mspace&quot;</span>,</div>
+<div class="line">                <span class="stringliteral">&quot;noparse&quot;</span>,</div>
+<div class="line">                <span class="stringliteral">&quot;nobr&quot;</span>,</div>
+<div class="line">                <span class="stringliteral">&quot;page&quot;</span>,</div>
+<div class="line">                <span class="stringliteral">&quot;pos&quot;</span>,</div>
+<div class="line">                <span class="stringliteral">&quot;space&quot;</span>,</div>
+<div class="line">                <span class="stringliteral">&quot;sprite index&quot;</span>,</div>
+<div class="line">                <span class="stringliteral">&quot;sprite name&quot;</span>,</div>
+<div class="line">                <span class="stringliteral">&quot;sprite&quot;</span>,</div>
+<div class="line">                <span class="stringliteral">&quot;style&quot;</span>,</div>
+<div class="line">                <span class="stringliteral">&quot;voffset&quot;</span>,</div>
+<div class="line">                <span class="stringliteral">&quot;width&quot;</span>,</div>
+<div class="line">            }</div>
+</div><!-- fragment -->
+</div>
+</div>
 <a id="a4f83dea2541fca1a334ddd952f0c849b" name="a4f83dea2541fca1a334ddd952f0c849b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4f83dea2541fca1a334ddd952f0c849b">&#9670;&#160;</a></span>RichText</h2>
 

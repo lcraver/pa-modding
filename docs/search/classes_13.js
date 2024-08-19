@@ -13,5 +13,5 @@ var searchData=
   ['vgplayermanager_10',['VGPlayerManager',['../d6/d73/class_v_g_player_manager.html',1,'']]],
   ['vgreturn_11',['VGReturn',['../d8/d42/class_v_g_functions_1_1_l_s_colors_1_1_v_g_return.html',1,'VGFunctions::LSColors']]],
   ['vgvector2converter_12',['VGVector2Converter',['../d3/d50/class_v_g_vector2_converter.html',1,'']]],
-  ['videodata_13',['VideoData',['../da/daf/class_save_manager_1_1_settings_1_1_video_data.html',1,'SaveManager::Settings']]]
+  ['videodata_13',['VideoData',['../db/d64/class_settings_data_1_1_video_data.html',1,'SettingsData']]]
 ];

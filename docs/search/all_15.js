@@ -16,5 +16,5 @@ var searchData=
   ['vgreturn_13',['VGReturn',['../d8/d42/class_v_g_functions_1_1_l_s_colors_1_1_v_g_return.html',1,'VGFunctions::LSColors']]],
   ['vgseqinsert_14',['VGSeqInsert',['../d7/d59/class_object_helpers.html#a2f8a3fdc3bb6af5185f188765ff940aa',1,'ObjectHelpers.VGSeqInsert(Sequence _sequence, float _start, Tweener _tweenFunc, Ease _ease=Ease.Unset)'],['../d7/d59/class_object_helpers.html#abdba076c1dbfa2e0fdde5a4ecedcdd21',1,'ObjectHelpers.VGSeqInsert(Sequence _sequence, float _start, Tweener _tweenFunc, AnimationCurve _ease)']]],
   ['vgvector2converter_15',['VGVector2Converter',['../d3/d50/class_v_g_vector2_converter.html',1,'']]],
-  ['videodata_16',['VideoData',['../da/daf/class_save_manager_1_1_settings_1_1_video_data.html',1,'SaveManager::Settings']]]
+  ['videodata_16',['VideoData',['../db/d64/class_settings_data_1_1_video_data.html',1,'SettingsData']]]
 ];
