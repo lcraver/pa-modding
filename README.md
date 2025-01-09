@@ -14,16 +14,16 @@ Please, if you think you have something to add to the modding discussion, feel f
 ### Tools
 | Name | Link | Description |
 | ---- | ---- | ----------- |
-| Project Launcher | [LINK](https://github.com/RTMecha/ProjectLauncher) | Launcher for managing mods(Legacy Only) |
+| Project Launcher | [LINK](https://github.com/RTMecha/ProjectLauncher) | Launcher for managing legacy mods |
 | BepInEx | [LINK](https://github.com/BepInEx/BepInEx) | Modding framework for Unity |
 | Cpp2IL | [LINK](https://github.com/SamboyCoding/Cpp2IL) | Tool to reverse unity's IL2CPP toolchain |
 
 
 ### Mods
 <details>
-	<summary><h4>Alpha</h4></summary>
+	<summary><h4>Modern</h4></summary>
 
-Mods made for the Alpha branch of the game. Guide for changing branches [here](https://steamcommunity.com/sharedfiles/filedetails/?id=2278623545)
+Mods made for the modern versions of the game.
 
 | Name | Link | Description |
 | ---- | ---- | ----------- |
