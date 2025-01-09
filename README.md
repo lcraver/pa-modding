@@ -7,16 +7,16 @@ Check out the full code docs [HERE](https://lcraver.github.io/pa-modding/)
 Please, if you think you have something to add to the modding discussion, feel free to open a PR. I promise I won't bite~
 
 ### Resources 
-| Name | Link | Description |
+| Name | Author | Description |
 | ---- | ---- | ----------- |
-| Code Reference | [LINK](https://lcraver.github.io/pa-modding/) | Holds references to many of the common classes PA uses to function |
+| [Code Reference](https://lcraver.github.io/pa-modding/) | lcraver | Holds references to many of the common classes PA uses to function |
 
 ### Tools
-| Name | Link | Description |
+| Name | Author | Description |
 | ---- | ---- | ----------- |
-| Project Launcher | [LINK](https://github.com/RTMecha/ProjectLauncher) | Launcher for managing mods(Legacy Only) |
-| BepInEx | [LINK](https://github.com/BepInEx/BepInEx) | Modding framework for Unity |
-| Cpp2IL | [LINK](https://github.com/SamboyCoding/Cpp2IL) | Tool to reverse unity's IL2CPP toolchain |
+| [Project Launcher](https://github.com/RTMecha/ProjectLauncher) | RTMecha | Launcher for managing mods(Legacy Only) |
+| [BepInEx](https://github.com/BepInEx/BepInEx) | BepInEx | Modding framework for Unity |
+| [Cpp2IL](https://github.com/SamboyCoding/Cpp2IL) | SamboyCoding | Tool to reverse unity's IL2CPP toolchain |
 
 
 ### Mods
@@ -25,11 +25,11 @@ Please, if you think you have something to add to the modding discussion, feel f
 
 Mods made for the Alpha branch of the game. Guide for changing branches [here](https://steamcommunity.com/sharedfiles/filedetails/?id=2278623545)
 
-| Name | Link | Description |
+| Name | Author | Description |
 | ---- | ---- | ----------- |
-| Multiplayer | [LINK](https://github.com/Aiden-ytarame/PAMultiplayer) | Multiplayer implemented with steam! |
-| Replace Prefabs | [LINK](https://github.com/Aiden-ytarame/ReplacePrefab) | Replace a prefab and all its instances with a new one |
-| Prefab On Object | [LINK](https://github.com/Aiden-ytarame/PrefabOnObject) | Spawn prefabs in the position (or rotation) of another object |
+| [Multiplayer](https://github.com/Aiden-ytarame/PAMultiplayer) | Aiden-ytarame | Multiplayer implemented with steam! |
+| [Replace Prefabs](https://github.com/Aiden-ytarame/ReplacePrefab) | Aiden-ytarame | Replace a prefab and all its instances with a new one |
+| [Prefab On Object](https://github.com/Aiden-ytarame/PrefabOnObject) | Aiden-ytarame | Spawn prefabs in the position (or rotation) of another object |
 
 </details>
 
@@ -38,9 +38,9 @@ Mods made for the Alpha branch of the game. Guide for changing branches [here](h
 
 Mods in this section were made for a legacy version of the game. It is still accessible via ["legacy" beta](https://steamcommunity.com/sharedfiles/filedetails/?id=2278623545).
 
-| Name | Link | Description |
+| Name | Author | Description |
 | ---- | ---- | ----------- |
-| BetterLegacy | [LINK](https://github.com/RTMecha/BetterLegacy) | Make Project Arrhythmia (Legacy branch) better with this all encompassing mod!  |
+| [BetterLegacy](https://github.com/RTMecha/BetterLegacy) | RTMecha | Make Project Arrhythmia (Legacy branch) better with this all encompassing mod!  |
 </details>
 
 
